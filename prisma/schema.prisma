@@ -1,0 +1,318 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  email       String    @unique
+  username    String    @unique
+  password    String
+  avatar      String?
+  Team        Team?     @relation(fields: [teamId], references: [id])
+  teamId      String?   @db.ObjectId
+  createdAt   DateTime  @default(now())
+  isActive    Int?      @default(1)
+  defaultShop String?
+  isAdmin     Int?      @default(0)
+  shops       String[]
+  listings    Listing[]
+}
+
+model Shop {
+  id               String          @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  code             String          @unique
+  profile          String?
+  createdAt        DateTime        @default(now())
+  updatedat        DateTime        @updatedAt
+  status           String
+  priceDiff        Int
+  shopItems        Int
+  images           String[]
+  accessToken      String?
+  shopRefreshToken String?
+  shopAccessToken  String?
+  signString       String?
+  tiktokShopId     String?
+  tiktokShopCipher String?
+  tiktokTimestamp  Int?
+  managers         String[]
+  listings         ListingOnShop[]
+  products         Product[]       @relation("ShopProducts")
+  isActive         Int?            @default(1)
+}
+
+model Team {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  members   String[]
+  isActive  Int?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  User      User[]
+}
+
+model Listing {
+  id               String          @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  images           String[]
+  price            String
+  crawlUrl         String?
+  sku              String?
+  productDimension String?
+  packageDimension String?
+  itemModelNumber  String?
+  upc              String?
+  manufacturer     String?
+  countryOfOrigin  String?
+  description      String
+  user             User            @relation(fields: [userId], references: [id])
+  userId           String          @db.ObjectId
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+  shops            ListingOnShop[]
+  products         Product[]       @relation("ListingProducts")
+  isCertUpload     Int             @default(0)
+  isActive         Int             @default(1)
+}
+
+model Product {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  description String
+  price       String
+  listing     Listing  @relation("ListingProducts", fields: [listingId], references: [id])
+  shop        Shop?    @relation("ShopProducts", fields: [shopId], references: [id])
+  listingId   String   @db.ObjectId
+  shopId      String   @db.ObjectId
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  isActive    Int      @default(1)
+}
+
+model Log {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  shopId    String?  @db.ObjectId
+  listingId String?  @db.ObjectId
+  code      String?
+  status    String?
+  payload   String?
+  createdAt DateTime @default(now())
+}
+
+model ListingOnShop {
+  id              String        @id @default(auto()) @map("_id") @db.ObjectId
+  shopId          String        @db.ObjectId
+  listingId       String        @db.ObjectId
+  productTiktokId String?
+  shop            Shop          @relation(fields: [shopId], references: [id])
+  listing         Listing       @relation(fields: [listingId], references: [id])
+  status          ProductStatus @default(PENDING)
+  createdAt       DateTime      @default(now())
+}
+
+model Template {
+  id                         String       @id @default(auto()) @map("_id") @db.ObjectId
+  name                       String?
+  description                String?
+  type                       TemplateType @default(Dropshipping)
+  productTemplate            String
+  productTemplateDescription String
+  categoryId                 String
+  attributes                 String?
+  compliances                String?
+  skus                       String?
+  identifierCode             String?
+  identifierValue            String?
+  skuPrice                   String?
+  skuQty                     String?
+  skuSeller                  String?
+  isSale                     Int
+  isCOD                      Int
+  packageWeight              String?
+  packageLength              String
+  packageWidth               String
+  packageHeight              String
+}
+
+model Setting {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  accessToken      String?
+  shopAccessToken  String?
+  shopRefreshToken String?
+  telegramToken    String?
+  telegramReceiver String?
+  expiredIn        Int
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model Proxy {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  type      ProxyType @default(SOCKS5)
+  hostname  String
+  port      String
+  isActive  Int       @default(0)
+  username  String
+  password  String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Order {
+  id                         String  @id @default(auto()) @map("_id") @db.ObjectId
+  buyerEmail                 String
+  buyerMessage               String?
+  cancelOrderSlaTime         Int
+  collectionTime             Int
+  createTime                 Int
+  deliveryOptionId           String
+  deliveryOptionName         String
+  deliverySlaTime            Int
+  deliveryTime               Int
+  deliveryType               String
+  fulfillmentType            String
+  hasUpdatedRecipientAddress Boolean
+  orderId                    String
+  isCod                      Boolean
+  isOnHoldOrder              Boolean
+  isReplacementOrder         Boolean
+  isSampleOrder              Boolean
+  paidTime                   Int
+  paymentMethodName          String
+  recipientAddress           Json
+  rtsSlaTime                 Int
+  shippingDueTime            Int
+  shippingProvider           String
+  shippingProviderId         String
+  shippingType               String
+  status                     String
+  trackingNumber             String
+  updateTime                 Int
+  userId                     String
+  warehouseId                String
+  packages                   Json
+  payment                    Json
+}
+
+model OrderItem {
+  id                   String @id @default(auto()) @map("_id") @db.ObjectId
+  orderId              String @db.ObjectId
+  orderItemId          String
+  currency             String
+  displayStatus        String
+  itemTax              Json
+  originalPrice        String
+  packageId            String
+  packageStatus        String
+  platformDiscount     String
+  productId            String
+  productName          String
+  rtsTime              Int
+  salePrice            String
+  sellerDiscount       String
+  sellerSku            String
+  shippingProviderId   String
+  shippingProviderName String
+  skuId                String
+  skuImage             String
+  skuName              String
+  skuType              String
+  trackingNumber       String
+}
+
+model Certificate {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  listingId String
+  images    String[]
+  files     String[]
+}
+
+model TiktokFile {
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  format     String
+  name       String
+  tiktokId   String
+  tiktokName String
+  url        String
+}
+
+model TiktokImage {
+  id      String @id @default(auto()) @map("_id") @db.ObjectId
+  uri     String
+  url     String
+  useCase String
+}
+
+model Filter {
+  id      String  @id @default(auto()) @map("_id") @db.ObjectId
+  asin    String?
+  keyword String?
+  brand   String?
+}
+
+model Noti {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  message   String?
+  chatId    String?
+  status    String?
+  createdAt DateTime @default(now())
+  sentAt    DateTime @default(now())
+  error     String?
+}
+
+model Warehouse {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  address   Json?
+  status    String?
+  tiktokId  String?
+  isDefault Int?
+  name      String?
+  subType   String?
+  type      String?
+}
+
+enum ProxyType {
+  HTTP
+  HTTPS
+  SOCKS5
+}
+
+enum ProductSku {
+  Color
+}
+
+enum TemplateType {
+  Dropshipping
+  POD
+}
+
+enum Status {
+  SUCCESS
+  FAILURE
+  PENDING
+}
+
+enum ProductStatus {
+  REVIEW
+  DRAFT
+  FAILED
+  SELLER_DEACTIVE
+  ACCOUNT_DEACTIVE
+  DELETED
+  PENDING
+  SUCCESS
+  FAILURE
+}

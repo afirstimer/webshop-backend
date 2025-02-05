@@ -1,0 +1,6048 @@
+{
+  "next_page_token": "WzE3MjI4MjU5NTQ4NzcsIjE3Mjk1NzM1MjkxOTMwNTg5MTIiXQ==",
+  "products": [
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1734944207,
+      "id": "1730335618662371936",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1730336381307884128",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0D2VCS9B3"
+        },
+        {
+          "id": "1730336381307949664",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.62"
+          },
+          "seller_sku": "B07V38PRTY"
+        },
+        {
+          "id": "1730336381308015200",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0D2VBSBY6"
+        },
+        {
+          "id": "1730336390496752224",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0D2JFTWWZ"
+        },
+        {
+          "id": "1730336197508502112",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.28"
+          },
+          "seller_sku": "B0D4V94B2X"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Snak Club Tajin Rings Gummy Candy, Fruit Candy Gummies Mild, Gluten-Free and Vegan Snacks, Sweet Snack Candy 11 oz Resealable Bag",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1734941893,
+      "id": "1730334953400341088",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1730335154353836640",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.2"
+          },
+          "seller_sku": "B09VYQ8QVL"
+        },
+        {
+          "id": "1730335154353902176",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.2"
+          },
+          "seller_sku": "B09VYQ1TCF"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Gimme Seaweed Grab & Go - Roasted Seaweed Sheets - Keto Vegan Gluten Sugar Free - Iodine & Omega 3’s - On-The-Go Snack for Everyone",
+      "update_time": 1738298758
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1734600739,
+      "id": "1730304089727603296",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1730304318887793248",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.69"
+          },
+          "seller_sku": "B00ALMAU48"
+        },
+        {
+          "id": "1730304318887858784",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.01"
+          },
+          "seller_sku": "B006BHRU9U"
+        },
+        {
+          "id": "1730304318887924320",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.01"
+          },
+          "seller_sku": "B00MHTDV26"
+        },
+        {
+          "id": "1730304318887989856",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.97"
+          },
+          "seller_sku": "B006BHRV1W"
+        },
+        {
+          "id": "1730304318888055392",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "28.47"
+          },
+          "seller_sku": "B006BHRUDQ"
+        },
+        {
+          "id": "1730304249674764896",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.46"
+          },
+          "seller_sku": "B006BHQU6Y"
+        },
+        {
+          "id": "1730304249674830432",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "26.6"
+          },
+          "seller_sku": "B00E86YKCG"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nature's Bakery Snack Sweet Fruit Juice Bars Non-GMO No Soy - Pick Your Flavor",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1734598694,
+      "id": "1730303452587922016",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1730303523684389472",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.24"
+          },
+          "seller_sku": "B0CCXGRSSZ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Chex Mix Muddy Buddies Funfetti Peanut Butter Chocolate Snack Mix, 9 oz",
+      "update_time": 1738296236
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1733897316,
+      "id": "1730217067828646496",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1730217122041795168",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "17.97"
+          },
+          "seller_sku": "B07VMN2ZKH"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Chowards Mints Variety Pack of 10 - Violet, Spearmint, Peppermint, Guava and Lemon Candy Snack Sweet",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1733638136,
+      "id": "1730186429502296672",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1730186598805312096",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "17.97"
+          },
+          "seller_sku": "B0C7WHQJGX"
+        },
+        {
+          "id": "1730186598805377632",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B0CHN1R6XW"
+        },
+        {
+          "id": "1730186598805443168",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "19.94"
+          },
+          "seller_sku": "B0CHN37PDM"
+        },
+        {
+          "id": "1730186598805508704",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "17.39"
+          },
+          "seller_sku": "B0C7WH4JP4"
+        },
+        {
+          "id": "1730186598805574240",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.7"
+          },
+          "seller_sku": "B0C87LPKWN"
+        },
+        {
+          "id": "1730186611972739680",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B0C87TZJJQ"
+        },
+        {
+          "id": "1730186611972805216",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.51"
+          },
+          "seller_sku": "B0CHMZXXCB"
+        },
+        {
+          "id": "1730186611972870752",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "20.99"
+          },
+          "seller_sku": "B0C87Q79MH"
+        },
+        {
+          "id": "1730186611972936288",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B0C87SF14T"
+        },
+        {
+          "id": "1730186611973001824",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "19.13"
+          },
+          "seller_sku": "B0CHN1HST5"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Kettle Cooked Coconut Cashews Almonds Pickle - Plant Based Protein, Fiber, Healthy Snack  - Resealable Pouch Salt Flavor",
+      "update_time": 1738296381
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1731921329,
+      "id": "1729986381799854688",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729986596121580128",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.44"
+          },
+          "seller_sku": "B07F879CJB"
+        },
+        {
+          "id": "1729986596121645664",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B002QGLFXM"
+        },
+        {
+          "id": "1729986596121711200",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.85"
+          },
+          "seller_sku": "B0048HSLUC"
+        },
+        {
+          "id": "1729986596121776736",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.74"
+          },
+          "seller_sku": "B00URU3KNC"
+        },
+        {
+          "id": "1729986596121842272",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.96"
+          },
+          "seller_sku": "B009IFOTSC"
+        },
+        {
+          "id": "1729986596121907808",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "17.24"
+          },
+          "seller_sku": "B0040PZ8R6"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Jelly Belly (Sugar | Gluten | Peanut | Dairy) Free Wax Candy Sweet Gift, Christmas Gifts, New Year Gifts Snack Candy",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1731330232,
+      "id": "1729916699131679328",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729916831146152544",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B009QUTL5K"
+        },
+        {
+          "id": "1729916831146218080",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B076MKGMVX"
+        },
+        {
+          "id": "1729916831146283616",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.14"
+          },
+          "seller_sku": "B09F862S9H"
+        },
+        {
+          "id": "1729916831146349152",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.24"
+          },
+          "seller_sku": "B00AYGEGXW"
+        },
+        {
+          "id": "1729916831146414688",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "9.74"
+          },
+          "seller_sku": "B009IFOOIM"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Jelly Belly Christmas Jelly Bean Candy Gift Bag - Fat Free - Peanut Free - Gluten Free Sweet Snack",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1731244588,
+      "id": "1729902663826772576",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729902679016510048",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "21.27"
+          },
+          "seller_sku": "B01LEHJKR6"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Christmas Holiday Sweets Gift Candy Mint Green Buttermints, 2.75 Pound, Appx. 350 pieces from Hospitality Mints Snack",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730814543,
+      "id": "1729837598081782368",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729837642010038880",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.43"
+          },
+          "seller_sku": "B07CMGL95S"
+        },
+        {
+          "id": "1729837642010104416",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.59"
+          },
+          "seller_sku": "B0CJLRJ2KT"
+        },
+        {
+          "id": "1729837642010169952",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.3"
+          },
+          "seller_sku": "B08X6RS5R1"
+        },
+        {
+          "id": "1729837642010235488",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.23"
+          },
+          "seller_sku": "B07CX3FHM1"
+        },
+        {
+          "id": "1729837642010301024",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "2.99"
+          },
+          "seller_sku": "B07CX6LN8F"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Lucky Charms Gluten Free Cereal with Marshmallows, Breakfast Cereal, Made with Whole Grain, Pick Your Size Vitamin Muesli Instant Food",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1730813116,
+      "id": "1729837449230848608",
+      "is_not_for_sale": false,
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729837542389420640",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.69"
+          },
+          "seller_sku": "B08DSVWCJC"
+        },
+        {
+          "id": "1729837542389486176",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.99"
+          },
+          "seller_sku": "B07Z6T8G61"
+        },
+        {
+          "id": "1729837542389551712",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.5"
+          },
+          "seller_sku": "B0711Q7QYN"
+        },
+        {
+          "id": "1729837542389617248",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.49"
+          },
+          "seller_sku": "B0CD17PVVX"
+        },
+        {
+          "id": "1729837542389682784",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.69"
+          },
+          "seller_sku": "B00OU1YI12"
+        },
+        {
+          "id": "1729837542389748320",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.39"
+          },
+          "seller_sku": "B0DHHZ23JT"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Walker’s Shortbread Cookie Box - All-Butter Man Cookies - Pick Your Flavor - Christmas Snack",
+      "update_time": 1738298367
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730699625,
+      "id": "1729814329842176608",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729814995806032480",
+          "inventory": [
+            {
+              "quantity": 15,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "25.55"
+          },
+          "seller_sku": "B017MSJLDE"
+        },
+        {
+          "id": "1729814827151823456",
+          "inventory": [
+            {
+              "quantity": 15,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.13"
+          },
+          "seller_sku": "B017MTT8FO"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Primrose Hard Candy - Classic Christmas Candy in 13 oz Holiday Retail Package - Ideal Gourmet Food Gift - Old Fashion Candy",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730697867,
+      "id": "1729814560940790368",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729814271580344928",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.33"
+          },
+          "seller_sku": "B007IEEP7K"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Boston America Gag Gifts Memory Mints, Sweet Sugar Candy Mint Flavor for Holiday, Christmas and New Year Eve Gift",
+      "update_time": 1738296377
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730696069,
+      "id": "1729813899595649632",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729813933944050272",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B01EKGH0PM"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Snowman Celebration Chocolate Advent Calendar (Countdown to Christmas) - Christmas Gift, 2.65 OZ",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730694735,
+      "id": "1729813722556895840",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729813730730938976",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "15"
+          },
+          "seller_sku": "B0CX7FDWCC"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Lindt Holiday Teddy Bear Chocolate Candy Advent Calendar - Christmas Gift, 4.5 oz. - Sweet Snack",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730622448,
+      "id": "1729808904437797472",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729808980003361376",
+          "inventory": [
+            {
+              "quantity": 7,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.44"
+          },
+          "seller_sku": "B0CL59P5WQ"
+        },
+        {
+          "id": "1729808980003426912",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.99"
+          },
+          "seller_sku": "B0CL59LVBF"
+        },
+        {
+          "id": "1729808980003492448",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "28.44"
+          },
+          "seller_sku": "B0CL59CY61"
+        },
+        {
+          "id": "1729808980003557984",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.94"
+          },
+          "seller_sku": "B0CL59T7XN"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Christmas Candy Canes Classic Red and White Peppermint Flavor for Holiday Family - Christmas Sweet Gift Candy Snack Sweet",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730556255,
+      "id": "1729801345778684512",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729801481255883360",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.56"
+          },
+          "seller_sku": "B002Z08M6C"
+        },
+        {
+          "id": "1729801481255948896",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.74"
+          },
+          "seller_sku": "B08J4KLY7Z"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Jelly Strip - Jelly Filled Straws in Assorted Flavors - For Holidays, Christmas Gift - Wax Candy Snack Sweet",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730471331,
+      "id": "1729789909823165024",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729789920863228512",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.59"
+          },
+          "seller_sku": "B086MYYCL3"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Christmas Holiday Delights Candy with Assorted Mix Flavors - Vegan Fruit Snacks Gift Box For Christmas Bonbon Sweet",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730383519,
+      "id": "1729776241598173792",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729776332260151904",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0CG7FRQYW"
+        },
+        {
+          "id": "1729776332260217440",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0DHSZ9BZD"
+        },
+        {
+          "id": "1729776332260282976",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B0BSP2L3H3"
+        },
+        {
+          "id": "1729776332260348512",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B0C623RPLL"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Christmas Gift, Dried Candy Snack Boxes Marshmallow - Zero Sugar - Keto, Fun Shapes, Baking, Ice Cream and Cereal Topping, Non-GMO, Pick Your Flavor",
+      "update_time": 1738298759
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730208978,
+      "id": "1729760205079679584",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729760345680089696",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.47"
+          },
+          "seller_sku": "B01HJ4FWEI"
+        },
+        {
+          "id": "1729760345680155232",
+          "inventory": [
+            {
+              "quantity": 20,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B01HJ4FWK2"
+        },
+        {
+          "id": "1729760345680220768",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.47"
+          },
+          "seller_sku": "B01HJ4FWU2"
+        },
+        {
+          "id": "1729760345680286304",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "21.74"
+          },
+          "seller_sku": "B093K6GN9P"
+        },
+        {
+          "id": "1729760351844930144",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "26.22"
+          },
+          "seller_sku": "B01HJ4FWIY"
+        },
+        {
+          "id": "1729760351844995680",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "26.22"
+          },
+          "seller_sku": "B01HJ4FWPM"
+        },
+        {
+          "id": "1729760351845061216",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "26.22"
+          },
+          "seller_sku": "B01HJ4FWMU"
+        },
+        {
+          "id": "1729760351845126752",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "26.99"
+          },
+          "seller_sku": "B0CTVS9RDB"
+        },
+        {
+          "id": "1729760351845192288",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B093KJYD3B"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Candy Bag Envy Red Wrapped Buttermints - 13 oz - 100 Indiv. Wrapped Mints - Sweet Snack, Christmas Gift, Pick Your Flavor",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730107055,
+      "id": "1729754361786241632",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729754546187768416",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0C5N5XZHY"
+        },
+        {
+          "id": "1729754546187833952",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0BWSHCTPG"
+        },
+        {
+          "id": "1729754546187899488",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0C5N3QQBD"
+        },
+        {
+          "id": "1729754546187965024",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0BWSKG41N"
+        },
+        {
+          "id": "1729754546188030560",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0CP4H1HHD"
+        },
+        {
+          "id": "1729754546188096096",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0BWSKY353"
+        },
+        {
+          "id": "1729754546188161632",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0CP4HRY66"
+        },
+        {
+          "id": "1729754546188227168",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0C5N5FB3Y"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Arctic Farms Freeze Dried Ice Cream - Pick Your School Snack Flavor - Holiday Gift Candy Sweet",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1730015942,
+      "id": "1729751057092743776",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729751066820448864",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B01M14QA79"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Soft Peppermint Christmas Candy Puffs, Mints Individually Wrapped, Gluten-Free, Non-GMO Verified, Kosher, Allergen Free 10 oz Bag Sweet Snack",
+      "update_time": 1738296377
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729759890,
+      "id": "1729741565231469152",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729741669265347168",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.22"
+          },
+          "seller_sku": "B01N39RV0A"
+        },
+        {
+          "id": "1729741656198320736",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "15.74"
+          },
+          "seller_sku": "B071GVFD2L"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Black Forest Fruit Flavored Snacks, Pick Your Fruit Flavors, Holiday Treats Variety Pack Assortment, 0.8 oz 40 ct",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729597918,
+      "id": "1729733710530777696",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729733758882779744",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B06WVJVSZ7"
+        },
+        {
+          "id": "1729733758882845280",
+          "inventory": [
+            {
+              "quantity": 20,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B00JJYHDDA"
+        },
+        {
+          "id": "1729733758882910816",
+          "inventory": [
+            {
+              "quantity": 20,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B06WGXK8H9"
+        },
+        {
+          "id": "1729733748207817312",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B06W5D35ZN"
+        },
+        {
+          "id": "1729733767174001248",
+          "inventory": [
+            {
+              "quantity": 20,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B099QWK5B7"
+        },
+        {
+          "id": "1729733767174066784",
+          "inventory": [
+            {
+              "quantity": 20,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B072QLTP1V"
+        },
+        {
+          "id": "1729733767174132320",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B07Y3TBKHX"
+        },
+        {
+          "id": "1729733778376200800",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B07Y43ZZ2B"
+        },
+        {
+          "id": "1729733778376266336",
+          "inventory": [
+            {
+              "quantity": 20,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.26"
+          },
+          "seller_sku": "B00JJYHD9O"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Krunchy Melts Original Meringue Cookies - Fat Free, Gluten Free, Dairy Free (4 Oz) - Pick Your Flavor - Snack Low Sugar Biscuit",
+      "update_time": 1738296381
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729583707,
+      "id": "1729732560168850016",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729732632386310752",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.49"
+          },
+          "seller_sku": "B08W2DPBP8"
+        },
+        {
+          "id": "1729732632386376288",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.18"
+          },
+          "seller_sku": "B073H9H4HL"
+        },
+        {
+          "id": "1729732632386441824",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.97"
+          },
+          "seller_sku": "B0D18B3DCT"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "SweeTarts Mini Holiday Candy Canes for Christmas Stocking Stuffers - Pick Your Size",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729514655,
+      "id": "1729729678965052000",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729729695519838816",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.6"
+          },
+          "seller_sku": "B088JVQHLS"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Brach's Bobs Red & White Mint Canes, Christmas Candy, Stocking Stuffers, Holiday Classic, 5.3 Oz, 12 Count (Pack of 1)",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1729430610,
+      "id": "1729726238195815008",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1324304",
+          "local_name": "Nougat"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729726248198967904",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.46"
+          },
+          "seller_sku": "B0BPZWSKCJ"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Colorful Fruity Fresh Delicious Individually Wrapped Nougat Candy - 12 oz - Bonbon, Snack",
+      "update_time": 1732117277
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729334804,
+      "id": "1729724385373229664",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1324304",
+          "local_name": "Nougat"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729724398267372128",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.18"
+          },
+          "seller_sku": "B07YX7RQ2H"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Brach's Peppermint Nougats - 11oz - Delicious Snack Sweet Candy Bonbon Candies",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729333235,
+      "id": "1729724303262126688",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914952",
+          "local_name": "Pantry Food"
+        },
+        {
+          "id": "918408",
+          "local_name": "Pickled, Preserves and Jams"
+        },
+        {
+          "id": "1328912",
+          "local_name": "Nut Butter"
+        },
+        {
+          "id": "1920528",
+          "local_name": "Peanut Butter"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729724339419648608",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "9.41"
+          },
+          "seller_sku": "B003ZWI61U"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "SKIPPY Creamy Peanut Butter, 7g Protein, 40oz - Delicious Instant Food",
+      "update_time": 1738298758
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1729332243,
+      "id": "1729724264749830752",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729724283134972512",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.32"
+          },
+          "seller_sku": "B000S5MEAG"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nutter Butter Peanut Butter Sandwich Cookies - Family Size (16 oz) - Snack and Cooky Vitamin Salt",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725353722,
+      "id": "1729620860640924256",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919432",
+          "local_name": "Cooking Sauces"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729620866359661152",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.85"
+          },
+          "seller_sku": "B013HB0CC4"
+        },
+        {
+          "id": "1729620866359726688",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B00GNCNI5I"
+        },
+        {
+          "id": "1729620871014290016",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0CX7CVDPP"
+        },
+        {
+          "id": "1729620871014355552",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B0CYD9FXTN"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Chung Jung One O'Food Gochujang, Korean Red Chili Pepper Paste, Spicy, Sweet and Savory Sauce, Traditional Fermented Condiment, Brown Rice, No Corn Syrup -Pick Your Flavor",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725349875,
+      "id": "1729620746481537632",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919432",
+          "local_name": "Cooking Sauces"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729620768360469088",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B0849Q133Y"
+        },
+        {
+          "id": "1729620768360534624",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B0B9ZMBHHH"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "FLYBYJING Chili Crisp - Premium Spicy Savory All-Vegan Chili Oil - Crunchy Hot Sauce, Good on Everything, Sugar Free - 6oz (Pack of 1) - Pick Your Flavor",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725348173,
+      "id": "1729620701721301600",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919176",
+          "local_name": "Herbs, Spices & Seasonings"
+        },
+        {
+          "id": "1320208",
+          "local_name": "Spice and Seasoning Blends"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729620705464521312",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B000M1HQFY"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "OLD BAY Seasoning, 24 oz - One 24 Ounce Container of OLD BAY All-Purpose Seasoning with Blend of 18 Spices and Herbs for Crabs, Shrimp, Poultry, Fries, and More",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725265223,
+      "id": "1729619606402142816",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919176",
+          "local_name": "Herbs, Spices & Seasonings"
+        },
+        {
+          "id": "1320208",
+          "local_name": "Spice and Seasoning Blends"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729619657839907424",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "3.74"
+          },
+          "seller_sku": "B0BSMC4NZC"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "McCormick Grill Mates Classic Smash Seasoning, 2.85 oz - Spice Your Cooking with Classic Flavor",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725263009,
+      "id": "1729619595531293280",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919176",
+          "local_name": "Herbs, Spices & Seasonings"
+        },
+        {
+          "id": "1320208",
+          "local_name": "Spice and Seasoning Blends"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729619596957028960",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "9.65"
+          },
+          "seller_sku": "B0758GCNG3"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "McCormick Grill Mates Montreal Steak Seasoning, 11.62 oz - for Seasoning Your Steak Flavor - Spice",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725261734,
+      "id": "1729619607215313504",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "POOR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919176",
+          "local_name": "Herbs, Spices & Seasonings"
+        },
+        {
+          "id": "1320208",
+          "local_name": "Spice and Seasoning Blends"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729619573959725664",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B005IVPFV0"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "McCormick Premium Taco Seasoning Mix, 24 oz - For Taco Flavor - Spice",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725249634,
+      "id": "1729619459821769312",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919176",
+          "local_name": "Herbs, Spices & Seasonings"
+        },
+        {
+          "id": "1320208",
+          "local_name": "Spice and Seasoning Blends"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729619474519200352",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B0725M6LW8"
+        },
+        {
+          "id": "1729619474519265888",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.93"
+          },
+          "seller_sku": "B09SM7448T"
+        },
+        {
+          "id": "1729619474519331424",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.93"
+          },
+          "seller_sku": "B071NY41N8"
+        },
+        {
+          "id": "1729619474519396960",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B078HDSQBJ"
+        },
+        {
+          "id": "1729619474519462496",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.93"
+          },
+          "seller_sku": "B0BT294BKG"
+        },
+        {
+          "id": "1729619474519528032",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0BT27NXLS"
+        },
+        {
+          "id": "1729619474519593568",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B0725M6SFK"
+        },
+        {
+          "id": "1729619474519659104",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.93"
+          },
+          "seller_sku": "B071HRP789"
+        },
+        {
+          "id": "1729619474519724640",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B078H57WVJ"
+        },
+        {
+          "id": "1729619473735193184",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B09SM34QX3"
+        },
+        {
+          "id": "1729619473735258720",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B071LCB15G"
+        },
+        {
+          "id": "1729619473735324256",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B0BT26WX8R"
+        },
+        {
+          "id": "1729619473735389792",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B07231FVXZ"
+        },
+        {
+          "id": "1729619473735455328",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B07CR8SJQK"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Traeger Grills Rub, 11.2 oz - Pick Your Flavor",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725245540,
+      "id": "1729619418238194272",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729619424148296288",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.47"
+          },
+          "seller_sku": "B002OTNHW8"
+        },
+        {
+          "id": "1729619424148361824",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.59"
+          },
+          "seller_sku": "B08TNMCGNS"
+        },
+        {
+          "id": "1729619426708066912",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.24"
+          },
+          "seller_sku": "B01MYERLPZ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds, Wasabi & Soy Sauce, Xtreme Carolina Reaper, Sweet Thai Chili, Pick Your Flavor, 6 Oz Resealable Cans (Pack of 1)",
+      "update_time": 1738298758
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725100893,
+      "id": "1729618060605035104",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729618064445117024",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "9.98"
+          },
+          "seller_sku": "B0B2KVXZQ4"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds, BOLD Korean BBQ Snack Almonds, 6 Ounce Can",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725100117,
+      "id": "1729618049449431648",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729618053596877408",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.17"
+          },
+          "seller_sku": "B0CWBKF2RZ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds, Snack Nut Flavored Honey Butter for on-the-go and snacking, 6 Ounce Can",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725099131,
+      "id": "1729618032293548640",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729618039624274528",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.24"
+          },
+          "seller_sku": "B002LYEPZO"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds, Bold Habanero BBQ, 6 Ounce",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725094224,
+      "id": "1729617902105432672",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729617914110775904",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.17"
+          },
+          "seller_sku": "B0CLFNN2PM"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds, Snack Nut Flavored Chile n' Lime for On-the Go, and Snacking, 6 Ounce Can",
+      "update_time": 1738296372
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1725093754,
+      "id": "1729617841594274400",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729617846236648032",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.24"
+          },
+          "seller_sku": "B00TJKBT34"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds Sriracha Flavored Snack Nuts, 6 Oz Resealable Can (Pack of 1)",
+      "update_time": 1738296372
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724992711,
+      "id": "1729615499733013088",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2274192",
+          "local_name": "Almonds"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729615511631794784",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.99"
+          },
+          "seller_sku": "B07XHRRRQ6"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Blue Diamond Almonds Spicy Dill Pickle Flavored Snack Nuts, 6 Oz Resealable Can (Pack of 1).",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724985198,
+      "id": "1729615163717620320",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325200",
+          "local_name": "Fruity Sweets"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729615172010414688",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.69"
+          },
+          "seller_sku": "B08L4XZBS1"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Annie's Organic Fruit Peel-A-Parts Fruit Snacks, Strawberry and Fruit Punch, 12 packs, 6.7 oz.",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1724984654,
+      "id": "1729615112987906656",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325328",
+          "local_name": "Fruit & Chewy"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729615152055423584",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "34.49"
+          },
+          "seller_sku": "B0C68VKVG3"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Amos 4D Gummy Candy Peach Burst,Yellow Peach Flavor Gluten Free Snacks, Mother's Day Candy Gift,Resealable 2.29oz Pack, Pack of 12",
+      "update_time": 1732117277
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1724918246,
+      "id": "1729613564704166496",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325328",
+          "local_name": "Fruit & Chewy"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729613581945967200",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "29.99"
+          },
+          "seller_sku": "B0BB7CC6RX"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Amos 4D Fruit Gummy Pineapple Burst, Fruity Snacks Made with Real Juicy, Tropical Candy Shaped with Sour Jelly Center, 2.29oz Per Bag (12 Bags)",
+      "update_time": 1732117277
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1724915781,
+      "id": "1729613429496582752",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325328",
+          "local_name": "Fruit & Chewy"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729613435564757600",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "29.99"
+          },
+          "seller_sku": "B0BB7FQPYC"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Amos 4D Fruit Gummy Peach Burst, Fruity Snacks Jelly Filled, Peach Flavor, Soft and Chewy, Gluten Free 2.29oz Per Bag (12 Bags)",
+      "update_time": 1732117277
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724914481,
+      "id": "1729613357249827424",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2273424",
+          "local_name": "Peanuts"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729613371362546272",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "20.99"
+          },
+          "seller_sku": "B08BT15DFJ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Terrasoul Superfoods Organic Pecans, 11 Oz (Pack of 1) - Mammoth Halves | Fresh | Raw",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724912773,
+      "id": "1729613253533799008",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729613329143927392",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.88"
+          },
+          "seller_sku": "B089HFMXG9"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Happy Belly Roasted and Salted Pecan Halves, 16 Ounce",
+      "update_time": 1738296372
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724911891,
+      "id": "1729613320388121184",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2273424",
+          "local_name": "Peanuts"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729613313322685024",
+          "inventory": [
+            {
+              "quantity": 19,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.49"
+          },
+          "seller_sku": "B0CC3VQKQY"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Diamond of California Pecan Pie Snack Pecans, 3.5 oz, 1 Pack",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724747133,
+      "id": "1729609200123810400",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2273424",
+          "local_name": "Peanuts"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729609225217675872",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "24.45"
+          },
+          "seller_sku": "B01N49HPHK"
+        },
+        {
+          "id": "1729609225217741408",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "25.28"
+          },
+          "seller_sku": "B01N1NVDR8"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Fisher Chef's 24oz Resealable Bag, Unsalted Raw Nuts for Cooking, Baking & Snacking, Vegan Protein, Keto Snack, Gluten Free, Pick Your Flavor",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724663226,
+      "id": "1729607243052388960",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2273424",
+          "local_name": "Peanuts"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729608771844608608",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.79"
+          },
+          "seller_sku": "B089HFN8KS"
+        },
+        {
+          "id": "1729608771844674144",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B089HFR93L"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Happy Belly Pecan Halves, No Added Salt, Pick Your Size",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1724660777,
+      "id": "1729607107998552672",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325328",
+          "local_name": "Fruit & Chewy"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729607159251178080",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "17.97"
+          },
+          "seller_sku": "B0CL4V4LCZ"
+        },
+        {
+          "id": "1729607159251243616",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B0D7TN22D7"
+        },
+        {
+          "id": "1729607159251309152",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B0CL4XS9P1"
+        },
+        {
+          "id": "1729607159251374688",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B0D7TNHZLH"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Amos Peelable Mango Candy, Peelerz Gummy Peeling Candy, Resealable 2.19oz Bag (Pack of 3), Pick Your Flavor",
+      "update_time": 1732117277
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724592862,
+      "id": "1729605698812547680",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325200",
+          "local_name": "Fruity Sweets"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729605707346514528",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B004YGQK5K"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "JOLLY RANCHER Assorted Fruit Flavored Hard Candy Bulk Bag, 5 lb",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724575935,
+      "id": "1729605503000285792",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "946952",
+          "local_name": "Chewing & Bubble Gum"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729605513069302368",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.79"
+          },
+          "seller_sku": "B0725SHZ43"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Trident Cinnamon Sugar Free Gum, 12 Packs of 14 Pieces (168 Total Pieces), 12546011471",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724570413,
+      "id": "1729605424693351008",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "946952",
+          "local_name": "Chewing & Bubble Gum"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729605433367171680",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.79"
+          },
+          "seller_sku": "B0711V757H"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Trident Original Flavor Sugar Free Gum, 12 Packs of 14 Pieces (168 Total Pieces)",
+      "update_time": 1738296381
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723879105,
+      "id": "1729592013477024352",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325328",
+          "local_name": "Fruit & Chewy"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729592022753841760",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.52"
+          },
+          "seller_sku": "B086GNDPVV"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Fruit by the Foot Fruit Flavored Snacks, Starburst, Variety Pack, 12 ct",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723878544,
+      "id": "1729591981069079136",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325200",
+          "local_name": "Fruity Sweets"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729592004516549216",
+          "inventory": [
+            {
+              "quantity": 9,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.96"
+          },
+          "seller_sku": "B07L4QGYLV"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Gushers Fruit Flavored Snacks, Variety Pack, Strawberry and Tropical, 20 ct",
+      "update_time": 1738296377
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723876915,
+      "id": "1729591960604414560",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325328",
+          "local_name": "Fruit & Chewy"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729591963034292832",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.06"
+          },
+          "seller_sku": "B0C1PM39NQ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Fruit Roll-Ups Fruit Flavored Snacks, Mystery Flavor, Solar Melon, and Star Berry, 30 ct",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723876151,
+      "id": "1729591949845697120",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327376",
+          "local_name": "Chocolate"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729591955419861600",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "23.99"
+          },
+          "seller_sku": "B00LAQ4Z1I"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Sheila G's Brownie Brittle – Chocolate Chip & Salted Caramel Thin and Crispy Sweet Snacks (Pack of 20, 1 oz), Rich Gourmet Brownie Bites Dessert",
+      "update_time": 1738296381
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723875602,
+      "id": "1729591944451428960",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2273936",
+          "local_name": "Cashews"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729591950096831072",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "20.96"
+          },
+          "seller_sku": "B09J25BFJV"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "The Only Bean Crunchy Dry Roasted Edamame Beans (Variety Pack), Low Carb Keto Healthy Snacks, Low Calorie Snack, Fiber Protein Snacks, Diabetic Snacks, 4 oz (3 Pack)",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723816574,
+      "id": "1729591126083342944",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921992",
+          "local_name": "Popcorn"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729591139448754784",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.24"
+          },
+          "seller_sku": "B0094FMHWQ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "SkinnyPop Original Popcorn, 4.4oz Grocery Size Bags, Skinny Pop, Healthy Popcorn Snacks, Gluten Free",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723708055,
+      "id": "1729588584452690528",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729588622620201568",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.24"
+          },
+          "seller_sku": "B074H5TNF8"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "365 by Whole Foods Market, Organic Chocolate Chip Cookie Bites, 6.3 Ounce",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723705521,
+      "id": "1729588498355098208",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729588514034061920",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B06XDG16VC"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Annie's Organic Chocolate Chip Cookie Bites, 10 Packets, 10.5 oz.",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723704587,
+      "id": "1729588463893385824",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920456",
+          "local_name": "Dressings & Spreads"
+        },
+        {
+          "id": "1320848",
+          "local_name": "Salad Dressings"
+        },
+        {
+          "id": "1912720",
+          "local_name": "Salad Cream"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729588478835659360",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.49"
+          },
+          "seller_sku": "B00G2XNSWQ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nutella & GO! Bulk 12 Pack, Hazelnut and Cocoa Spread with Breadsticks, Snack Cups, 1.8 oz Each",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723703513,
+      "id": "1729588434263904864",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700554",
+          "local_name": "Crisps & Puffed Snacks"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729588439533851232",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "15.72"
+          },
+          "seller_sku": "B084J978CD"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Slim Jim Original 'N Cheese Smoked Meat Stick, Easy, On-the-Go School, Work and Travel Snacks, 0.9 OZ Meat Snacks, 10 Count Box",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723702935,
+      "id": "1729588423607620192",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700554",
+          "local_name": "Crisps & Puffed Snacks"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729588428982751840",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.97"
+          },
+          "seller_sku": "B009M8VWT4"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Slim Jim Snack Sized Original Smoked Snack Stick, Easy, On-the-Go School, Work and Travel Snacks, 0.28 OZ Meat Snacks, 14 Count",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723619633,
+      "id": "1729586720384651872",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920456",
+          "local_name": "Dressings & Spreads"
+        },
+        {
+          "id": "1320848",
+          "local_name": "Salad Dressings"
+        },
+        {
+          "id": "1912720",
+          "local_name": "Salad Cream"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729586724478751328",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "15.66"
+          },
+          "seller_sku": "B00LPE5EZQ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "SKIPPY Creamy Peanut Butter, 5 Pound - Sweet Flavor",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723618746,
+      "id": "1729586678425686624",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920456",
+          "local_name": "Dressings & Spreads"
+        },
+        {
+          "id": "1320848",
+          "local_name": "Salad Dressings"
+        },
+        {
+          "id": "1912720",
+          "local_name": "Salad Cream"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729586704320795232",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.34"
+          },
+          "seller_sku": "B008IGB0QQ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nutella Butter Hazelnut Spread With Sweet Cocoa For Breakfast, 35.3 Oz Jar",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723617613,
+      "id": "1729586652953743968",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919048",
+          "local_name": "Sugar & Sweeteners"
+        },
+        {
+          "id": "1317776",
+          "local_name": "Sugars & Sweeteners"
+        },
+        {
+          "id": "1911696",
+          "local_name": "Sweeteners"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729586651940754016",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B078PRYRQW"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "ChocZero Maple Syrup, Sugar Free, Low Carb, Sugar Alcohol Free, Gluten Free, No Preservatives, Non-GMO Dessert and Breakfast Topping Syrup, 10.5oz (Pack of 1)",
+      "update_time": 1738296372
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723606612,
+      "id": "1729586380623221344",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919048",
+          "local_name": "Sugar & Sweeteners"
+        },
+        {
+          "id": "1317648",
+          "local_name": "Syrups"
+        },
+        {
+          "id": "1911056",
+          "local_name": "Maple"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729586392350888544",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.77"
+          },
+          "seller_sku": "B002OXXA5S"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Maple Grove Farms Syrup, Sugar Free, 24 Ounce Sweet Beverage",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723605809,
+      "id": "1729586350960185952",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919048",
+          "local_name": "Sugar & Sweeteners"
+        },
+        {
+          "id": "1317776",
+          "local_name": "Sugars & Sweeteners"
+        },
+        {
+          "id": "1911696",
+          "local_name": "Sweeteners"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729586361255236192",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.74"
+          },
+          "seller_sku": "B01G4I8WCE"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Lakanto Sugar Free Maple Syrup - Monk Fruit Sweetener, Keto Friendly, Vegan, 1g Net Carbs, Pancakes, Waffles, Oatmeal, Coffee, Tea, Granola, Frosting, Marinade, Dressing (13 Fl Oz - Pack of 1)",
+      "update_time": 1738298759
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723604898,
+      "id": "1729586313612268128",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "919048",
+          "local_name": "Sugar & Sweeteners"
+        },
+        {
+          "id": "1317776",
+          "local_name": "Sugars & Sweeteners"
+        },
+        {
+          "id": "1911696",
+          "local_name": "Sweeteners"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729586328610574944",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.99"
+          },
+          "seller_sku": "B00F4WIL3W"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "MADHAVA Organic AgaveFIVE, 16 oz. Bottle (Pack of 1)",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1723267344,
+      "id": "1729581630532391520",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729581634538148448",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.77"
+          },
+          "seller_sku": "B0078DP4IK"
+        },
+        {
+          "id": "1729581634538213984",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.68"
+          },
+          "seller_sku": "B0BCXLMJFW"
+        }
+      ],
+      "status": "DELETED",
+      "title": "Organic Agave Nectar Sweetener, Blue Agave Syrup - Vegan, Gluten-Free, Low Carb Sugar Substitute for Baking & Drinks, Pick Your Flavor",
+      "update_time": 1738298367
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723266758,
+      "id": "1729581619279467104",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729581630428648032",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B07DHHTK9C"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nate's California Pure, Raw & Unfiltered Honey - 16 oz. Squeeze Bottle - Sweetener",
+      "update_time": 1738296374
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723259717,
+      "id": "1729581445617259104",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729581482457207392",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.49"
+          },
+          "seller_sku": "B003SO5UE6"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Wholesome, Honey Raw Unfiltered Organic, 16 Ounce",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723257606,
+      "id": "1729581408679531104",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729581432682680928",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.76"
+          },
+          "seller_sku": "B09T1WMBPM"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nate's Hot Honey - Pure Honey Infused with Habanero Chili Pepper Flakes, Award-winning Taste - 16 oz Squeeze Bottle",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723255367,
+      "id": "1729581371145622112",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729581393930457696",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "17.96"
+          },
+          "seller_sku": "B07DHL2J6B"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nate's Georgia Pure, Raw & Unfiltered Honey, 32 oz. Squeeze Bottle - Sweetener",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723192948,
+      "id": "1729580494222824032",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729580507639550560",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B01LD294FK"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Wholesome Sweeteners Raw Unfiltered Honey, Pesticide Free, Fair Trade, Non GMO & Non Glyphosate, 16 Ounce Squeeze Bottle (Pack of 1)",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1723191373,
+      "id": "1729580445903196768",
+      "is_not_for_sale": false,
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729580458690712160",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.09"
+          },
+          "seller_sku": "B074H5BV6W"
+        },
+        {
+          "id": "1729580458690777696",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B074JD6DSD"
+        }
+      ],
+      "status": "DELETED",
+      "title": "365 by Whole Foods Market, Mountain Forest Honey, 16 Ounce, Pick Your Flavor",
+      "update_time": 1738298367
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723178656,
+      "id": "1729580049449063008",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729580069354443360",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "18.36"
+          },
+          "seller_sku": "B09XJDHFG6"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "MANUKA DOCTOR - Raw Manuka Honey MGO 30+ SQUEEZY, Pure New Zealand Honey. Certified. Guaranteed. RAW. Non-GMO (10.58 oz)",
+      "update_time": 1738296375
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723175601,
+      "id": "1729579956765430368",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "947080",
+          "local_name": "Bars"
+        },
+        {
+          "id": "1328272",
+          "local_name": "Nutrition Bars"
+        },
+        {
+          "id": "1920016",
+          "local_name": "Energy Bars"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729579975128224352",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B07FB59HZQ"
+        },
+        {
+          "id": "1729579975128289888",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.38"
+          },
+          "seller_sku": "B094NWLCNP"
+        },
+        {
+          "id": "1729579975128355424",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.99"
+          },
+          "seller_sku": "B07FB9MDCW"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "CLIF Nutter Butter Bar - Filled Energy Bars - Non-GMO - USDA Organic - Plant-Based - Low Glycemic - 1.76 oz. (5 Pack) - Pick Your Flavor",
+      "update_time": 1738296382
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723173237,
+      "id": "1729579868205847136",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "916616",
+          "local_name": "Chocolate & Malted Drinks"
+        },
+        {
+          "id": "1351952",
+          "local_name": "Cocoa"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729579886579323488",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.88"
+          },
+          "seller_sku": "B07FGKS4QF"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Swiss Miss Chocolate Hot Cocoa Mix With Marshmallows, 30 Count Hot Cocoa Packets (8 Pack)",
+      "update_time": 1738296380
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723171998,
+      "id": "1729579821077992032",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "947080",
+          "local_name": "Bars"
+        },
+        {
+          "id": "1328400",
+          "local_name": "Granola & Snack Bars"
+        },
+        {
+          "id": "1920400",
+          "local_name": "Fruit & Nut Bars"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729579855670841952",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.46"
+          },
+          "seller_sku": "B00C37S5ZA"
+        },
+        {
+          "id": "1729579855670907488",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.29"
+          },
+          "seller_sku": "B0052Y4ZOG"
+        },
+        {
+          "id": "1729579855670973024",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.46"
+          },
+          "seller_sku": "B00A1A7Y7G"
+        },
+        {
+          "id": "1729579855671038560",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.49"
+          },
+          "seller_sku": "B000WH7F5E"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nature Valley Granola Bars, Pick Your Flavor, 6 ct, 7.4 OZ",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723123510,
+      "id": "1729579284917752416",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729579299342946912",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.5"
+          },
+          "seller_sku": "B00FNNFCMK"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Chips Ahoy! Original Chocolate Chip Cookies, 13 oz",
+      "update_time": 1738296377
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723122702,
+      "id": "1729579273656504928",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327760",
+          "local_name": "Breadsticks & -nibbles"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729579290478809696",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "2.25"
+          },
+          "seller_sku": "B00L2MWLMK"
+        },
+        {
+          "id": "1729579290478875232",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "2.25"
+          },
+          "seller_sku": "B003PR4CGS"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Duncan Hines Brownie Mix, Fudge, 18.3 oz, Pick Your Flavor",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723097273,
+      "id": "1729578471385436768",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915208",
+          "local_name": "Baking"
+        },
+        {
+          "id": "920840",
+          "local_name": "Baking Mixes"
+        },
+        {
+          "id": "1360656",
+          "local_name": "Brownies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729578476682318432",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "4.46"
+          },
+          "seller_sku": "B00MZF0SWS"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Betty Crocker Delights Supreme Baking Chocolate Chunk Brownie Mix, Christmas Gift Baking, 18 oz.",
+      "update_time": 1738298759
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723089724,
+      "id": "1729578290761601632",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327376",
+          "local_name": "Chocolate"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729578314952774240",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "5.25"
+          },
+          "seller_sku": "B0718ZH8Y5"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Pepperidge Farm Milano Double Milk Chocolate Cookies, 7.5 OZ Bag (15 Cookies)",
+      "update_time": 1738296376
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723088301,
+      "id": "1729578251728687712",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1325584",
+          "local_name": "Wafers"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729578270961144416",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.47"
+          },
+          "seller_sku": "B00CJCPUNY"
+        },
+        {
+          "id": "1729578270961209952",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.47"
+          },
+          "seller_sku": "B00CJCPUT8"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Pepperidge Farm Pirouette Cookies, Crème Filled Wafers, 13.5 Oz Tin, Pick Your Flavor",
+      "update_time": 1738296381
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723038418,
+      "id": "1729577743887340128",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "947080",
+          "local_name": "Bars"
+        },
+        {
+          "id": "1328272",
+          "local_name": "Nutrition Bars"
+        },
+        {
+          "id": "1919888",
+          "local_name": "Protein Bars"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729577750685913696",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.59"
+          },
+          "seller_sku": "B0CG26PKQ5"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nature’s Bakery Double Chocolate Brownie Bars, Whole Grains, Dates, and Cocoa, Plant Based, Dairy-Free, Snack Bar, 1 box with 12 Twin Packs (12 Twin Packs)",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723037072,
+      "id": "1729577723098796640",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "921736",
+          "local_name": "Candy"
+        },
+        {
+          "id": "1325200",
+          "local_name": "Fruity Sweets"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729577730673578592",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "12.81"
+          },
+          "seller_sku": "B07XY8T9ZK"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "YORK Dark Chocolate Peppermint Patties, Candy Family Pack, 17.3 oz",
+      "update_time": 1738296381
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723031761,
+      "id": "1729577638916362848",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920456",
+          "local_name": "Dressings & Spreads"
+        },
+        {
+          "id": "1320848",
+          "local_name": "Salad Dressings"
+        },
+        {
+          "id": "1912720",
+          "local_name": "Salad Cream"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729577673045938784",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0CPKFKX5W"
+        },
+        {
+          "id": "1729577671096898144",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0D63MX45L"
+        },
+        {
+          "id": "1729577671096963680",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0B9V3N4P3"
+        },
+        {
+          "id": "1729577671097029216",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B0BTMRZ72S"
+        },
+        {
+          "id": "1729577671097094752",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.99"
+          },
+          "seller_sku": "B09VXNV7ZZ"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "ChocZero Keto Fruit Spread, No Added Sugar, Low Carb, Fruit Jam, Sweetened with Monk Fruit (1 jar, 12 oz), Pick Your Flavor",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723030121,
+      "id": "1729577621847773792",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "GOOD",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915080",
+          "local_name": "Staples & Cooking Essentials"
+        },
+        {
+          "id": "920328",
+          "local_name": "Honey & Maple Syrup"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729577629321695840",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.22"
+          },
+          "seller_sku": "B01IR6J4CI"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nate's Honey Packet Pure Sweet, Raw & Unfiltered Honey - 16oz. Squeeze Bottle",
+      "update_time": 1738296377
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1723022205,
+      "id": "1729577381605970528",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "947080",
+          "local_name": "Bars"
+        },
+        {
+          "id": "1328272",
+          "local_name": "Nutrition Bars"
+        },
+        {
+          "id": "1920016",
+          "local_name": "Energy Bars"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729577403284558432",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "20.24"
+          },
+          "seller_sku": "B07PK9ZNXV"
+        },
+        {
+          "id": "1729577408643961440",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.76"
+          },
+          "seller_sku": "B07PZHVDV5"
+        },
+        {
+          "id": "1729577407406576224",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "23.54"
+          },
+          "seller_sku": "B07PHVPC8X"
+        },
+        {
+          "id": "1729577407406641760",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.76"
+          },
+          "seller_sku": "B07PVKSR5C"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Clif Bar Minis - Made with Organic Oats - 4g Protein - Non-GMO - Plant Based - Snack-Size Energy Bars - 0.99 oz. (20 Pack) - Pick Your Flavor",
+      "update_time": 1738296378
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1722836842,
+      "id": "1729573812741575264",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "947080",
+          "local_name": "Bars"
+        },
+        {
+          "id": "1328400",
+          "local_name": "Granola & Snack Bars"
+        },
+        {
+          "id": "1920272",
+          "local_name": "High Protein"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729573814766965344",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.09"
+          },
+          "seller_sku": "B08C41Q6Z7"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "GoMacro MacroBar Organic Vegan Snack Bars - Oatmeal Chocolate Chip Cookie (0.90 Ounce Bars, 7 Count)",
+      "update_time": 1738296379
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1722829642,
+      "id": "1729573638369481312",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "947080",
+          "local_name": "Bars"
+        },
+        {
+          "id": "1328528",
+          "local_name": "Cereal Bars"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729573657165009504",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "13.74"
+          },
+          "seller_sku": "B075MJ5D32"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Fiber One Chewy Bars, Oats & Chocolate, Fiber Snacks, Mega Pack, 15 ct",
+      "update_time": 1738296373
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1722828230,
+      "id": "1729573601188745824",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "922248",
+          "local_name": "Nuts & Peas"
+        },
+        {
+          "id": "1322640",
+          "local_name": "Nuts"
+        },
+        {
+          "id": "2273936",
+          "local_name": "Cashews"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729573605521330784",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "24.45"
+          },
+          "seller_sku": "B0773RT6TY"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Power Up Trail Mix NonGMO Vegan Gluten Free No Artificial Ingredients Gourmet Nut oz Bag red, Almond Cranberry Crunch, 14 Ounce",
+      "update_time": 1738296372
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1722826531,
+      "id": "1729573542083990112",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729573552374321760",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.56"
+          },
+          "seller_sku": "B0153UHHUM"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Annie's Organic Chocolate Chip Cookie Bites, 6.5 oz.",
+      "update_time": 1738296377
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1722825764,
+      "id": "1729573529193058912",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327120",
+          "local_name": "Cookies"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729573538117948000",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7386105412573562667"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "6.72"
+          },
+          "seller_sku": "B0C449R6PX"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nutella Biscuits, 20 Count Cookies, Hazelnut Spread with Cocoa, Snacks, 9.7 oz​",
+      "update_time": 1738296376
+    }
+  ],
+  "total_count": 216
+}
