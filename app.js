@@ -21,10 +21,10 @@ const app = express();
 
 app.use(cors({
     origin: [
-        process.env.CLIENT_URL, 
+        process.env.CLIENT_URL,
         process.env.WHITELIST_URL1
     ],
-    credentials: true,    
+    credentials: true,
 }));
 app.use(express.json());
 app.use(cookieParser());
@@ -46,9 +46,11 @@ app.use("/api/filters", filterRoute);
 
 app.use("/api/test", testRoute);
 
-app.listen(8800, () => {
-    console.log("Listening on port 8800");
-}).catch((err) => {
-    console.log(err);
-});
+try {
+    app.listen(8800, () => {
+        console.log("Listening on port 8800");
+    })
+} catch (err) {
+    console.error('Error starting server:', err);
+}
 
