@@ -14,16 +14,16 @@ export const uploadImageToTiktok = async (req, shop, imageUri, useCase) => {
 
     try {
         const localFilePath = await downloadImage(imageUri);
-        console.log(localFilePath);
+        // console.log(localFilePath);
         const fileStream = fs.createReadStream(localFilePath);
         const formData = new FormData();
-        console.log(path.basename(localFilePath));
+        // console.log(path.basename(localFilePath));
         formData.append('data', fileStream, path.basename(localFilePath));
         formData.append('use_case', useCase);
 
         const response = await callTiktokApi(req, shop, false, formData, "POST", "/product/202309/images/upload", "multipart/form-data");
 
-        console.log(response);
+        // console.log(response);
         if (response.data) {
             if (fs.existsSync(localFilePath)) {
                 fs.unlinkSync(localFilePath);
@@ -63,7 +63,7 @@ export const createTiktokProduct = async (req, listing, template, shop, draftMod
         for (let i = 0; i < listing.images.length; i++) {
             req.imageUri = listing.images[i];
             const uploadResponse = await uploadImageToTiktok(req, shop, listing.images[i], 'MAIN_IMAGE');
-            console.log(uploadResponse);
+            // console.log(uploadResponse);
             if (uploadResponse.message == 'Success') {
                 // create Tiktok Image
                 let image = await prisma.tiktokImage.create({
@@ -113,9 +113,9 @@ export const createTiktokProduct = async (req, listing, template, shop, draftMod
             // if has image, upload            
             if (sku.image) {
                 req.imageUri = sku.image;
-                console.log(sku.image);
+                // console.log(sku.image);
                 const uploadResponse = await uploadImageToTiktok(req, shop, sku.image, 'ATTRIBUTE_IMAGE');
-                console.log(uploadResponse);
+                // console.log(uploadResponse);
                 if (uploadResponse.message == 'Success') {
                     // create Tiktok Image
                     let image = await prisma.tiktokImage.create({
@@ -252,13 +252,13 @@ export const createTiktokProduct = async (req, listing, template, shop, draftMod
             'version': '202309',
             'shop_id': defaultShop.tiktokShopId
         };
-        console.log(extraParams);
+        // console.log(extraParams);
 
-        console.log(payload);
+        // console.log(payload);
 
         const response = await callTiktokApi(req, shop, payload, false, "POST", "/product/202309/products", "application/json", extraParams);
 
-        console.log(response);
+        // console.log(response);
 
         if (response.data) {
             return response.data;
@@ -271,7 +271,7 @@ export const createTiktokProduct = async (req, listing, template, shop, draftMod
 
 export const requestUpdateTiktokProduct = async (req, existingProduct, product, shop) => {
     try {
-        console.log(existingProduct);
+        // console.log(existingProduct);
         // title, description, images        
         // Compare images with existing images        
 
@@ -300,7 +300,7 @@ export const requestUpdateTiktokProduct = async (req, existingProduct, product, 
 
         // get all json products
         const jsonProducts = await fetchOriginJsonProducts();
-        console.log(jsonProducts);
+        // console.log(jsonProducts);
         // loop jsonProducts and find product by id
         let findProduct = false;
         for (const jsonProduct of jsonProducts) {
@@ -329,8 +329,8 @@ export const requestUpdateTiktokProduct = async (req, existingProduct, product, 
                 payload.skus[i].price.amount = payload.skus[i].price.sale_price + payload.skus[i].price.tax_exclusive_price;
             }
         }
-        console.log(findProduct);
-        console.log(payload);
+        // console.log(findProduct);
+        // console.log(payload);
 
         // Build query params
         const extraParams = {
@@ -341,7 +341,7 @@ export const requestUpdateTiktokProduct = async (req, existingProduct, product, 
         };
 
         const response = await callTiktokApi(req, shop, payload, false, "PUT", `/product/202309/products/${existingProduct.id}`, "application/json", extraParams);
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data) {
             return response.data;
         }
@@ -400,7 +400,7 @@ export const reqUpdateTiktokPrice = async (req, data, percent) => {
                 extraParams
             );
 
-            console.log(resp.data);
+            // console.log(resp.data);
             if (resp.data) {
                 results.push(resp.data);
             }
@@ -421,7 +421,7 @@ export const getLocalTiktokProducts = async (shop) => {
         while (hasJsonFile) {
             // get local json file
             const jsonFilePath = PRODUCT_FOLDER + shop.id + "/" + page + ".json";
-            console.log(jsonFilePath);
+            // console.log(jsonFilePath);
             if (!fs.existsSync(jsonFilePath)) {
                 hasJsonFile = false;
                 break;
@@ -431,13 +431,13 @@ export const getLocalTiktokProducts = async (shop) => {
                 hasJsonFile = false;
                 break;
             }
-            console.log(jsonFileData);
+            // console.log(jsonFileData);
 
             products = products.concat(jsonFileData.products);
             page++;
         }
 
-        console.log(products);
+        // console.log(products);
         return products;
     } catch (error) {
         console.log(error);
@@ -455,7 +455,7 @@ export const fetchOriginJsonProducts = async () => {
             products = products.concat(data);
         }
 
-        console.log(products);
+        // console.log(products);
         return products;
     } catch (error) {
         return [];
@@ -493,7 +493,7 @@ export const fetchAllJsonProducts = async () => {
             products = products.concat(filteredProducts);
         }
 
-        console.log(products);
+        // console.log(products);
         return products;
     } catch (error) {
         console.log(error);

@@ -42,7 +42,7 @@ export const getOrderStats = async (req, res) => {
 
             orders = localOrders;
         }
-        console.log(orders);
+        // console.log(orders);
         
         // Loop orders and count total amount of orders with group by month
         const ordersByMonth = {};
@@ -91,7 +91,7 @@ export const getOrderStats = async (req, res) => {
                 paymentByMonth[monthName] = 0;
             }
         }
-        console.log(paymentByMonth);
+        // console.log(paymentByMonth);
 
         const analysis = [];
         for (const [month, total] of Object.entries(newOrdersByMonth)) {

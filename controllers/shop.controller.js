@@ -164,7 +164,7 @@ export const getShopOrders = async (request, res) => {
         const access_token = setting.shopAccessToken;
 
         if (!app_key || !secret || !access_token) {
-            console.log(app_key, secret, access_token);
+            // console.log(app_key, secret, access_token);
             console.error("Missing required parameters: app_key, secret, or access_token");
             throw new Error("Missing required parameters: app_key, secret, or access_token");
         }
@@ -193,7 +193,7 @@ export const getShopOrders = async (request, res) => {
         const header = request.headers['content-type'];
         const sign = generateSign(request, secret, timestamp, header);
 
-        console.log(sign);
+        // console.log(sign);
 
         // Define your request details
         const options = {
@@ -215,7 +215,7 @@ export const getShopOrders = async (request, res) => {
             }
         };
 
-        console.log(options);
+        // console.log(options);
 
         // Update the query parameters with calculated values
         options.query.sign = sign;
@@ -231,7 +231,7 @@ export const getShopOrders = async (request, res) => {
             url: options.url,
             headers: options.headers
         });
-        console.log(response);
+        // console.log(response);
 
         if (response.data.message == 'Success') {
             await writeJSONFile(ORDER_FILE, response.data.data);
@@ -259,7 +259,7 @@ export const getActiveShops = async (request, res) => {
         const access_token = setting.shopAccessToken;
 
         if (!app_key || !secret || !access_token) {
-            console.log(app_key, secret, access_token);
+            // console.log(app_key, secret, access_token);
             console.error("Missing required parameters: app_key, secret, or access_token");
             throw new Error("Missing required parameters: app_key, secret, or access_token");
         }
@@ -402,7 +402,7 @@ export const requestAuthorizedShops = async (request, res) => {
         const access_token = setting.shopAccessToken;
 
         if (!app_key || !secret || !access_token) {
-            console.log(app_key, secret, access_token);
+            // console.log(app_key, secret, access_token);
             console.error("Missing required parameters: app_key, secret, or access_token");
             throw new Error("Missing required parameters: app_key, secret, or access_token");
         }
@@ -455,7 +455,7 @@ export const requestAuthorizedShops = async (request, res) => {
         });
 
         // create shop
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data.code === 0) {
             // get user
             const user = await prisma.user.findUnique({
@@ -533,14 +533,14 @@ export const getMembersOnShop = async (req, res) => {
         if (!shop) {
             return res.status(404).json({ message: "Shop not found" });
         }
-        console.log(shop);
+        // console.log(shop);
 
         const users = await prisma.user.findMany({
             where: {
                 isActive: 1
             }
         });
-        console.log(users);
+        // console.log(users);
 
         let shopUsers = [];
         users.forEach(user => {
@@ -548,7 +548,7 @@ export const getMembersOnShop = async (req, res) => {
                 shopUsers.push(user);
             }
         });
-        console.log(shopUsers);
+        // console.log(shopUsers);
 
         res.status(200).json(shopUsers);
     } catch (error) {
@@ -679,7 +679,7 @@ export const syncAllShops = async (req, res) => {
 export const refreshToken = async (req, res) => {
     const url = 'https://auth.tiktok-shops.com/api/v2/token/refresh';
 
-    console.log('Refreshing token...');
+    // console.log('Refreshing token...');
     // Get first setting
     const setting = await prisma.setting.findFirst();
 
@@ -694,14 +694,14 @@ export const refreshToken = async (req, res) => {
         const response = await axios.get(url, { params });
         const { code, message, data } = response.data;
 
-        console.log('API Response:', response.data);
+        // console.log('API Response:', response.data);
 
         if (code === 0 && message === 'success') {
             const accessToken = data.access_token;
             const refreshToken = data.refresh_token;
 
-            console.log('Access Token:', accessToken);
-            console.log('Refresh Token:', refreshToken);
+            // console.log('Access Token:', accessToken);
+            // console.log('Refresh Token:', refreshToken);
 
             setting.shopAccessToken = accessToken;
             setting.shopRefreshToken = refreshToken;

@@ -20,7 +20,7 @@ export const getTiktokOrders = async (req, shop, payload) => {
         }
         const response = await callTiktokApi(req, shop, false, false, "POST", "/order/202309/orders/search", "application/json", extraParams);
 
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data.data) {
             return response.data.data;
         }
@@ -38,7 +38,7 @@ export const getLocalTiktokOrders = async (shop) => {
         while (hasJsonFile) {
             // get local json file
             const jsonFilePath = ORDER_FOLDER + shop.id + "/" + page + ".json";
-            console.log(jsonFilePath);
+            // console.log(jsonFilePath);
             if (!fs.existsSync(jsonFilePath)) {
                 hasJsonFile = false;
                 break;
@@ -48,7 +48,7 @@ export const getLocalTiktokOrders = async (shop) => {
                 hasJsonFile = false;
                 break;
             }
-            console.log(jsonFileData);
+            // console.log(jsonFileData);
 
             orders = orders.concat(jsonFileData.orders);
             page++;
@@ -59,7 +59,7 @@ export const getLocalTiktokOrders = async (shop) => {
             order.shopId = shop.id;
         });
 
-        console.log(orders);
+        // console.log(orders);
         return orders;
     } catch (error) {
         console.log(error);
@@ -77,10 +77,10 @@ export const getTiktokProducts = async (req, shop, payload) => {
         if (payload.nextPageToken) {
             extraParams.page_token = payload.nextPageToken;
         }
-        console.log(extraParams);
+        // console.log(extraParams);
         const response = await callTiktokApi(req, shop, payload, false, "POST", "/product/202312/products/search", "application/json", extraParams);
 
-        console.log(response.data);
+        // console.log(response.data);
         if (response.data.data) {
             return response.data.data;
         }

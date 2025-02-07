@@ -11,7 +11,7 @@ export const getProductValueByKey = (productInfo, key) => {
 export const createFolder = async (folderPath) => {
   try {        
     await fs.mkdir(folderPath, { recursive: true });
-    console.log("Folder created successfully", folderPath);
+    // console.log("Folder created successfully", folderPath);
     return true;
   } catch (error) {
     console.log(error);
@@ -31,7 +31,7 @@ export const readJSONFile = async (filePath) => {
 
 export const writeJSONFile = async (filePath, data) => {
   try {    
-    console.log(filePath);
+    // console.log(filePath);
     await fs.writeFile(filePath, JSON.stringify(data, null, 2));
   } catch (error) {
     console.error('Error writing JSON file:', error.message);

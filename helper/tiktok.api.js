@@ -25,7 +25,7 @@ export const calculateSign = (request, secret, timestamp, header, payload = fals
     let value = queryParams[key];
     param[key] = value;
   }
-  console.log(param);
+  // console.log(param);
 
   delete param.sign;
   delete param.access_token;  
@@ -33,21 +33,21 @@ export const calculateSign = (request, secret, timestamp, header, payload = fals
   const sortedParams = objKeySort(param);
   let signString = secret + request.query.path;
 
-  console.log(signString);
-  console.log(sortedParams);
+  // console.log(signString);
+  // console.log(sortedParams);
   for (const key in sortedParams) {
     if (key == 'path' || key == 'secret' || key == 'category_id') continue;
     signString += key + sortedParams[key];
   }
 
-  console.log(signString);
+  // console.log(signString);
 
   if (header != "multipart/form-data" && payload) {
     signString += JSON.stringify(payload);
   }
 
   signString += secret;
-  console.log(signString);
+  // console.log(signString);
 
   const hmac = crypto.createHmac("sha256", secret);
   hmac.update(signString);

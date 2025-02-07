@@ -86,7 +86,7 @@ export const getMembers = async (req, res) => {
 
 export const getUsersByTeamID = async (req, res) => {
   const { teamId } = req.params;
-  console.log(teamId);
+  // console.log(teamId);
   try {
     const team = await prisma.team.findUnique({
       where: { id: teamId }
@@ -96,7 +96,7 @@ export const getUsersByTeamID = async (req, res) => {
     }
     const userIds = team.members;
 
-    console.log(userIds);
+    // console.log(userIds);
 
     const users = []
     for (const userId of userIds) {
@@ -167,7 +167,7 @@ export const createUser = async (req, res) => {
     });
 
     // db operation
-    console.log(newUser);
+    // console.log(newUser);
 
     res.status(201).json({
       message: "User created successfully",
@@ -306,7 +306,7 @@ export const addUsersToGroup = async (req, res) => {
     }
 
     const usersParsed = JSON.parse(userIds);
-    console.log(usersParsed);
+    // console.log(usersParsed);
 
     // loop usersParsed and find user by id and update teamId
     for (const userId of usersParsed) {

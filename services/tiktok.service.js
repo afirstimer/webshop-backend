@@ -14,14 +14,14 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
         const secret = process.env.TIKTOK_SHOP_APP_SECRET;
         const API = process.env.TIKTOK_SHOP_API;
 
-        console.log(app_key);
-        console.log(secret);
-        console.log(API);
+        // console.log(app_key);
+        // console.log(secret);
+        // console.log(API);
 
         //TODO: Lấy shop access token theo default shop
         const access_token = shop.shopAccessToken;
 
-        console.log(shop);
+        // console.log(shop);
         const shop_cipher = shop.tiktokShopCipher;
 
         // Param
@@ -38,7 +38,7 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
         const timestamp = Math.floor(Date.now() / 1000);
         const header = contentType;
         const sign = generateSign(req, secret, timestamp, header, payload);
-        console.log(sign);
+        // console.log(sign);
 
         // define query params
         let params = {
@@ -50,7 +50,7 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
         if (Object.keys(extraParams).length > 0) {
             params = { ...params, ...extraParams };
         }
-        console.log(params);
+        // console.log(params);
 
         const options = {
             method: method,
@@ -61,18 +61,18 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
                 "content-type": contentType,
             }
         };
-        console.log(options);
+        // console.log(options);
 
         // Update the query parameters with calculated values        
         options.query.sign = sign;
         options.query.timestamp = timestamp;
-        console.log(payload);
+        // console.log(payload);
 
         // Interpolate URL
         const queryString = new URLSearchParams(options.query).toString();
         options.url = `${options.url}?${queryString}`;
 
-        console.log(options.url);
+        // console.log(options.url);
 
         let response = null;
         if (formData) {
@@ -83,7 +83,7 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
                 headers: options.headers
             });
         } else if (payload) {
-            console.log(payload);
+            // console.log(payload);
             response = await axios({
                 method: options.method,
                 url: options.url,
@@ -107,7 +107,7 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
 
 export const downloadImage = async (uri) => {
     const tempFilePath = path.join(__dirname, 'temp_image.png');
-    console.log(tempFilePath);
+    // console.log(tempFilePath);
     try {
         const response = await axios({
             url: uri,
@@ -123,7 +123,7 @@ export const downloadImage = async (uri) => {
             writer.on('finish', resolve);
             writer.on('error', reject);
         });
-        console.log(tempFilePath);
+        // console.log(tempFilePath);
         return tempFilePath;
     } catch (error) {
         console.log('Error downloading image:', error);

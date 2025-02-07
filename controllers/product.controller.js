@@ -182,12 +182,12 @@ export const getTiktokProduct = async (req, res) => {
         };
         const response = await callTiktokApi(req, shop, false, false, "GET", `/product/202309/products/${id}`, "application/json", extraParams);
 
-        console.log(response.data.data);
+        // console.log(response.data.data);
         
         let product = {};
         if (response.data.data) {
             const data = response.data.data;
-            console.log(data);
+            // console.log(data);
             let price = null;
             if (data.skus && data.skus.length > 0 && data.skus[0].price) {
                 price = data.skus[0].price.sale_price;
@@ -306,11 +306,11 @@ export const uploadTiktokProducts = async (req, res) => {
         });
         console.log(user);
 
-        console.log(existingTemplate);
-        console.log(listings);
-        console.log(shops);
-        console.log(template);
-        console.log(draftMode);
+        // console.log(existingTemplate);
+        // console.log(listings);
+        // console.log(shops);
+        // console.log(template);
+        // console.log(draftMode);
 
         // Loop listings, and submit to tiktok
         // Biến theo dõi trạng thái upload
@@ -322,7 +322,7 @@ export const uploadTiktokProducts = async (req, res) => {
                 try {
                     const response = await createTiktokProduct(req, listing, existingTemplate, shop, draftMode);
 
-                    console.log(response);
+                    // console.log(response);
                     // status
                     let exportStatus = 'PENDING';
                     let tiktokProductId = null;
@@ -342,7 +342,7 @@ export const uploadTiktokProducts = async (req, res) => {
                             status: exportStatus,
                         }
                     });
-                    console.log(listingOnShop);
+                    // console.log(listingOnShop);
 
                     // Tạo product
                     // không tạo product vì sync từ tiktok về
@@ -367,7 +367,7 @@ export const uploadTiktokProducts = async (req, res) => {
                             payload: JSON.stringify(response)
                         }
                     })
-                    console.log(logg);
+                    // console.log(logg);
 
                     return response;
                 } catch (err) {
@@ -398,7 +398,7 @@ export const uploadTiktokProducts = async (req, res) => {
         }
     } catch (error) {
         res.status(500).json({ message: error.message });
-        console.log(error);
+        // console.log(error);
     }
 }
 
@@ -474,7 +474,7 @@ export const updateTiktokProduct = async (req, res) => {
 
         const response = await requestUpdateTiktokProduct(req, originProduct, newProduct, shop);
         
-        console.log(response);
+        // console.log(response);
         if (response) {            
             res.status(200).json({ message: "Success" });
         }
@@ -488,7 +488,7 @@ export const updateTiktokPrice = async (req, res) => {
     try {
         const {products, percentage} = req.body;
 
-        console.log(products, percentage);
+        // console.log(products, percentage);
 
         // Fetch json products
         const jsonProducts = await fetchOriginJsonProducts();
@@ -507,7 +507,7 @@ export const updateTiktokPrice = async (req, res) => {
             })
         });
 
-        console.log(findSkus);        
+        // console.log(findSkus);        
         
         // Update prices
         const resp = await reqUpdateTiktokPrice(req, findSkus, percentage);

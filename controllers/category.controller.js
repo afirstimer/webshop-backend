@@ -24,7 +24,7 @@ export const getTikTokCategories = async (request, res) => {
 
     // Default shop: token
     const shop = await getDefaultShop(request);    
-    console.log(shop);    
+    // console.log(shop);    
     if (!shop) {
         console.error("Shop not found");
         return res.status(404).json({ message: "Shop not found" });
@@ -42,7 +42,7 @@ export const getTikTokCategories = async (request, res) => {
     const timestamp = Math.floor(Date.now() / 1000);
     const header = request.headers['content-type'];
     const sign = generateSign(request, secret, timestamp, header);
-    console.log(sign);
+    // console.log(sign);
 
     // Define your request details
     const options = {
@@ -77,7 +77,7 @@ export const getTikTokCategories = async (request, res) => {
     const queryString = new URLSearchParams(options.query).toString();
     options.url = `${options.url}?${queryString}`;
 
-    console.log(options);
+    // console.log(options);
 
     // Make the GET request
     try {
@@ -122,7 +122,7 @@ export const getTikTokCategoryAttributes = async (request, res) => {
 
     //TODO: nên lấy shop mặc định (lưu ý chỉ 1 shop mặc định)
     const shop = await getDefaultShop(request);
-    console.log(shop);
+    // console.log(shop);
     if (!shop) {
         console.error("Shop not found");
         return res.status(404).json({ message: "Shop not found" });
@@ -142,7 +142,7 @@ export const getTikTokCategoryAttributes = async (request, res) => {
     const timestamp = Math.floor(Date.now() / 1000);
     const header = request.headers['content-type'];
     const sign = generateSign(request, secret, timestamp, header);
-    console.log(sign);
+    // console.log(sign);
 
     // Define your request details
     const options = {
@@ -178,7 +178,7 @@ export const getTikTokCategoryAttributes = async (request, res) => {
     const queryString = new URLSearchParams(options.query).toString();
     options.url = `${options.url}?${queryString}`;
 
-    console.log(options);
+    // console.log(options);
 
     // Make the GET request
     try {
@@ -187,7 +187,7 @@ export const getTikTokCategoryAttributes = async (request, res) => {
             url: options.url,
             headers: options.headers
         });
-        console.log(response.data);
+        // console.log(response.data);
         const attributes = response.data.data.attributes;        
 
         res.status(200).json(attributes);        

@@ -28,7 +28,7 @@ export const generateSignv2 = (url, secret, queryParams) => {
     }
     signString += secret;
 
-    console.log(signString);
+    // console.log(signString);
 
     // Generate the HMAC-SHA256 signature
     const sign = crypto.createHmac('sha256', secret).update(signString).digest('hex');

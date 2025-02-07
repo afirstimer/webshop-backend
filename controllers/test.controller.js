@@ -23,7 +23,7 @@ export const testController = async (req, res) => {
             body: JSON.stringify({ chat_id: CHAT_ID, text: message }),
         });
 
-        console.log(response);
+        // console.log(response);
 
         if (!response.ok) {
             throw new Error("Failed to send Telegram message");

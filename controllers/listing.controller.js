@@ -47,7 +47,7 @@ export const crawlAmazonProduct = async (req, res) => {
         // if productInfo.asin in filter.asin, send tele noti
         if (filter.asin.includes(productInfo.asin)) {
             const response = await sendTelegramNotification(`Sản phẩm cần theo dõi ${title}`);
-            console.log(response);
+            // console.log(response);
         }
 
         if (!listing) {
