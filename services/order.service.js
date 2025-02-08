@@ -54,9 +54,16 @@ export const getLocalTiktokOrders = async (shop) => {
             page++;
         }
 
+        // console.log(orders);
+        
+        // remove undefined from orders
+        orders = orders.filter(order => order !== undefined);
+
         // append shop.id to each order
         orders.forEach(order => {
-            order.shopId = shop.id;
+            if (order !== undefined && order.id) {
+                order.shopId = shop.id;
+            }
         });
 
         // console.log(orders);

@@ -103,9 +103,6 @@ export const logout = (req, res) => {
 export const validateToken = async (req, res) => {
   try {
 
-    //TODO: always valid
-    res.status(200).json({ message: "Token is Valid!" });
-
     const token = req.cookies.token;
     // console.log(token);
 
