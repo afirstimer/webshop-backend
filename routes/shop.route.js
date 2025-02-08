@@ -16,7 +16,8 @@ import {
     syncProducts,
     syncAllShops,
     syncAllOrderShops,
-    refreshToken
+    refreshToken,
+    deleteShop
 } from "../controllers/shop.controller.js";
 
 const router = express.Router();
@@ -34,6 +35,7 @@ router.post("/", verifyToken, createShop);
 router.put("/:id", verifyToken, updateShop);
 router.get("/tiktok/:id", verifyToken, getTiktokShopInfo);
 router.get("/members-on-shop/:id", verifyToken, getMembersOnShop);
+router.delete("/:id", verifyToken, deleteShop);
 
 /** SYNC */
 router.get("/sync-orders-all", verifyToken, syncAllOrderShops);

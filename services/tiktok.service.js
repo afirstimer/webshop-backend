@@ -105,6 +105,31 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
     }
 }
 
+export const callTiktokAuthApi = async (authCode) => {
+    try {
+        const app_key = process.env.TIKTOK_SHOP_APP_KEY;
+        const secret = process.env.TIKTOK_SHOP_APP_SECRET;
+        const API = process.env.TIKTOK_SHOP_URL;
+
+        const response = await axios.request({
+            method: 'GET',
+            url: API + '/token/get',
+            params: {
+                app_key: app_key,
+                app_secret: secret,
+                auth_code: authCode,
+                grant_type: 'authorized_code'
+            },
+        });
+
+        if (response.data) {
+            return response.data;
+        }        
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 export const downloadImage = async (uri) => {
     const tempFilePath = path.join(__dirname, 'temp_image.png');
     // console.log(tempFilePath);
@@ -128,5 +153,93 @@ export const downloadImage = async (uri) => {
     } catch (error) {
         console.log('Error downloading image:', error);
         throw error;
+    }
+}
+
+export const reqAuthorizeShop = async(request, shop) => {
+    try {
+        const app_key = process.env.TIKTOK_SHOP_APP_KEY;
+        const secret = process.env.TIKTOK_SHOP_APP_SECRET;
+        const access_token = shop.accessToken;
+
+        if (!app_key || !secret || !access_token) {
+            // console.log(app_key, secret, access_token);
+            console.error("Missing required parameters: app_key, secret, or access_token");
+            throw new Error("Missing required parameters: app_key, secret, or access_token");
+        }
+
+        request.query.access_token = access_token;
+        request.query.app_key = app_key;
+        request.query.secret = secret;
+        request.query.path = "/authorization/202309/shops";
+        const timestamp = Math.floor(Date.now() / 1000);
+        const header = request.headers['content-type'];
+        const sign = generateSign(request, secret, timestamp, header);
+
+        // Define your request details
+        const options = {
+            method: "GET",
+            url: "https://open-api.tiktokglobalshop.com/authorization/202309/shops",
+            query: {
+                app_key: process.env.TIKTOK_SHOP_APP_KEY,
+                sign: "{{sign}}",
+                timestamp: "{{timestamp}}"
+            },
+            headers: {
+                "x-tts-access-token": access_token
+            }
+        };
+
+        // Prepare the request object for signature calculation
+        const req = {
+            url: {
+                path: "/authorization/202309/shops",
+                query: Object.entries(options.query).map(([key, value]) => ({ key, value }))
+            },
+            body: null // No body for GET requests
+        };
+
+        // Update the query parameters with calculated values
+        options.query.sign = sign;
+        options.query.timestamp = timestamp;
+
+        // Interpolate URL
+        const queryString = new URLSearchParams(options.query).toString();
+        options.url = `${options.url}?${queryString}`;
+
+        // Make the GET request
+
+        const response = await axios({
+            method: options.method,
+            url: options.url,
+            headers: options.headers
+        });
+
+        console.log(response.data);
+
+        // create shop
+        if (response.data.code === 0) {
+            
+            const tiktokShop = response.data.data.shops[0];
+            console.log(tiktokShop);
+            // update
+            await prisma.shop.update({
+                where: {
+                    id: shop.id,
+                },
+                data: {
+                    status: "authorized",
+                    signString: sign,
+                    tiktokShopCipher: tiktokShop.cipher,
+                    tiktokTimestamp: timestamp,
+                    tiktokShopId: tiktokShop.id,
+                    code: tiktokShop.code
+                },
+            });
+
+            return true;
+        }
+    } catch (error) {
+        console.log(error);
     }
 }

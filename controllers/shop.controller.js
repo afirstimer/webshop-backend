@@ -5,7 +5,7 @@ import { createFolder, getDefaultShop, writeJSONFile } from "../helper/helper.js
 import { getTiktokOrders, getTiktokProducts } from "../services/order.service.js";
 import { createOrders, createProducts, processSyncProducts, reqSyncOrders } from "../services/shop.service.js";
 import path from 'path';
-import { callTiktokApi } from "../services/tiktok.service.js";
+import { callTiktokApi, callTiktokAuthApi, reqAuthorizeShop } from "../services/tiktok.service.js";
 
 const ORDER_FILE = "./dummy/tiktok/orders.json";
 const ORDER_FOLDER = "./dummy/tiktok/orders/shop/";
@@ -107,21 +107,40 @@ export const getAllShops = async (req, res) => {
 // create shop
 export const createShop = async (req, res) => {
     try {
-        const { name, tiktokShopId, tiktokShopCipher, accessToken, shopRefreshToken } = req.body;
+        const { tiktokAuthCode } = req.body;
         const newShop = await prisma.shop.create({
             data: {
-                name,
-                code: 'new tiktok shop [need change]',
+                tiktokAuthCode,
+                name: 'new tiktok shop [need change] - date ' + Date.now(),                
                 status: 'CONNECTED',
                 priceDiff: 1,
-                shopItems: 0,
-                accessToken,
-                shopRefreshToken,
-                signString: 'need change',
-                tiktokShopId,
-                tiktokShopCipher                
+                shopItems: 99,        
             },
         });
+
+        // Get access token
+        const authResponse = await callTiktokAuthApi(tiktokAuthCode);        
+        if (authResponse) { 
+            console.log('API Response:', authResponse);
+            const accessToken = authResponse.data.access_token;
+            const refreshToken = authResponse.data.refresh_token;
+            const shopName = authResponse.data.seller_name;         
+            // update shop
+            const updatedShop = await prisma.shop.update({
+                where: {
+                    id: newShop.id,
+                },
+                data: {
+                    accessToken,
+                    shopRefreshToken: refreshToken,
+                    name: shopName,
+                },
+            });
+
+            // Authorize shop
+            const authorizeResponse = await reqAuthorizeShop(req, updatedShop);
+        }
+        
         res.status(201).json({message: "Shop created successfully", shop: newShop});
     } catch (error) {
         console.log(error);
@@ -392,14 +411,15 @@ export const updateShop = async (req, res) => {
 // authorize shop
 export const requestAuthorizedShops = async (request, res) => {
     try {
-        const app_key = process.env.TIKTOK_SHOP_APP_KEY;
-        const secret = process.env.TIKTOK_SHOP_APP_SECRET;
-        const setting = await prisma.setting.findFirst();
-        if (!setting) {
-            console.error("Setting not found");
-            return res.status(404).json({ message: "Setting not found" });
-        }
-        const access_token = setting.shopAccessToken;
+        console.log(request.query);
+        const app_key = request.query.app_key;
+        const secret = request.query.secret;
+        // const setting = await prisma.setting.findFirst();
+        // if (!setting) {
+        //     console.error("Setting not found");
+        //     return res.status(404).json({ message: "Setting not found" });
+        // }
+        const access_token = request.query.access_token;
 
         if (!app_key || !secret || !access_token) {
             // console.log(app_key, secret, access_token);
@@ -425,7 +445,7 @@ export const requestAuthorizedShops = async (request, res) => {
                 timestamp: "{{timestamp}}"
             },
             headers: {
-                "x-tts-access-token": setting.shopAccessToken
+                "x-tts-access-token": access_token
             }
         };
 
@@ -723,5 +743,19 @@ export const refreshToken = async (req, res) => {
     } catch (error) {
         console.error('Error refreshing token:', error.message);
         throw error;
+    }
+}
+
+export const deleteShop = async (req, res) => {
+    try {
+        await prisma.shop.delete({
+            where: {
+                id: req.params.id
+            }
+        });
+
+        res.status(200).json({ message: "Shop deleted successfully" });
+    } catch (error) {
+        console.log(error);
     }
 }

@@ -31,8 +31,8 @@ model User {
 
 model Shop {
   id               String          @id @default(auto()) @map("_id") @db.ObjectId
-  name             String
-  code             String          @unique
+  name             String?
+  code             String?          
   profile          String?
   createdAt        DateTime        @default(now())
   updatedat        DateTime        @updatedAt
@@ -46,6 +46,7 @@ model Shop {
   signString       String?
   tiktokShopId     String?
   tiktokShopCipher String?
+  tiktokAuthCode   String?
   tiktokTimestamp  Int?
   managers         String[]
   listings         ListingOnShop[]
