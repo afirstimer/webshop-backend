@@ -2,6 +2,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import prisma from "../lib/prisma.js";
 import axios from "axios";
+import { proceedRefreshToken } from "../helper/helper.js";
 
 export const register = async (req, res) => {
   const { username, email, password } = req.body;
@@ -77,7 +78,7 @@ export const login = async (req, res) => {
       // If found defaultShop, refresh token and udpate 
       if (defaultShop) {
         // refresh token first
-        await refreshToken(defaultShop);
+        await proceedRefreshToken(defaultShop);
       }
     }
 

@@ -748,14 +748,18 @@ export const refreshToken = async (req, res) => {
 
 export const deleteShop = async (req, res) => {
     try {
-        await prisma.shop.delete({
+        await prisma.shop.update({
             where: {
                 id: req.params.id
+            },
+            data: {
+                isActive: 0
             }
         });
 
         res.status(200).json({ message: "Shop deleted successfully" });
     } catch (error) {
         console.log(error);
+        res.status(500).json({ message: "Failed to delete shop" });
     }
 }
