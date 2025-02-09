@@ -6,6 +6,20 @@ import { getTiktokProducts, getTiktokOrders } from "./order.service.js";
 const ORDER_FOLDER = "./dummy/tiktok/orders/shop/";
 const PRODUCT_FOLDER = "./dummy/tiktok/products/shop/";
 
+export const reqActiveShops = async () => {
+    try {
+        const shops = await prisma.shop.findMany({
+            where: {
+                isActive: 1
+            }
+        });
+        
+        return shops;
+    } catch (error) {
+        return [];
+    }
+}
+
 export const setDefaultShopForUser = async( user, shopId ) => {
     try {
         // If default shop, get one

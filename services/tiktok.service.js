@@ -66,13 +66,13 @@ export const callTiktokApi = async (req, shop, payload = false, formData = false
         // Update the query parameters with calculated values        
         options.query.sign = sign;
         options.query.timestamp = timestamp;
-        // console.log(payload);
+        console.log(payload);
 
         // Interpolate URL
         const queryString = new URLSearchParams(options.query).toString();
         options.url = `${options.url}?${queryString}`;
 
-        // console.log(options.url);
+        console.log(options);
 
         let response = null;
         if (formData) {

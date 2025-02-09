@@ -14,7 +14,7 @@ export const getTiktokOrders = async (req, shop, payload) => {
             'page_token': '',
             'sort_field': 'create_time'
         }
-        
+
         if (payload.nextPageToken) {
             extraParams.page_token = payload.nextPageToken;
         }
@@ -55,7 +55,7 @@ export const getLocalTiktokOrders = async (shop) => {
         }
 
         // console.log(orders);
-        
+
         // remove undefined from orders
         orders = orders.filter(order => order !== undefined);
 
@@ -75,12 +75,13 @@ export const getLocalTiktokOrders = async (shop) => {
 
 export const getTiktokProducts = async (req, shop, payload) => {
     try {
+        console.log(shop);
         const extraParams = {
             "shop_cipher": shop.tiktokShopCipher,
             "page_size": 100,
             "page_token": ""
         }
-        
+
         if (payload.nextPageToken) {
             extraParams.page_token = payload.nextPageToken;
         }
@@ -97,3 +98,40 @@ export const getTiktokProducts = async (req, shop, payload) => {
         return false;
     }
 }
+
+// Hàm định dạng timestamp sang { year, month }
+export const formatDate = (timestamp) => {
+    const date = new Date(timestamp * 1000);
+    return {
+        year: date.getFullYear().toString(),
+        month: date.toLocaleString("en-US", { month: "long" })
+    };
+};
+
+// Tạo danh sách rỗng với các tháng từ tháng 1 đến tháng 12
+export const generateEmptyMonths = (year) => {
+    const months = Array.from({ length: 12 }, (_, i) =>
+        new Date(year, i).toLocaleString("en-US", { month: "long" })
+    );
+    return months.map(month => ({ year: year.toString(), month, total: 0, revenue: 0 }));
+};
+
+// Nhóm đơn hàng theo năm/tháng
+export const aggregateOrders = (orders) => {
+    let summary = {};
+
+    orders.forEach(order => {
+        const { year, month } = formatDate(order.create_time);
+        const revenue = parseFloat(order.payment.total_amount);
+
+        const key = `${year}-${month}`;
+        if (!summary[key]) {
+            summary[key] = { year, month, total: 0, revenue: 0 };
+        }
+
+        summary[key].total += 1;
+        summary[key].revenue += revenue;
+    });
+
+    return Object.values(summary);
+};

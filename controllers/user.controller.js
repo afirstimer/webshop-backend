@@ -146,6 +146,7 @@ export const createUser = async (req, res) => {
         id: {
           in: shopIds,
         },
+        isActive: 1
       },
       select: {
         id: true,

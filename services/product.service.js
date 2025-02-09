@@ -4,6 +4,7 @@ import fs from "fs";
 import FormData from "form-data";
 import { getDefaultShop, readJSONFile } from "../helper/helper.js";
 import { downloadImage, callTiktokApi } from "./tiktok.service.js";
+import { reqActiveShops } from "./shop.service.js";
 
 const PRODUCT_FOLDER = "./dummy/tiktok/products/shop/";
 
@@ -447,7 +448,7 @@ export const getLocalTiktokProducts = async (shop) => {
 export const fetchOriginJsonProducts = async () => {
     try {
         // get all shops
-        const shops = await prisma.shop.findMany();
+        const shops = await reqActiveShops();
         let products = [];
 
         for (const shop of shops) {
@@ -465,7 +466,7 @@ export const fetchOriginJsonProducts = async () => {
 export const fetchAllJsonProducts = async () => {
     try {
         // get all shops
-        const shops = await prisma.shop.findMany();
+        const shops = await reqActiveShops();
         let products = [];
 
         for (const shop of shops) {

@@ -304,7 +304,7 @@ export const uploadTiktokProducts = async (req, res) => {
                 id: req.userId
             }
         });
-        console.log(user);
+        // console.log(user);
 
         // console.log(existingTemplate);
         // console.log(listings);

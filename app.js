@@ -15,6 +15,7 @@ import productRoute from "./routes/product.route.js";
 import logRoute from "./routes/log.route.js";
 import filterRoute from "./routes/filter.route.js";
 import warehouseRoute from "./routes/warehouse.route.js";
+import dealRoute from "./routes/deal.route.js";
 import testRoute from "./routes/test.route.js";
 
 const app = express();
@@ -43,6 +44,7 @@ app.use("/api/products", productRoute);
 app.use("/api/logs", logRoute);
 app.use("/api/warehouses", warehouseRoute);
 app.use("/api/filters", filterRoute);
+app.use("/api/deals", dealRoute);
 
 app.use("/api/test", testRoute);
 

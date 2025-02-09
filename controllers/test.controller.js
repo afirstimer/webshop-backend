@@ -19,7 +19,7 @@ export const testController = async (req, res) => {
             });
             
             const freshToken = await proceedRefreshToken(defaultShop);
-            console.log(freshToken);
+            // console.log(freshToken);
             res.status(200).json(freshToken);
         }
     } catch (error) {

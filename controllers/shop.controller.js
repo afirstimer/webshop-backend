@@ -3,7 +3,7 @@ import { generateSign } from "../helper/tiktok.api.js";
 import axios from "axios";
 import { createFolder, getDefaultShop, writeJSONFile } from "../helper/helper.js";
 import { getTiktokOrders, getTiktokProducts } from "../services/order.service.js";
-import { createOrders, createProducts, processSyncProducts, reqSyncOrders } from "../services/shop.service.js";
+import { createOrders, createProducts, processSyncProducts, reqActiveShops, reqSyncOrders } from "../services/shop.service.js";
 import path from 'path';
 import { callTiktokApi, callTiktokAuthApi, reqAuthorizeShop } from "../services/tiktok.service.js";
 
@@ -41,7 +41,8 @@ export const getShops = async (req, res) => {
                         contains: search,
                         mode: "insensitive",
                     },
-                })
+                }),
+                isActive: 1
             };
         } else {
             where = {
@@ -53,7 +54,8 @@ export const getShops = async (req, res) => {
                         contains: search,
                         mode: "insensitive",
                     },
-                })
+                }),
+                isActive: 1
             };
         }
 
@@ -346,7 +348,8 @@ export const getShopsByUser = async (req, res) => {
     try {
         const shops = await prisma.shop.findMany({
             where: {
-                userId: req.params.id
+                userId: req.params.id,
+                isActive: 1
             },
             include: {
                 User: {
@@ -588,7 +591,8 @@ export const syncAllOrderShops = async (req, res) => {
             return res.status(404).json({ message: "User not found" });
         }
         if (reqUser.isAdmin == 1) {
-            const shops = await prisma.shop.findMany();
+            const shops = await reqActiveShops();
+            console.log(shops);
             for (const shop of shops) {
                 await reqSyncOrders(req, shop);
             }                    
@@ -675,7 +679,7 @@ export const syncAllShops = async (req, res) => {
             return res.status(404).json({ message: "User not found" });
         }
         if (reqUser.isAdmin == 1) {
-            const shops = await prisma.shop.findMany();
+            const shops = await reqActiveShops();
             for (const shop of shops) {
                 await processSyncProducts(req, shop);
             }                    

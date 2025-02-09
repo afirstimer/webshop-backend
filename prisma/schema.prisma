@@ -32,7 +32,7 @@ model User {
 model Shop {
   id               String          @id @default(auto()) @map("_id") @db.ObjectId
   name             String?
-  code             String?          
+  code             String?
   profile          String?
   createdAt        DateTime        @default(now())
   updatedat        DateTime        @updatedAt
@@ -232,6 +232,38 @@ model OrderItem {
   skuName              String
   skuType              String
   trackingNumber       String
+}
+
+model Promotion {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  tiktokId     String?
+  title        String?
+  activityType String?
+  beginTime    String?
+  endTime      String?
+  status       String?
+  createTime   DateTime @default(now())
+  updateTime   DateTime @updatedAt
+  productLevel String?
+}
+
+model ProductActivity {
+  id                  String  @id @default(auto()) @map("_id") @db.ObjectId
+  tiktokProductId     String?
+  activityId          String?
+  activityPriceAmount String?
+  discount            String?
+  quantityLimit       String?
+  quantityPerUser     String?
+  skus                Json
+}
+
+model PromoActivity {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  tiktokId    String?
+  createdTime String?
+  updatedTime String?
+  status      String?
 }
 
 model Certificate {
