@@ -52,6 +52,7 @@ model Shop {
   listings         ListingOnShop[]
   products         Product[]       @relation("ShopProducts")
   isActive         Int?            @default(1)
+  Proxy            Proxy[]
 }
 
 model Team {
@@ -162,6 +163,8 @@ model Setting {
 model Proxy {
   id        String    @id @default(auto()) @map("_id") @db.ObjectId
   name      String
+  shopId    String?    @db.ObjectId
+  shop      Shop?      @relation(fields: [shopId], references: [id])
   type      ProxyType @default(SOCKS5)
   hostname  String
   port      String
