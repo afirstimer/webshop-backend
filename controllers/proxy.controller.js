@@ -8,7 +8,12 @@ export const getProxies = async (req, res) => {
   try {
     const proxies = await prisma.proxy.findMany({
       include: {
-        shop: true,
+        shop: {
+          select: {
+            id: true,
+            name: true,
+          },
+        },
       },
     });
     res.status(200).json(proxies);
