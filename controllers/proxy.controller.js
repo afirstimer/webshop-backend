@@ -6,7 +6,11 @@ import { connectViaSocks5 } from "../services/proxy.service.js";
 
 export const getProxies = async (req, res) => {
   try {
-    const proxies = await prisma.proxy.findMany();
+    const proxies = await prisma.proxy.findMany({
+      include: {
+        shop: true,
+      },
+    });
     res.status(200).json(proxies);
   } catch (error) {
     console.log(error);
