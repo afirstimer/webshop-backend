@@ -1,9 +1,9 @@
 import prisma from "../lib/prisma.js";
-import SocksClient from "socks";
+import { SocksProxyAgent } from "socks-proxy-agent";
+import axios from "axios";
 
 export const connectViaSocks5 = async (shop) => {
   try {
-    console.log(shop);
     const proxy = await prisma.proxy.findFirst({
       where: {
         shopId: shop.id,
@@ -13,23 +13,24 @@ export const connectViaSocks5 = async (shop) => {
     if (!proxy) {
       return false;
     }
-    console.log(proxy);
 
-    const options = {
-      proxy: {
-        host: proxy.hostname,
-        port: parseInt(proxy.port, 10),
-        type: 5, // SOCKS5
-        userId: proxy.username,
-        password: proxy.password,
-      },
-      command: "connect",
-      destination: { host: "google.com", port: 80 },
-      timeout: 10000,
-    };
+    const proxyHost = proxy.hostname;
+    const proxyPort = proxy.port;
+    const proxyUser = proxy.username; // Nếu proxy cần xác thực
+    const proxyPass = proxy.password; // Nếu proxy cần xác thực
 
-    const info = await SocksClient.createConnection(options);
-    return info.socket;
+    const proxyUrl = `socks5://${proxyUser}:${proxyPass}@${proxyHost}:${proxyPort}`;
+    const agent = new SocksProxyAgent(proxyUrl);
+
+    const response = await axios.get(
+      "https://partner.tiktokshop.com/docv2/page/6509df95defece02be598a22?external_id=6509df95defece02be598a22",
+      {
+        httpsAgent: agent,
+        httpAgent: agent, // Nếu API TikTok sử dụng HTTP
+      }
+    );
+
+    return response;
   } catch (error) {
     console.log(error);
     return false;
