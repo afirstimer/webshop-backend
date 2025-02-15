@@ -20,13 +20,12 @@ import testRoute from "./routes/test.route.js";
 
 const app = express();
 
-app.use(cors({
-    origin: [
-        process.env.CLIENT_URL,
-        process.env.WHITELIST_URL1
-    ],
+app.use(
+  cors({
+    origin: [process.env.CLIENT_URL, process.env.WHITELIST_URL1],
     credentials: true,
-}));
+  })
+);
 app.use(express.json());
 app.use(cookieParser());
 
@@ -49,10 +48,9 @@ app.use("/api/deals", dealRoute);
 app.use("/api/test", testRoute);
 
 try {
-    app.listen(8800, () => {
-        console.log("Listening on port 8800");
-    })
+  app.listen(8800, () => {
+    console.log("Listening on port 8800");
+  });
 } catch (err) {
-    console.error('Error starting server:', err);
+  console.error("Error starting server:", err);
 }
-

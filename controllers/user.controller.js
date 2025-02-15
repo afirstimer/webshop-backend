@@ -4,7 +4,13 @@ import { setDefaultShopForUser } from "../services/shop.service.js";
 
 export const getUsers = async (req, res) => {
   try {
-    const { page = 1, limit = process.env.DEFAULT_LIMIT, username, email, sort } = req.query;
+    const {
+      page = 1,
+      limit = process.env.DEFAULT_LIMIT,
+      username,
+      email,
+      sort,
+    } = req.query;
 
     const pageNum = parseInt(page, 10);
     const pageSize = parseInt(limit, 10);
@@ -21,7 +27,7 @@ export const getUsers = async (req, res) => {
           contains: email,
           mode: "insensitive",
         },
-      })
+      }),
     };
 
     const orderBy = (() => {
@@ -40,30 +46,28 @@ export const getUsers = async (req, res) => {
     })();
 
     const total = await prisma.user.count({
-      where
+      where,
     });
 
-    const users = await prisma.user.findMany(
-      {
-        where,
-        skip: (pageNum - 1) * pageSize,
-        take: pageSize,
-        orderBy: orderBy,
-        include: {
-          Team: {
-            select: {
-              name: true,
-            },
-          }          
-        }
-      }
-    );
+    const users = await prisma.user.findMany({
+      where,
+      skip: (pageNum - 1) * pageSize,
+      take: pageSize,
+      orderBy: orderBy,
+      include: {
+        Team: {
+          select: {
+            name: true,
+          },
+        },
+      },
+    });
 
     res.status(200).json({
       total,
       page: pageNum,
       limit: pageSize,
-      users
+      users,
     });
   } catch (err) {
     console.log(err);
@@ -75,21 +79,21 @@ export const getMembers = async (req, res) => {
   try {
     const users = await prisma.user.findMany({
       where: {
-        isActive: 1
-      }
+        isActive: 1,
+      },
     });
     res.status(200).json(users);
   } catch (error) {
     console.log(error);
   }
-}
+};
 
 export const getUsersByTeamID = async (req, res) => {
   const { teamId } = req.params;
   // console.log(teamId);
   try {
     const team = await prisma.team.findUnique({
-      where: { id: teamId }
+      where: { id: teamId },
     });
     if (!team) {
       return res.status(404).json({ message: "Team not found" });
@@ -98,10 +102,10 @@ export const getUsersByTeamID = async (req, res) => {
 
     // console.log(userIds);
 
-    const users = []
+    const users = [];
     for (const userId of userIds) {
       const user = await prisma.user.findUnique({
-        where: { id: userId }
+        where: { id: userId },
       });
       users.push(user);
     }
@@ -146,7 +150,7 @@ export const createUser = async (req, res) => {
         id: {
           in: shopIds,
         },
-        isActive: 1
+        isActive: 1,
       },
       select: {
         id: true,
@@ -159,8 +163,8 @@ export const createUser = async (req, res) => {
         ...inputs,
         ...(shops && {
           shops: {
-            connect: validShops.map((shopId) => (shopId))
-          }
+            connect: validShops.map((shopId) => shopId),
+          },
         }),
         ...(password && { password: hashedPassword }),
         ...(avatar && { avatar }),
@@ -172,19 +176,22 @@ export const createUser = async (req, res) => {
 
     res.status(201).json({
       message: "User created successfully",
-    })
+    });
   } catch (error) {
     console.log(error);
     res.status(500).json({
       message: "Failed to create user!",
-    })
+    });
   }
-}
+};
 
 export const updateUser = async (req, res) => {
   const id = req.params.id;
   const tokenUserId = req.userId;
   const { password, avatar, shops, shopId, ...inputs } = req.body;
+
+  console.log(shopId);
+  console.log(tokenUserId);
 
   const loggedinUser = await prisma.user.findUnique({
     where: { id: tokenUserId },
@@ -216,19 +223,23 @@ export const updateUser = async (req, res) => {
     let existingShopIds = requestUser.shops;
     if (shopId) {
       if (existingShopIds.includes(shopId)) {
-        res.status(400).json({ message: "Shop already exists in user's shopIds!" });
+        res
+          .status(400)
+          .json({ message: "Shop already exists in user's shopIds!" });
       } else {
         // add shopId to existing shopIds array
         existingShopIds.push(shopId);
       }
     }
 
+    console.log(existingShopIds);
+
     const updatedUser = await prisma.user.update({
       where: { id },
       data: {
         ...inputs,
         ...(shops && {
-          shops: shopIds
+          shops: shopIds,
         }),
         ...(updatedPassword && { password: updatedPassword }),
         ...(avatar && { avatar }),
@@ -240,8 +251,8 @@ export const updateUser = async (req, res) => {
         where: { id },
         data: {
           ...(!requestUser.defaultShop && { defaultShop: shopId }),
-          shops: existingShopIds
-        }
+          shops: existingShopIds,
+        },
       });
     }
 
@@ -256,17 +267,16 @@ export const updateUser = async (req, res) => {
 
 export const deleteUser = async (req, res) => {
   const id = req.params.id;
-  const tokenUserId = req.userId;  
+  const tokenUserId = req.userId;
 
   try {
     await prisma.user.update({
       where: { id },
       data: {
-        isActive: 0
-      }
+        isActive: 0,
+      },
     });
     res.status(200).json({ message: "User deleted" });
-
   } catch (err) {
     console.log(err);
     res.status(500).json({ message: "Failed to delete users!" });
@@ -287,8 +297,8 @@ export const deleteMultiUsers = async (req, res) => {
       await prisma.user.update({
         where: { id: userId },
         data: {
-          isActive: 0
-        }
+          isActive: 0,
+        },
       });
     }
 
@@ -296,7 +306,7 @@ export const deleteMultiUsers = async (req, res) => {
   } catch (error) {
     console.log(error);
   }
-}
+};
 
 export const addUsersToGroup = async (req, res) => {
   try {
@@ -323,7 +333,7 @@ export const addUsersToGroup = async (req, res) => {
   } catch (error) {
     console.log(error);
   }
-}
+};
 
 export const savePost = async (req, res) => {
   const postId = req.body.postId;
@@ -409,7 +419,7 @@ export const getNotificationNumber = async (req, res) => {
  *
  * This function updates the user's isAdmin field to 1
  * in the database, effectively granting admin privileges.
- * 
+ *
  * @param {Object} req - The request object, containing the user's ID in the params.
  * @param {Object} res - The response object, used to send back the HTTP response.
  */
@@ -421,7 +431,7 @@ export const upgradeToAdmin = async (req, res) => {
       where: { id },
       data: {
         isAdmin: 1,
-      }
+      },
     });
 
     res.status(200).json({ message: "User upgraded to admin" });
@@ -429,7 +439,7 @@ export const upgradeToAdmin = async (req, res) => {
     console.log(error);
     res.status(500).json({ message: "Failed to upgrade to admin!" });
   }
-}
+};
 
 export const checkHasDefaultShop = async (req, res) => {
   try {
@@ -438,7 +448,10 @@ export const checkHasDefaultShop = async (req, res) => {
     });
 
     if (!requestUser || !requestUser.defaultShop) {
-      return res.status(404).json({ message: "Không tìm thấy cửa hàng mặc định. Vui lòng tạo một cửa hàng mặc định" });
+      return res.status(404).json({
+        message:
+          "Không tìm thấy cửa hàng mặc định. Vui lòng tạo một cửa hàng mặc định",
+      });
     }
 
     const defaultShop = await prisma.shop.findUnique({
@@ -446,7 +459,10 @@ export const checkHasDefaultShop = async (req, res) => {
     });
 
     if (!defaultShop) {
-      return res.status(404).json({ message: "Không tìm thấy cửa hàng mặc định. Vui lòng tạo một cửa hàng mặc định" });
+      return res.status(404).json({
+        message:
+          "Không tìm thấy cửa hàng mặc định. Vui lòng tạo một cửa hàng mặc định",
+      });
     }
 
     res.status(200).json({ message: "Default shop found", defaultShop });
@@ -454,7 +470,7 @@ export const checkHasDefaultShop = async (req, res) => {
     console.log(error);
     res.status(500).json({ message: "Failed to check default shop!" });
   }
-}
+};
 
 export const removeDefaultShop = async (req, res) => {
   const id = req.params.id;
@@ -487,12 +503,11 @@ export const removeDefaultShop = async (req, res) => {
       where: { id },
       data: {
         ...(defaultShop == shopId && { defaultShop: null }),
-        shops: newShops
-      }
+        shops: newShops,
+      },
     });
 
     res.status(200).json({ message: "Xóa shop khỏi user" });
-
   } catch (err) {
     console.log(err);
     res.status(500).json({ message: "Failed to delete users!" });
