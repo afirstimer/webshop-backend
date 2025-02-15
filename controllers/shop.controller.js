@@ -171,10 +171,12 @@ export const createShop = async (req, res) => {
     // }
 
     if (!authorizeResponse) {
-      const resultFreshToken = await proceedRefreshToken(newShop);
-      if (resultFreshToken) {
-        return res.status(500).json({ message: "Failed to authorize shop" });
-      }
+      return res.status(500).json({ message: "Failed to authorize shop" });
+    }
+
+    const resultFreshToken = await proceedRefreshToken(newShop);
+    if (!resultFreshToken) {
+      return res.status(500).json({ message: "Failed to refresh token" });
     }
     res
       .status(201)
