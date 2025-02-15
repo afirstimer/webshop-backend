@@ -121,7 +121,11 @@ export const getShops = async (req, res) => {
 
 export const getAllShops = async (req, res) => {
   try {
-    const shops = await prisma.shop.findMany();
+    const shops = await prisma.shop.findMany({
+      where: {
+        isActive: 1,
+      },
+    });
     res.status(200).json(shops);
   } catch (error) {
     console.log(error);
