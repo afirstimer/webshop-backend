@@ -5,6 +5,7 @@ import {
   createFolder,
   getDefaultShop,
   writeJSONFile,
+  proceedRefreshToken,
 } from "../helper/helper.js";
 import {
   getTiktokOrders,
@@ -170,8 +171,10 @@ export const createShop = async (req, res) => {
     // }
 
     if (!authorizeResponse) {
-      await proceedRefreshToken(newShop);
-      return res.status(500).json({ message: "Failed to authorize shop" });
+      const resultFreshToken = await proceedRefreshToken(newShop);
+      if (resultFreshToken) {
+        return res.status(500).json({ message: "Failed to authorize shop" });
+      }
     }
     res
       .status(201)
