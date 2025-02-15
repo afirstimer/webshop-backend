@@ -144,7 +144,7 @@ export const createShop = async (req, res) => {
       },
     });
 
-    const authorizeResponse = await reqAuthorizeShop(req, updatedShop);
+    const authorizeResponse = await reqAuthorizeShop(req, newShop);
 
     // Get access token
     // const authResponse = await callTiktokAuthApi(tiktokAuthCode);
@@ -170,6 +170,7 @@ export const createShop = async (req, res) => {
     // }
 
     if (!authorizeResponse) {
+      await proceedRefreshToken(newShop);
       return res.status(500).json({ message: "Failed to authorize shop" });
     }
     res
