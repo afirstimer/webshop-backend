@@ -652,20 +652,13 @@ export const syncAllOrderShops = async (req, res) => {
     if (!reqUser) {
       return res.status(404).json({ message: "User not found" });
     }
-    if (reqUser.isAdmin == 1) {
-      const shops = await reqActiveShops();
-      console.log(shops);
-      for (const shop of shops) {
-        await reqSyncOrders(req, shop);
-      }
-    } else {
-      // get default shop
-      const shop = await getDefaultShop(req);
-      if (!shop) {
-        return res.status(404).json({ message: "Default shop not found" });
-      }
-      await reqSyncOrders(req, shop);
+
+    // get default shop
+    const shop = await getDefaultShop(req);
+    if (!shop) {
+      return res.status(404).json({ message: "Default shop not found" });
     }
+    await reqSyncOrders(req, shop);
 
     res.status(200).json({ message: "Shops synced successfully" });
   } catch (error) {
@@ -740,19 +733,13 @@ export const syncAllShops = async (req, res) => {
     if (!reqUser) {
       return res.status(404).json({ message: "User not found" });
     }
-    if (reqUser.isAdmin == 1) {
-      const shops = await reqActiveShops();
-      for (const shop of shops) {
-        await processSyncProducts(req, shop);
-      }
-    } else {
-      // get default shop
-      const shop = await getDefaultShop(req);
-      if (!shop) {
-        return res.status(404).json({ message: "Default shop not found" });
-      }
-      await processSyncProducts(req, shop);
+
+    // get default shop
+    const shop = await getDefaultShop(req);
+    if (!shop) {
+      return res.status(404).json({ message: "Default shop not found" });
     }
+    await processSyncProducts(req, shop);
 
     res.status(200).json({ message: "Shops synced successfully" });
   } catch (error) {
