@@ -240,6 +240,7 @@ model OrderItem {
 model Promotion {
   id           String   @id @default(auto()) @map("_id") @db.ObjectId
   tiktokId     String?
+  shopId       String?
   title        String?
   activityType String?
   beginTime    String?
