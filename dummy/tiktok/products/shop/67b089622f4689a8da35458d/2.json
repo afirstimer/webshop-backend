@@ -1,0 +1,1330 @@
+{
+  "next_page_token": "WzAsIjE3Mjk2Mjc2Mjg3Mjc1Mzc5MTMiXQ==",
+  "products": [
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724936515,
+      "id": "1729614310108467449",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729614335427907833",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.17"
+          },
+          "seller_sku": "B0BCKTMDTL"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Skittles Singles To Go Tropical Variety Pack, Watertok Powdered Drink Mix, Includes 4 Flavors, Strawberry Starfruit, Mango Tangelo, Kiwi Lime, Pineapple Passionfruit, 1 Box (30 Servings)",
+      "update_time": 1738576006
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724936230,
+      "id": "1729614350349799673",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729614354543841529",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.17"
+          },
+          "seller_sku": "B0BDHVYFYF"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Skittles Singles To Go Wild Berry Variety Pack, Watertok Powdered Drink Mix, Zero Sugar, Low Calorie, Includes 4 Wild Berry Flavors  - 1 Box (30 Single Servings)",
+      "update_time": 1738579504
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724933811,
+      "id": "1729614256207139065",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729614297952063737",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "15.53"
+          },
+          "seller_sku": "B09MSTYYPM"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Crystal Light Energizing Variety Pack, 44 ct On-the-Go Packets",
+      "update_time": 1738576003
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724673246,
+      "id": "1729607599297237241",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729607607628173561",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "20.99"
+          },
+          "seller_sku": "B0BX7NKV9W"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Iced Tea Drink Mix - Klass Sugar Free Variety Pack - Peach & Lime Black Tea On-The-Go! (44 Count Powder Stick Packs) 5 Calories Per Packet",
+      "update_time": 1738576004
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724672795,
+      "id": "1729607591363580153",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729607602460856569",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "19.49"
+          },
+          "seller_sku": "B0955P2H9H"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Drink Mix Klass Aguas Frescas - 44 Powdered Sugar Free Singles - Flavors: Cucumber Limeade Pineapple Tangerine Strawberry Watermelon & Hibiscus Berries - Water Enhancer Packets To Go!",
+      "update_time": 1738576006
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724672441,
+      "id": "1729607590331715833",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "916488",
+          "local_name": "Tea"
+        },
+        {
+          "id": "1346320",
+          "local_name": "Fruit & Herbal Tea"
+        },
+        {
+          "id": "1922960",
+          "local_name": "Fruit Tea"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729607598520439033",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.49"
+          },
+          "seller_sku": "B0BNLZKQ16"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Snapple Zero Sugar Peach Tea, 16 fl oz recycled plastic bottle (Pack of 12)",
+      "update_time": 1738576002
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724672129,
+      "id": "1729607579818234105",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917000",
+          "local_name": "Water & Flavored Water"
+        },
+        {
+          "id": "1345040",
+          "local_name": "Still Water"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729607590922064121",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B01N9OJ2AP"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "LIFEWTR Premium Purified Water, pH Balanced with Electrolytes, recycled plastic bottles, 33.8 Fl Oz, 1L (Pack of 6)",
+      "update_time": 1738576002
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724420012,
+      "id": "1729603254873985273",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729603268622848249",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.91"
+          },
+          "seller_sku": "B08KKC8KS8"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "MiO Sugar-Free Lemonade Flavored Liquid Water Enhancer 1 Count 3.24 fl oz",
+      "update_time": 1738576005
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724419159,
+      "id": "1729603250647830777",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729603258098290937",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "3.89"
+          },
+          "seller_sku": "B07WJGM19N"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Happy Belly Lemon Juice, Bottle, 32 fl oz (Pack of 1)",
+      "update_time": 1739764111
+    },
+    {
+      "audit": {
+        "status": "FAILED"
+      },
+      "create_time": 1724418714,
+      "id": "1729603249452716281",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917256",
+          "local_name": "Sports & Energy Drinks"
+        },
+        {
+          "id": "1346832",
+          "local_name": "Energy Drinks"
+        },
+        {
+          "id": "1923216",
+          "local_name": "Sports Drink"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729603253335396601",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B0BHFD947K"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Alani Nu CHERRY SLUSH Energy Sticks | Energy Drink Powder | 200mg Caffeine | Pre Workout Performance with Antioxidants | On-The-Go Drink Mix | Biotin, B Vitamins | Zero Sugar | 5 Calories | 10 Pack",
+      "update_time": 1738575341
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724418180,
+      "id": "1729603239948751097",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917256",
+          "local_name": "Sports & Energy Drinks"
+        },
+        {
+          "id": "1346832",
+          "local_name": "Energy Drinks"
+        },
+        {
+          "id": "1923216",
+          "local_name": "Sports Drink"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729603248517779705",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.49"
+          },
+          "seller_sku": "B0CJCPS3NS"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "BODYARMOR Flash IV Electrolyte Packets, Strawberry Kiwi - Zero Sugar Drink Mix, Single Serve Packs, Coconut Water Powder (6 Count)",
+      "update_time": 1739764111
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724417409,
+      "id": "1729603235286520057",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729603243782148345",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "3.72"
+          },
+          "seller_sku": "B00D1DP00S"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "TRUE LIME Black Cherry Limeade Drink Mix (10 Packets) | Made from Real Limes | No Preservatives, No Artificial Sweeteners, Gluten Free | Water Flavor Packets & Water Enhancer with Stevia",
+      "update_time": 1738576007
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724417121,
+      "id": "1729603233168199929",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729603234845855993",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.96"
+          },
+          "seller_sku": "B00HO5IS8A"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Carnation Breakfast Essentials Powder Drink Mix, Rich Milk Chocolate,1.26 Ounce (Pack of 22), (Packaging May Vary)",
+      "update_time": 1738576007
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724320620,
+      "id": "1729601031829623033",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729601050483921145",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "10.4"
+          },
+          "seller_sku": "B003YP3MUS"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "TRUE LEMON Water Enhancer, Bulk Dispenser, 100 Count (Pack of 1), 0 Calorie Drink Mix Packets For Water, Sugar Free Lemon Flavoring Powder Packets",
+      "update_time": 1738576005
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724320294,
+      "id": "1729601013205012729",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729601026092011769",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "9.72"
+          },
+          "seller_sku": "B005ECLIUA"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "TRUE LIME Water Enhancer, Bulk Dispenser Pack (100 Packets), 0 Calorie Drink Mix Packets For Water, Sugar Free Lime Flavoring Powder Packets, Water Flavor Packets Made with Real Limes",
+      "update_time": 1738576005
+    },
+    {
+      "audit": {
+        "status": "FAILED"
+      },
+      "create_time": 1724319405,
+      "id": "1729600975567884537",
+      "is_not_for_sale": false,
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729601002948038905",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.24"
+          },
+          "seller_sku": "B07XB745PC"
+        },
+        {
+          "id": "1729601002948104441",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.41"
+          },
+          "seller_sku": "B002RSRURY"
+        },
+        {
+          "id": "1729601002948169977",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.86"
+          },
+          "seller_sku": "B0CJVS18JS"
+        },
+        {
+          "id": "1729601002948235513",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.02"
+          },
+          "seller_sku": "B07D14JQLG"
+        },
+        {
+          "id": "1729601002948301049",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.97"
+          },
+          "seller_sku": "B097NLLWDZ"
+        },
+        {
+          "id": "1729600993783025913",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.02"
+          },
+          "seller_sku": "B0083ZX29U"
+        },
+        {
+          "id": "1729600993783091449",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "16.02"
+          },
+          "seller_sku": "B0CJW7BRX4"
+        },
+        {
+          "id": "1729600993783156985",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "22.86"
+          },
+          "seller_sku": "B0CWJMCV11"
+        }
+      ],
+      "status": "FAILED",
+      "title": "CELSIUS On-the-Go Powder Sticks, Essential Energy 2.8 Oz (14 Sticks per Pack), Pick Your Flavor",
+      "update_time": 1724334472
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724236514,
+      "id": "1729599043806925049",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917256",
+          "local_name": "Sports & Energy Drinks"
+        },
+        {
+          "id": "1346832",
+          "local_name": "Energy Drinks"
+        },
+        {
+          "id": "1923600",
+          "local_name": "Caffeinated Energy Beverages"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729599052485857529",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.47"
+          },
+          "seller_sku": "B09SN594FK"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "V8 SPARKLING +ENERGY Orange Pineapple Energy Drink, 11.5 fl oz Can (Pack of 4)",
+      "update_time": 1740134408
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724236153,
+      "id": "1729599030336131321",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917000",
+          "local_name": "Water & Flavored Water"
+        },
+        {
+          "id": "1345040",
+          "local_name": "Still Water"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729599047254184185",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "7.49"
+          },
+          "seller_sku": "B00091S3K4"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Pure Life, Purified Water, 8 Fl Oz, Plastic Bottled Water, 24 Pack",
+      "update_time": 1738576006
+    },
+    {
+      "audit": {
+        "status": "FAILED"
+      },
+      "create_time": 1724235723,
+      "id": "1729599019063480569",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "POOR",
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729599033749639417",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "3"
+          },
+          "seller_sku": "B08QWBXG9F"
+        }
+      ],
+      "status": "FAILED",
+      "title": "Rockstar Pure Zero Fruit Punch, 16 Fl Oz Can",
+      "update_time": 1724236947
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724158649,
+      "id": "1729597236367429881",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "916616",
+          "local_name": "Chocolate & Malted Drinks"
+        },
+        {
+          "id": "1352080",
+          "local_name": "Chocolate Mix"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729597239042871545",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "18.36"
+          },
+          "seller_sku": "B07P6TDXV1"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nesquik Chocolate Lowfat Milk Ready to Drink 12 Pack of 8 fl oz",
+      "update_time": 1739764111
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724158323,
+      "id": "1729597235674452217",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "917512",
+          "local_name": "Hydration Powders"
+        },
+        {
+          "id": "1347856",
+          "local_name": "Flavoring powder"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729597234406134009",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "14.36"
+          },
+          "seller_sku": "B087QC9BLW"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nesquik Large Strawberry Powder Drink Mix, 35.5 Ounce (Pack of 1)",
+      "update_time": 1738576005
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724157847,
+      "id": "1729597224030736633",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "POOR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "915336",
+          "local_name": "Snacks"
+        },
+        {
+          "id": "700553",
+          "local_name": "Biscuits, Cookies & Wafers"
+        },
+        {
+          "id": "1327760",
+          "local_name": "Breadsticks & -nibbles"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729597232547205369",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "11.85"
+          },
+          "seller_sku": "B00KO2UEAA"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Nesquik Banana Flavour 300g",
+      "update_time": 1739764111
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724118382,
+      "id": "1729595805235974393",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "700612",
+          "local_name": "Coffee"
+        },
+        {
+          "id": "1351312",
+          "local_name": "Coffee Beans/Tea Leaves"
+        },
+        {
+          "id": "1924624",
+          "local_name": "Instant Coffee"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729595810786218233",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "28.19"
+          },
+          "seller_sku": "B00P0ZMWEC"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Lavazza Espresso Whole Bean Coffee Blend, Medium Roast, 2.2 Pound Bag (Packaging May Vary) Premium Quality, Non GMO,  Arabica, Rich bodied",
+      "update_time": 1738576005
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724117870,
+      "id": "1729595794858610937",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "700612",
+          "local_name": "Coffee"
+        },
+        {
+          "id": "1351312",
+          "local_name": "Coffee Beans/Tea Leaves"
+        },
+        {
+          "id": "1924496",
+          "local_name": "Roasted Whole Coffee Beans"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729595801591648505",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "9.05"
+          },
+          "seller_sku": "B00TI16G46"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Community Coffee Pecan Praline Flavored 12 Ounces, Medium Roast Ground Coffee, 12 Ounce Bag (Pack of 1)",
+      "update_time": 1738576004
+    },
+    {
+      "audit": {
+        "status": "APPROVED"
+      },
+      "create_time": 1724117204,
+      "id": "1729595787801039097",
+      "is_not_for_sale": false,
+      "listing_quality_tier": "FAIR",
+      "recommended_categories": [
+        {
+          "id": "700437",
+          "local_name": "Food & Beverages"
+        },
+        {
+          "id": "914824",
+          "local_name": "Drinks"
+        },
+        {
+          "id": "700612",
+          "local_name": "Coffee"
+        },
+        {
+          "id": "1351312",
+          "local_name": "Coffee Beans/Tea Leaves"
+        },
+        {
+          "id": "1924624",
+          "local_name": "Instant Coffee"
+        }
+      ],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729595791490650361",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "8.99"
+          },
+          "seller_sku": "B07GDJC925"
+        }
+      ],
+      "status": "ACTIVATE",
+      "title": "Maxwell House Morning Boost Medium Roast Ground Coffee (11.5 oz Canister)",
+      "update_time": 1738576003
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1730816006,
+      "id": "1729837675101196537",
+      "is_not_for_sale": false,
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "external_list_prices": [],
+          "id": "1729837697835831545",
+          "inventory": [
+            {
+              "quantity": 0,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "seller_sku": ""
+        }
+      ],
+      "status": "DRAFT",
+      "title": "Lotus Biscoff Caramelized Biscuit Snack - Non GMO, RSPO - Dispenser Box - Cooky",
+      "update_time": 1730816127
+    },
+    {
+      "audit": {
+        "status": "NONE"
+      },
+      "create_time": 1725663820,
+      "id": "1729627628727537913",
+      "is_not_for_sale": false,
+      "recommended_categories": [],
+      "sales_regions": [
+        "US"
+      ],
+      "skus": [
+        {
+          "id": "1729627686377984249",
+          "inventory": [
+            {
+              "quantity": 10,
+              "warehouse_id": "7403707756749080362"
+            }
+          ],
+          "price": {
+            "currency": "USD",
+            "tax_exclusive_price": "18.38"
+          },
+          "seller_sku": "B0002AUTN6"
+        }
+      ],
+      "status": "DRAFT",
+      "title": "The Republic of Tea – Mango Ceylon Black Tea, Metabolic Frolic Tea, 50 Tea Bag Tin",
+      "update_time": 1725664000
+    }
+  ],
+  "total_count": 127
+}

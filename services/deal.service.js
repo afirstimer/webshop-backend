@@ -230,6 +230,8 @@ export const reqUpdateActivityProduct = async (
       shop_cipher: shop.tiktokShopCipher,
       version: "202309",
       shop_id: shop.tiktokShopId,
+      app_key: process.env.TIKTOK_SHOP_APP_KEY,
+      access_token: shop.shopAccessToken,
     };
 
     let products = [];
@@ -265,7 +267,6 @@ export const reqUpdateActivityProduct = async (
           }
           productSkus.push({
             id: productResponse.data.data.skus[j].id,
-            price: productResponse.data.data.skus[j].price.tax_exclusive_price,
             discount: dealDiscount,
             quantity_limit: parseInt(qtyLimit),
             quantity_per_user: parseInt(qtyPerUser),
@@ -275,8 +276,8 @@ export const reqUpdateActivityProduct = async (
 
       products.push({
         id: productIds[i],
-        quantity_limit: qtyLimit,
-        quantity_per_user: qtyPerUser,
+        quantity_limit: parseInt(qtyLimit),
+        quantity_per_user: parseInt(qtyPerUser),
         skus: productSkus,
       });
     }

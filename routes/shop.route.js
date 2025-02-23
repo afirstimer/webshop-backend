@@ -1,23 +1,24 @@
 import express from "express";
 import { verifyToken } from "../middleware/verifyToken.js";
 import {
-    getShops,
-    getAllShops,
-    getActiveShops,
-    getShop, 
-    getShopOrders,
-    getShopsByUser,
-    createShop, 
-    updateShop, 
-    requestAuthorizedShops, 
-    getTiktokShopInfo,
-    getMembersOnShop,
-    syncOrders,
-    syncProducts,
-    syncAllShops,
-    syncAllOrderShops,
-    refreshToken,
-    deleteShop
+  getShops,
+  getAllShops,
+  getActiveShops,
+  getShop,
+  getShopOrders,
+  getShopsByUser,
+  createShop,
+  updateShop,
+  requestAuthorizedShops,
+  getTiktokShopInfo,
+  getMembersOnShop,
+  syncOrders,
+  syncProducts,
+  syncAllShops,
+  syncAllOrderShops,
+  refreshToken,
+  deleteShop,
+  syncAllShopPromos,
 } from "../controllers/shop.controller.js";
 
 const router = express.Router();
@@ -41,6 +42,7 @@ router.delete("/:id", verifyToken, deleteShop);
 router.get("/sync-orders-all", verifyToken, syncAllOrderShops);
 router.get("/sync-orders/:id", verifyToken, syncOrders);
 router.get("/sync-products-all", verifyToken, syncAllShops);
+router.get("/sync-promos-all", verifyToken, syncAllShopPromos);
 router.get("/sync-products/:id", verifyToken, syncProducts);
 
 export default router;

@@ -112,3 +112,14 @@ export const getPercentPromo = (inputPrice, priceList) => {
 
   return matched ? matched.percent : null;
 };
+
+// Function to check if object with param exists and convert int to string
+export const convertToString = (arr, paramName, paramValue) => {
+  let found = arr.find((obj) => obj[paramName] === paramValue);
+  if (found) {
+    // Convert integer to string
+    found.id = found.id.toString();
+    return found;
+  }
+  return null;
+};

@@ -1,6 +1,116 @@
 {
-  "next_page_token": "aDV5MHJHS1dhRUpLUkdOTjl5NklidkJWbG82bUdOWGZuc3NIYUxaQmYrZnhmQT09",
+  "next_page_token": "aDV5MHJHS1dha0pOVG1WTThTNklidVZZUnVUMUNCeExJWlZSRzVXVVRKWGxXQT09",
   "orders": [
+    {
+      "buyer_email": "v4bD3U2BOSD4YDNEG7PED4CFJWJ2A@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1740466799,
+      "create_time": 1739380728,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1740417531,
+      "delivery_sla_time": 1740553199,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576884231525142946",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "AWAITING_SHIPMENT",
+          "id": "576884231525274018",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.49",
+              "tax_rate": "0.07",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "12.72",
+          "platform_discount": "0",
+          "product_id": "1729549002432156256",
+          "product_name": "Welch's Fruit Snacks, Mixed Fruit, For School Lunches, Gluten Free, Bulk Pack, Individual Single Serve Bags, Pick Your Flavor Size",
+          "sale_price": "7",
+          "seller_discount": "5.72",
+          "seller_sku": "B0BWSLR5HB",
+          "sku_id": "1730311392759943776",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4d9dddbf0bbb4ccfa2616dffb698c5c6~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Berries 'N Cherries",
+          "sku_type": "NORMAL",
+          "tracking_number": ""
+        }
+      ],
+      "packages": [],
+      "paid_time": 1739380731,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "12.72",
+        "platform_discount": "0",
+        "product_tax": "0.49",
+        "seller_discount": "5.72",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0.56",
+        "sub_total": "7",
+        "tax": "1.05",
+        "total_amount": "16.04"
+      },
+      "payment_method_name": "ApplePay",
+      "recipient_address": {
+        "address_detail": "1311 Newland St # 1311",
+        "address_line1": "1311 Newland St # 1311",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "North Carolina"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Chatham"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Siler City"
+          }
+        ],
+        "first_name": "Brittanney",
+        "full_address": "United States, North Carolina, Chatham, Siler City,1311 Newland St # 1311",
+        "last_name": "Williams",
+        "name": "Brittanney Williams",
+        "phone_number": "(+1)9842043173",
+        "postal_code": "27344",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1739948399,
+      "seller_note": "",
+      "shipping_due_time": 1740466799,
+      "shipping_type": "SELLER",
+      "status": "AWAITING_SHIPMENT",
+      "tts_sla_time": 1739948399,
+      "update_time": 1739553532,
+      "user_id": "7495149538052376994",
+      "warehouse_id": "7386105412573562667"
+    },
     {
       "buyer_email": "v4bD3U2BOSD4YDNEHRP4LTJH23W24@scs.tiktokw.us",
       "buyer_message": "",
@@ -11,6 +121,7 @@
       "delivery_option_name": "Standard Shipping",
       "delivery_option_required_delivery_time": 1739882816,
       "delivery_sla_time": 1740034799,
+      "delivery_time": 1739126029,
       "delivery_type": "HOME_DELIVERY",
       "fulfillment_type": "FULFILLMENT_BY_SELLER",
       "has_updated_recipient_address": false,
@@ -22,7 +133,7 @@
       "line_items": [
         {
           "currency": "USD",
-          "display_status": "IN_TRANSIT",
+          "display_status": "DELIVERED",
           "id": "576878321402418168",
           "is_dangerous_good": false,
           "is_gift": false,
@@ -35,7 +146,7 @@
           ],
           "original_price": "7.49",
           "package_id": "1153873380459451384",
-          "package_status": "FULFILLING",
+          "package_status": "COMPLETED",
           "platform_discount": "0",
           "product_id": "1729613320388121184",
           "product_name": "Diamond of California Pecan Pie Snack Pecans, 3.5 oz, 1 Pack",
@@ -46,7 +157,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9361289689044086978625"
@@ -118,10 +229,10 @@
       "shipping_provider": "USPS",
       "shipping_provider_id": "7117858858072016686",
       "shipping_type": "SELLER",
-      "status": "IN_TRANSIT",
+      "status": "DELIVERED",
       "tracking_number": "9361289689044086978625",
       "tts_sla_time": 1739343599,
-      "update_time": 1739052354,
+      "update_time": 1739126029,
       "user_id": "7494002817906805752",
       "warehouse_id": "7386105412573562667"
     },
@@ -296,7 +407,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9405536208070313869319"
@@ -513,6 +624,7 @@
       "delivery_option_name": "Standard Shipping",
       "delivery_option_required_delivery_time": 1739368245,
       "delivery_sla_time": 1739516399,
+      "delivery_time": 1739210190,
       "delivery_type": "HOME_DELIVERY",
       "fulfillment_type": "FULFILLMENT_BY_SELLER",
       "has_updated_recipient_address": false,
@@ -524,7 +636,7 @@
       "line_items": [
         {
           "currency": "USD",
-          "display_status": "IN_TRANSIT",
+          "display_status": "DELIVERED",
           "id": "576875573147308859",
           "is_dangerous_good": false,
           "is_gift": false,
@@ -537,7 +649,7 @@
           ],
           "original_price": "7.49",
           "package_id": "1153864821208093499",
-          "package_status": "FULFILLING",
+          "package_status": "COMPLETED",
           "platform_discount": "0",
           "product_id": "1729613320388121184",
           "product_name": "Diamond of California Pecan Pie Snack Pecans, 3.5 oz, 1 Pack",
@@ -620,10 +732,10 @@
       "shipping_provider": "USPS",
       "shipping_provider_id": "7117858858072016686",
       "shipping_type": "SELLER",
-      "status": "IN_TRANSIT",
+      "status": "DELIVERED",
       "tracking_number": "9400109206094672764415",
       "tts_sla_time": 1738911599,
-      "update_time": 1739037692,
+      "update_time": 1739210190,
       "user_id": "7494006104249830203",
       "warehouse_id": "7386105412573562667"
     },
@@ -673,7 +785,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9400109206094673658089"
@@ -748,7 +860,7 @@
       "status": "DELIVERED",
       "tracking_number": "9400109206094673658089",
       "tts_sla_time": 1738825199,
-      "update_time": 1739041119,
+      "update_time": 1739409581,
       "user_id": "7494769063994034440",
       "warehouse_id": "7386105412573562667"
     },
@@ -798,7 +910,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729592004516549216",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f2d771169e1549e0ab5aaa58fafc23ac~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f2d771169e1549e0ab5aaa58fafc23ac~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9400109206094672915237"
@@ -899,7 +1011,7 @@
       "line_items": [
         {
           "currency": "USD",
-          "display_status": "DELIVERED",
+          "display_status": "COMPLETED",
           "id": "576837957076226631",
           "is_dangerous_good": false,
           "is_gift": false,
@@ -923,7 +1035,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9400109206094642477369"
@@ -995,10 +1107,10 @@
       "shipping_provider": "USPS",
       "shipping_provider_id": "7117858858072016686",
       "shipping_type": "SELLER",
-      "status": "DELIVERED",
+      "status": "COMPLETED",
       "tracking_number": "9400109206094642477369",
       "tts_sla_time": 1736233199,
-      "update_time": 1736791186,
+      "update_time": 1739383186,
       "user_id": "7494878912752683591",
       "warehouse_id": "7386105412573562667"
     },
@@ -1173,7 +1285,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729916831146414688",
-          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/059a4923d4db4e0282c152f9f7ade1c6~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/059a4923d4db4e0282c152f9f7ade1c6~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Assorted Flavors",
           "sku_type": "NORMAL",
           "tracking_number": "9405536208070293853780"
@@ -1248,7 +1360,7 @@
       "status": "COMPLETED",
       "tracking_number": "9405536208070293853780",
       "tts_sla_time": 1734505199,
-      "update_time": 1736976043,
+      "update_time": 1739568043,
       "user_id": "7494810642751916080",
       "warehouse_id": "7386105412573562667"
     },
@@ -1298,7 +1410,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9434636208070297558666"
@@ -1623,7 +1735,7 @@
       "status": "COMPLETED",
       "tracking_number": "9361289718041571448220",
       "tts_sla_time": 1734418799,
-      "update_time": 1736876194,
+      "update_time": 1739468194,
       "user_id": "7494004246488975666",
       "warehouse_id": "7386105412573562667"
     },
@@ -1673,7 +1785,7 @@
           "shipping_provider_id": "7117859084333745966",
           "shipping_provider_name": "UPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "1ZF211K3YN10740999"
@@ -1798,7 +1910,7 @@
           "shipping_provider_id": "7117859084333745966",
           "shipping_provider_name": "UPS",
           "sku_id": "1729581432682680928",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a993d2c1cc3943ca8ead83c31c4e5b1d~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a993d2c1cc3943ca8ead83c31c4e5b1d~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "1Z0R38R71391548930"
@@ -1923,7 +2035,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9361289715541460611207"
@@ -1954,7 +2066,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9361289715541460611207"
@@ -2029,7 +2141,7 @@
       "status": "COMPLETED",
       "tracking_number": "9361289715541460611207",
       "tts_sla_time": 1734159599,
-      "update_time": 1736703774,
+      "update_time": 1739295774,
       "user_id": "7494246622812212145",
       "warehouse_id": "7386105412573562667"
     },
@@ -2110,7 +2222,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9434636208070296063628"
@@ -2185,7 +2297,7 @@
       "status": "COMPLETED",
       "tracking_number": "9434636208070296063628",
       "tts_sla_time": 1734159599,
-      "update_time": 1736958580,
+      "update_time": 1739550580,
       "user_id": "7494597761506511581",
       "warehouse_id": "7386105412573562667"
     },
@@ -2236,7 +2348,7 @@
           "shipping_provider_id": "7117858858072016686",
           "shipping_provider_name": "USPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "9361289722641410532184"
@@ -2312,7 +2424,7 @@
       "status": "COMPLETED",
       "tracking_number": "9361289722641410532184",
       "tts_sla_time": 1734159599,
-      "update_time": 1736718010,
+      "update_time": 1739310010,
       "user_id": "7495065829853595740",
       "warehouse_id": "7386105412573562667"
     },
@@ -2393,7 +2505,7 @@
           "shipping_provider_id": "7117859084333745966",
           "shipping_provider_name": "UPS",
           "sku_id": "1729613313322685024",
-          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
           "sku_name": "Default",
           "sku_type": "NORMAL",
           "tracking_number": "1Z7539011380112902"
@@ -2468,135 +2580,10 @@
       "status": "COMPLETED",
       "tracking_number": "1Z7539011380112902",
       "tts_sla_time": 1734073199,
-      "update_time": 1736707989,
+      "update_time": 1739299989,
       "user_id": "7493999360761694849",
-      "warehouse_id": "7386105412573562667"
-    },
-    {
-      "buyer_email": "v4bD3U2BOSD4YDNEHXP5KSACA7V2E@scs.tiktokw.us",
-      "buyer_message": "",
-      "cancel_order_sla_time": 1734591599,
-      "collection_time": 1734014093,
-      "create_time": 1733759291,
-      "delivery_option_id": "7129736060325594926",
-      "delivery_option_name": "Standard Shipping",
-      "delivery_option_required_delivery_time": 1734536894,
-      "delivery_sla_time": 1734677999,
-      "delivery_time": 1734125196,
-      "delivery_type": "HOME_DELIVERY",
-      "fulfillment_type": "FULFILLMENT_BY_SELLER",
-      "has_updated_recipient_address": false,
-      "id": "576809566745564116",
-      "is_cod": false,
-      "is_on_hold_order": true,
-      "is_replacement_order": false,
-      "is_sample_order": false,
-      "line_items": [
-        {
-          "currency": "USD",
-          "display_status": "COMPLETED",
-          "id": "576809566745695188",
-          "is_dangerous_good": false,
-          "is_gift": false,
-          "item_tax": [
-            {
-              "tax_amount": "0.33",
-              "tax_rate": "0.08",
-              "tax_type": "SALES_TAX"
-            }
-          ],
-          "original_price": "7.49",
-          "package_id": "1153681638525342676",
-          "package_status": "COMPLETED",
-          "platform_discount": "0",
-          "product_id": "1729613320388121184",
-          "product_name": "Diamond of California Pecan Pie Snack Pecans, 3.5 oz, 1 Pack",
-          "rts_time": 1734014085,
-          "sale_price": "4.12",
-          "seller_discount": "3.37",
-          "seller_sku": "B0CC3VQKQY",
-          "shipping_provider_id": "7117859084333745966",
-          "shipping_provider_name": "UPS",
-          "sku_id": "1729613313322685024",
-          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d2a32f7112c473abb73f21661de3b4e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
-          "sku_name": "Default",
-          "sku_type": "NORMAL",
-          "tracking_number": "1Z3285110376005020"
-        }
-      ],
-      "packages": [
-        {
-          "id": "1153681638525342676"
-        }
-      ],
-      "paid_time": 1733759294,
-      "payment": {
-        "currency": "USD",
-        "original_shipping_fee": "7.99",
-        "original_total_product_price": "7.49",
-        "platform_discount": "0",
-        "product_tax": "0.33",
-        "seller_discount": "3.37",
-        "shipping_fee": "7.99",
-        "shipping_fee_cofunded_discount": "0",
-        "shipping_fee_platform_discount": "0",
-        "shipping_fee_seller_discount": "0",
-        "shipping_fee_tax": "0",
-        "sub_total": "4.12",
-        "tax": "0.33",
-        "total_amount": "12.44"
-      },
-      "payment_method_name": "CCDC",
-      "recipient_address": {
-        "address_detail": "2706 Wellington Cir",
-        "address_line1": "2706 Wellington Cir",
-        "address_line2": "",
-        "address_line3": "",
-        "address_line4": "",
-        "district_info": [
-          {
-            "address_level": "L0",
-            "address_level_name": "Country",
-            "address_name": "United States"
-          },
-          {
-            "address_level": "L1",
-            "address_level_name": "State",
-            "address_name": "Alabama"
-          },
-          {
-            "address_level": "L2",
-            "address_level_name": "County",
-            "address_name": "Shelby"
-          },
-          {
-            "address_level": "L3",
-            "address_level_name": "City",
-            "address_name": "Pelham"
-          }
-        ],
-        "first_name": "Tamara",
-        "full_address": "United States, Alabama, Shelby, Pelham,2706 Wellington Cir",
-        "last_name": "Denson",
-        "name": "Tamara Denson",
-        "phone_number": "(+1)2056027356",
-        "postal_code": "35124",
-        "region_code": "US"
-      },
-      "rts_sla_time": 1734073199,
-      "rts_time": 1734014085,
-      "seller_note": "",
-      "shipping_due_time": 1734591599,
-      "shipping_provider": "UPS",
-      "shipping_provider_id": "7117859084333745966",
-      "shipping_type": "SELLER",
-      "status": "COMPLETED",
-      "tracking_number": "1Z3285110376005020",
-      "tts_sla_time": 1734073199,
-      "update_time": 1736717196,
-      "user_id": "7494028484938075092",
       "warehouse_id": "7386105412573562667"
     }
   ],
-  "total_count": 183
+  "total_count": 184
 }

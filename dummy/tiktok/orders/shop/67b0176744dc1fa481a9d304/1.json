@@ -1,0 +1,2546 @@
+{
+  "next_page_token": "aDV5MHJXaVNaVXhQVEdkTDhpbUliaDVlVUJscmVKVkVUTXJkaE5LWUc1OWl6Zz09",
+  "orders": [
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGTP4ASKGGZO24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1740553199,
+      "create_time": 1739487286,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1740524090,
+      "delivery_sla_time": 1740639599,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576885440700780567",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "AWAITING_SHIPMENT",
+          "id": "576885440700911639",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.065",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee Flavor Beverage",
+          "sale_price": "2.7",
+          "seller_discount": "3.29",
+          "seller_sku": "B007ZZSOH4",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": ""
+        }
+      ],
+      "packages": [],
+      "paid_time": 1739487290,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "5.99",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "3.29",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "2.7",
+        "tax": "0",
+        "total_amount": "10.69"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "6020 W Paris St",
+        "address_line1": "6020 W Paris St",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Florida"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Hillsborough"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Tampa"
+          }
+        ],
+        "first_name": "Dania",
+        "full_address": "United States, Florida, Hillsborough, Tampa,6020 W Paris St",
+        "last_name": "Puyalena",
+        "name": "Dania Puyalena",
+        "phone_number": "(+1)8133763508",
+        "postal_code": "33634",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1740034799,
+      "seller_note": "",
+      "shipping_due_time": 1740553199,
+      "shipping_type": "SELLER",
+      "status": "AWAITING_SHIPMENT",
+      "tts_sla_time": 1740034799,
+      "update_time": 1739490891,
+      "user_id": "7494037895538313239",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGTP4ASKGGZO24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1740553199,
+      "create_time": 1739487256,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1740524059,
+      "delivery_sla_time": 1740639599,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576885440237637655",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "AWAITING_SHIPMENT",
+          "id": "576885440237768727",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.065",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee Flavor Beverage",
+          "sale_price": "2.7",
+          "seller_discount": "3.29",
+          "seller_sku": "B007ZZSOH4",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": ""
+        }
+      ],
+      "packages": [],
+      "paid_time": 1739487259,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "5.99",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "3.29",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "2.7",
+        "tax": "0",
+        "total_amount": "10.69"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "6020 W Paris St",
+        "address_line1": "6020 W Paris St",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Florida"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Hillsborough"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Tampa"
+          }
+        ],
+        "first_name": "Dania",
+        "full_address": "United States, Florida, Hillsborough, Tampa,6020 W Paris St",
+        "last_name": "Puyalena",
+        "name": "Dania Puyalena",
+        "phone_number": "(+1)8133763508",
+        "postal_code": "33634",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1740034799,
+      "seller_note": "",
+      "shipping_due_time": 1740553199,
+      "shipping_type": "SELLER",
+      "status": "AWAITING_SHIPMENT",
+      "tts_sla_time": 1740034799,
+      "update_time": 1739490860,
+      "user_id": "7494037895538313239",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEG3PMHQO46DW24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1739948399,
+      "collection_time": 1739194016,
+      "create_time": 1738899670,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1739936474,
+      "delivery_sla_time": 1740034799,
+      "delivery_time": 1739290155,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576879082837152556",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "DELIVERED",
+          "id": "576879082837283628",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.07",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "16.49",
+          "package_id": "1153875445345719084",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729902819232026873",
+          "product_name": "Krunchy Melts Original Meringue Cookies - Fat Free, Gluten Free, Dairy Free (4 Oz) - Pick Your Flavor - Snack Low Sugar",
+          "rts_time": 1739193743,
+          "sale_price": "9.07",
+          "seller_discount": "7.42",
+          "seller_sku": "B072QLTP1V",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729902819232092409",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/07cfb3846c9941ca9b647a434e88741e~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Mint Chocolate Chip",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094678199518"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153875445345719084"
+        }
+      ],
+      "paid_time": 1738899674,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "16.49",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "7.42",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "9.07",
+        "tax": "0",
+        "total_amount": "17.06"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "606 Rolling Woods Dr",
+        "address_line1": "606 Rolling Woods Dr",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Pennsylvania"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Allegheny"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "North Versailles"
+          }
+        ],
+        "first_name": "kennedy",
+        "full_address": "United States, Pennsylvania, Allegheny, North Versailles,606 Rolling Woods Dr",
+        "last_name": "brown",
+        "name": "kennedy brown",
+        "phone_number": "(+1)4129909035",
+        "postal_code": "15137",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1739343599,
+      "rts_time": 1739193743,
+      "seller_note": "",
+      "shipping_due_time": 1739948399,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "DELIVERED",
+      "tracking_number": "9400109206094678199518",
+      "tts_sla_time": 1739343599,
+      "update_time": 1739290155,
+      "user_id": "7494000420128066348",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGVP4CWDLSLX24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1739602799,
+      "collection_time": 1739105387,
+      "create_time": 1738773776,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1739551380,
+      "delivery_sla_time": 1739948399,
+      "delivery_time": 1739207310,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576877506062291077",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "DELIVERED",
+          "id": "576877506062487685",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.72",
+              "tax_rate": "0.09125",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "14.22",
+          "package_id": "1153871131199115397",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729618600681574649",
+          "product_name": "Red Bull Energy Drink, Amber Edition Strawberry Apricot, 12 fl oz (4 Pack)",
+          "rts_time": 1739105098,
+          "sale_price": "7.83",
+          "seller_discount": "6.39",
+          "seller_sku": "B0BSZ7HDYK",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729628969978466553",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7e8fd108c43741889673a9575b849983~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Strawberry Apricot",
+          "sku_type": "NORMAL",
+          "tracking_number": "9434636208070322794960"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153871131199115397"
+        }
+      ],
+      "paid_time": 1738773780,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "14.22",
+        "platform_discount": "0",
+        "product_tax": "0.72",
+        "seller_discount": "6.39",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "7.83",
+        "tax": "0.72",
+        "total_amount": "16.54"
+      },
+      "payment_method_name": "ApplePay",
+      "recipient_address": {
+        "address_detail": "350 Garden St",
+        "address_line1": "350 Garden St",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "California"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Santa Clara"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "East Palo Alto"
+          }
+        ],
+        "first_name": "Isaiah",
+        "full_address": "United States, California, Santa Clara, East Palo Alto,350 Garden St",
+        "last_name": "Robinson",
+        "name": "Isaiah Robinson",
+        "phone_number": "(+1)6502132634",
+        "postal_code": "94303",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1739257199,
+      "rts_time": 1739105098,
+      "seller_note": "",
+      "shipping_due_time": 1739602799,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "DELIVERED",
+      "tracking_number": "9434636208070322794960",
+      "tts_sla_time": 1739257199,
+      "update_time": 1739207310,
+      "user_id": "7494001403957184645",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHVPMPYNRKLW24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1739516399,
+      "collection_time": 1738902419,
+      "create_time": 1738687783,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1739465403,
+      "delivery_sla_time": 1739602799,
+      "delivery_time": 1738969719,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576876579467006104",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "DELIVERED",
+          "id": "576876579467137176",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.6",
+              "tax_rate": "0.08",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "7.47",
+          "package_id": "1153868360935379096",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729599043806925049",
+          "product_name": "V8 SPARKLING +ENERGY Orange Pineapple Energy Drink, 11.5 fl oz Can (Pack of 4)",
+          "rts_time": 1738902411,
+          "sale_price": "7.47",
+          "seller_discount": "0",
+          "seller_sku": "B09SN594FK",
+          "shipping_provider_id": "7117859084333745966",
+          "shipping_provider_name": "UPS",
+          "sku_id": "1729599052485857529",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f2fccbcb5e554f158c26257858d70833~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "1ZK597R60300167535"
+        },
+        {
+          "currency": "USD",
+          "display_status": "DELIVERED",
+          "id": "576876579467202712",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.6",
+              "tax_rate": "0.08",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "7.47",
+          "package_id": "1153868360935379096",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729599043806925049",
+          "product_name": "V8 SPARKLING +ENERGY Orange Pineapple Energy Drink, 11.5 fl oz Can (Pack of 4)",
+          "rts_time": 1738902411,
+          "sale_price": "7.47",
+          "seller_discount": "0",
+          "seller_sku": "B09SN594FK",
+          "shipping_provider_id": "7117859084333745966",
+          "shipping_provider_name": "UPS",
+          "sku_id": "1729599052485857529",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f2fccbcb5e554f158c26257858d70833~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "1ZK597R60300167535"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153868360935379096"
+        }
+      ],
+      "paid_time": 1738687803,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "14.94",
+        "platform_discount": "0",
+        "product_tax": "1.2",
+        "seller_discount": "0",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "14.94",
+        "tax": "1.2",
+        "total_amount": "24.13"
+      },
+      "payment_method_name": "Klarna Pay over time",
+      "recipient_address": {
+        "address_detail": "270 Bailey Rd",
+        "address_line1": "270 Bailey Rd",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Alabama"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Calhoun"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Weaver"
+          }
+        ],
+        "first_name": "Teresa",
+        "full_address": "United States, Alabama, Calhoun, Weaver,270 Bailey Rd",
+        "last_name": "Delozier",
+        "name": "Teresa Delozier",
+        "phone_number": "(+1)2566898171",
+        "postal_code": "36277",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1738997999,
+      "rts_time": 1738902411,
+      "seller_note": "",
+      "shipping_due_time": 1739516399,
+      "shipping_provider": "UPS",
+      "shipping_provider_id": "7117859084333745966",
+      "shipping_type": "SELLER",
+      "status": "DELIVERED",
+      "tracking_number": "1ZK597R60300167535",
+      "tts_sla_time": 1738997999,
+      "update_time": 1739043218,
+      "user_id": "7493994816390662296",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHRPMIM3B33X24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1735023599,
+      "collection_time": 1734233200,
+      "create_time": 1734059809,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1735010214,
+      "delivery_sla_time": 1735109999,
+      "delivery_time": 1734550388,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576814847518741291",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576814846186918699",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.0625",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "12.47",
+          "package_id": "1153698672586560299",
+          "package_status": "COMPLETED",
+          "platform_discount": "2.5",
+          "product_id": "1729597224030736633",
+          "product_name": "Nesquik Banana Flavour 300g",
+          "rts_time": 1734232960,
+          "sale_price": "4.36",
+          "seller_discount": "5.61",
+          "seller_sku": "B00KO2UEAA",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729597232547205369",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2ab828ccf2b54b259273ea636b561242~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9405536208070293575316"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153698672586560299"
+        }
+      ],
+      "paid_time": 1734059814,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "12.47",
+        "platform_discount": "2.5",
+        "product_tax": "0",
+        "seller_discount": "5.61",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "4.36",
+        "tax": "0",
+        "total_amount": "12.35"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "817 Farmstead Way",
+        "address_line1": "817 Farmstead Way",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Texas"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Rockwall"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Royse City"
+          }
+        ],
+        "first_name": "Sam",
+        "full_address": "United States, Texas, Rockwall, Royse City,817 Farmstead Way",
+        "last_name": "Deleon",
+        "name": "Sam Deleon",
+        "phone_number": "(+1)5123183354",
+        "postal_code": "75189",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1734505199,
+      "rts_time": 1734232960,
+      "seller_note": "",
+      "shipping_due_time": 1735023599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9405536208070293575316",
+      "tts_sla_time": 1734505199,
+      "update_time": 1737142388,
+      "user_id": "7494003344337177387",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGVPWHSNVISY2E@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1735023599,
+      "collection_time": 1734277237,
+      "create_time": 1734049481,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1734999885,
+      "delivery_sla_time": 1735109999,
+      "delivery_time": 1734372496,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576814578055352623",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576814578055549231",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.18",
+              "tax_rate": "0.08",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.54",
+          "package_id": "1153698027692921135",
+          "package_status": "COMPLETED",
+          "platform_discount": "0.45",
+          "product_id": "1729902821297721593",
+          "product_name": "SkinnyPop Original Popcorn, 4.4oz Grocery Size Bags, Skinny Pop, Healthy Popcorn Snacks, Gluten Free",
+          "rts_time": 1734277115,
+          "sale_price": "2.05",
+          "seller_discount": "3.04",
+          "seller_sku": "B0094FMHWQ",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729902821297787129",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/cc0d1b40a2cb4756bb91a4aa38e9fb86~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9361289706041631886394"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153698027692921135"
+        }
+      ],
+      "paid_time": 1734049485,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "5.54",
+        "platform_discount": "0.45",
+        "product_tax": "0.18",
+        "seller_discount": "3.04",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0.56",
+        "sub_total": "2.05",
+        "tax": "0.74",
+        "total_amount": "10.78"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "1021 Woody Dr",
+        "address_line1": "1021 Woody Dr",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Mississippi"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Hinds"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Jackson"
+          }
+        ],
+        "first_name": "Teresa",
+        "full_address": "United States, Mississippi, Hinds, Jackson,1021 Woody Dr",
+        "last_name": "Stokes",
+        "name": "Teresa Stokes",
+        "phone_number": "(+1)4143971992",
+        "postal_code": "39212",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1734505199,
+      "rts_time": 1734277115,
+      "seller_note": "",
+      "shipping_due_time": 1735023599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9361289706041631886394",
+      "tts_sla_time": 1734505199,
+      "update_time": 1736964496,
+      "user_id": "7495367381126121775",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHXPUG3VKH2M24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1734591599,
+      "collection_time": 1733748866,
+      "create_time": 1733466850,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1734417254,
+      "delivery_sla_time": 1734677999,
+      "delivery_time": 1733869796,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576805316661317831",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576805316661776583",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.26",
+              "tax_rate": "0.0375",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "12.41",
+          "package_id": "1153668505505796295",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729597224030736633",
+          "product_name": "Nesquik Banana Flavour 300g",
+          "retail_delivery_fee": "0.03",
+          "rts_time": 1733748857,
+          "sale_price": "6.84",
+          "seller_discount": "5.57",
+          "seller_sku": "B00KO2UEAA",
+          "shipping_provider_id": "7117859084333745966",
+          "shipping_provider_name": "UPS",
+          "sku_id": "1729597232547205369",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2ab828ccf2b54b259273ea636b561242~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "1Z82V5470366750337"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153668505505796295"
+        }
+      ],
+      "paid_time": 1733466854,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "12.41",
+        "platform_discount": "0",
+        "product_tax": "0.26",
+        "retail_delivery_fee": "0.03",
+        "seller_discount": "5.57",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0.3",
+        "sub_total": "6.84",
+        "tax": "0.56",
+        "total_amount": "15.42"
+      },
+      "payment_method_name": "ApplePay",
+      "recipient_address": {
+        "address_detail": "12671 Ivy St",
+        "address_line1": "12671 Ivy St",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Colorado"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Adams"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Thornton"
+          }
+        ],
+        "first_name": "sydney",
+        "full_address": "United States, Colorado, Adams, Thornton,12671 Ivy St",
+        "last_name": "morrison",
+        "name": "sydney morrison",
+        "phone_number": "(+1)7203135238",
+        "postal_code": "80602",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1734073199,
+      "rts_time": 1733748857,
+      "seller_note": "",
+      "shipping_due_time": 1734591599,
+      "shipping_provider": "UPS",
+      "shipping_provider_id": "7117859084333745966",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "1Z82V5470366750337",
+      "tts_sla_time": 1734073199,
+      "update_time": 1739053796,
+      "user_id": "7494172012000544967",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEG3PMHQO46DW24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1734073199,
+      "collection_time": 1733145951,
+      "create_time": 1732922120,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1733872524,
+      "delivery_sla_time": 1734159599,
+      "delivery_time": 1733334923,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576796758922466092",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576796758922662700",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.07",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "16.49",
+          "package_id": "1153639553423020844",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729902819232026873",
+          "product_name": "Krunchy Melts Original Meringue Cookies - Fat Free, Gluten Free, Dairy Free (4 Oz) - Pick Your Flavor - Snack Low Sugar",
+          "rts_time": 1733145944,
+          "sale_price": "9.07",
+          "seller_discount": "7.42",
+          "seller_sku": "B00JJYHDDA",
+          "shipping_provider_id": "7117859084333745966",
+          "shipping_provider_name": "UPS",
+          "sku_id": "1729902819232354553",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/86f5dc7bb20348b5ac54bb130ff55838~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Chocolate",
+          "sku_type": "NORMAL",
+          "tracking_number": "1Z093R6F0350020300"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153639553423020844"
+        }
+      ],
+      "paid_time": 1732922124,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "16.49",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "7.42",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "9.07",
+        "tax": "0",
+        "total_amount": "17.06"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "606 Rolling Woods Dr",
+        "address_line1": "606 Rolling Woods Dr",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Pennsylvania"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Allegheny"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "North Versailles"
+          }
+        ],
+        "first_name": "kennedy",
+        "full_address": "United States, Pennsylvania, Allegheny, North Versailles,606 Rolling Woods Dr",
+        "last_name": "brown",
+        "name": "kennedy brown",
+        "phone_number": "(+1)4129909035",
+        "postal_code": "15137",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1733554799,
+      "rts_time": 1733145944,
+      "seller_note": "",
+      "shipping_due_time": 1734073199,
+      "shipping_provider": "UPS",
+      "shipping_provider_id": "7117859084333745966",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "1Z093R6F0350020300",
+      "tts_sla_time": 1733554799,
+      "update_time": 1735926923,
+      "user_id": "7494000420128066348",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGTPEA33EWKS24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1733986799,
+      "collection_time": 1732799715,
+      "create_time": 1732666733,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1733530737,
+      "delivery_sla_time": 1734073199,
+      "delivery_time": 1734463014,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576792598048117452",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576792598048248524",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.075",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "13.4",
+          "package_id": "1153626681118986956",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729902834952605945",
+          "product_name": "Primrose Hard Candy - Classic Christmas Candy in 13 oz Holiday Retail Package - Ideal Gourmet Food Gift - Old Fashion Candy",
+          "rts_time": 1732799553,
+          "sale_price": "7.37",
+          "seller_discount": "6.03",
+          "seller_sku": "B017MSJLDE",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729902834952671481",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/6eb4f5626570448caa8d1994ef268f17~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Green Apple",
+          "sku_type": "NORMAL",
+          "tracking_number": "92055903470167300039341612"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153626681118986956"
+        }
+      ],
+      "paid_time": 1732666737,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "13.4",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "6.03",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "7.37",
+        "tax": "0",
+        "total_amount": "15.36"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "337 Shadowood Drive",
+        "address_line1": "337 Shadowood Drive",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Ohio"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Montgomery"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Vandalia"
+          }
+        ],
+        "first_name": "Tammy",
+        "full_address": "United States, Ohio, Montgomery, Vandalia,337 Shadowood Drive",
+        "last_name": "sells",
+        "name": "Tammy sells",
+        "phone_number": "(+1)9379022938",
+        "postal_code": "45377",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1733468399,
+      "rts_time": 1732799553,
+      "seller_note": "",
+      "shipping_due_time": 1733986799,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "92055903470167300039341612",
+      "tts_sla_time": 1733468399,
+      "update_time": 1737055015,
+      "user_id": "7494292145567664844",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHVPUW4PCAON2A@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1733468399,
+      "collection_time": 1732454846,
+      "create_time": 1732197306,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1733234109,
+      "delivery_sla_time": 1733554799,
+      "delivery_time": 1732578602,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576786214798398009",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576786214798594617",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.06625",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "package_id": "1153606204465844793",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee",
+          "rts_time": 1732454711,
+          "sale_price": "2.7",
+          "seller_discount": "3.29",
+          "seller_sku": "B007ZZSOH4",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "92055903470167300038444352"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153606204465844793"
+        }
+      ],
+      "paid_time": 1732197309,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "5.99",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "3.29",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "2.7",
+        "tax": "0",
+        "total_amount": "10.69"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "73 Highland St # 1",
+        "address_line1": "73 Highland St # 1",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "delivery_preferences": {
+          "drop_off_location": "Puerta trasera"
+        },
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "New Jersey"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Passaic"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Paterson"
+          }
+        ],
+        "first_name": "roxana",
+        "full_address": "United States, New Jersey, Passaic, Paterson,73 Highland St # 1",
+        "last_name": "rodriguez",
+        "name": "roxana rodriguez",
+        "phone_number": "(+1)8624147843",
+        "postal_code": "07524",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1732777199,
+      "rts_time": 1732454711,
+      "seller_note": "",
+      "shipping_due_time": 1733468399,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "92055903470167300038444352",
+      "tts_sla_time": 1732777199,
+      "update_time": 1737762604,
+      "user_id": "7495134955492575801",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHRPUW7E4KAR24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1733381999,
+      "collection_time": 1732417914,
+      "create_time": 1732159253,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1733196057,
+      "delivery_sla_time": 1733468399,
+      "delivery_time": 1732641743,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576785820320240571",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576785820320371643",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.07",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "package_id": "1153604995054474171",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee",
+          "rts_time": 1732417760,
+          "sale_price": "2.7",
+          "seller_discount": "3.29",
+          "seller_sku": "B007ZZSOH4",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094499581813"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153604995054474171"
+        }
+      ],
+      "paid_time": 1732159257,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "5.99",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "3.29",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "2.7",
+        "tax": "0",
+        "total_amount": "10.69"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "1001 Coral Club Dr",
+        "address_line1": "1001 Coral Club Dr",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "delivery_preferences": {
+          "drop_off_location": "Puerta delantera"
+        },
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Florida"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Broward"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Coral Springs"
+          }
+        ],
+        "first_name": "Raiko",
+        "full_address": "United States, Florida, Broward, Coral Springs,1001 Coral Club Dr",
+        "last_name": "Garcia Morera",
+        "name": "Raiko Garcia Morera",
+        "phone_number": "(+1)9544770386",
+        "postal_code": "33071",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1732690799,
+      "rts_time": 1732417760,
+      "seller_note": "",
+      "shipping_due_time": 1733381999,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9400109206094499581813",
+      "tts_sla_time": 1732690799,
+      "update_time": 1737825744,
+      "user_id": "7494823454662888379",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHXPEV2YLWJQ24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1733295599,
+      "collection_time": 1732262211,
+      "create_time": 1732051702,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1732915706,
+      "delivery_sla_time": 1733381999,
+      "delivery_time": 1732397822,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576784324791931634",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576784324792128242",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0.27",
+              "tax_rate": "0.0475",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "10.49",
+          "package_id": "1153600219214680818",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729902835569496313",
+          "product_name": "Arctic Farms Freeze Dried Ice Cream - Pick Your School Snack Flavor - Christmas Gift",
+          "rts_time": 1732261986,
+          "sale_price": "5.77",
+          "seller_discount": "4.72",
+          "seller_sku": "B0BWSKY353",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729902835569889529",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c6837e3b7a464cc9b9bdd7c4be69360a~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Cotton Candy",
+          "sku_type": "NORMAL",
+          "tracking_number": "9361289715740038138928"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153600219214680818"
+        }
+      ],
+      "paid_time": 1732051706,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "10.49",
+        "platform_discount": "0",
+        "product_tax": "0.27",
+        "seller_discount": "4.72",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0.38",
+        "sub_total": "5.77",
+        "tax": "0.65",
+        "total_amount": "14.41"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "349 Ellard Rd",
+        "address_line1": "349 Ellard Rd",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Louisiana"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "Parish",
+            "address_name": "Catahoula"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Jonesville"
+          }
+        ],
+        "first_name": "Mitchell",
+        "full_address": "United States, Louisiana, Catahoula, Jonesville,349 Ellard Rd",
+        "last_name": "Ellis",
+        "name": "Mitchell Ellis",
+        "phone_number": "(+1)3184214934",
+        "postal_code": "71343",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1732604399,
+      "rts_time": 1732261986,
+      "seller_note": "",
+      "shipping_due_time": 1733295599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9361289715740038138928",
+      "tts_sla_time": 1732604399,
+      "update_time": 1737583269,
+      "user_id": "7494662870695447282",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGTPEA33EWKS24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1733295599,
+      "collection_time": 1732327986,
+      "create_time": 1732020876,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1732884880,
+      "delivery_sla_time": 1733381999,
+      "delivery_time": 1732635367,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576783925584171724",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576783925584302796",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.075",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "14.97",
+          "package_id": "1153598650528666316",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729902834952605945",
+          "product_name": "Primrose Hard Candy - Classic Christmas Candy in 13 oz Holiday Retail Package - Ideal Gourmet Food Gift - Old Fashion Candy",
+          "rts_time": 1732285938,
+          "sale_price": "8.24",
+          "seller_discount": "6.73",
+          "seller_sku": "B017MTT8FO",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729902834952737017",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d4d4522da13342c79e31d8c402957017~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Classic",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094498748484"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153598650528666316"
+        }
+      ],
+      "paid_time": 1732020880,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "14.97",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "6.73",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "8.24",
+        "tax": "0",
+        "total_amount": "16.23"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "337 Shadowood Drive",
+        "address_line1": "337 Shadowood Drive",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Ohio"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Montgomery"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Vandalia"
+          }
+        ],
+        "first_name": "Tammy",
+        "full_address": "United States, Ohio, Montgomery, Vandalia,337 Shadowood Drive",
+        "last_name": "sells",
+        "name": "Tammy sells",
+        "phone_number": "(+1)9379022938",
+        "postal_code": "45377",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1732604399,
+      "rts_time": 1732285938,
+      "seller_note": "",
+      "shipping_due_time": 1733295599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9400109206094498748484",
+      "tts_sla_time": 1732604399,
+      "update_time": 1737819367,
+      "user_id": "7494292145567664844",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHVPMGKFVZDX24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1732690799,
+      "collection_time": 1731814294,
+      "create_time": 1731566442,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1732344045,
+      "delivery_sla_time": 1732777199,
+      "delivery_time": 1732057294,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576777554356900752",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576777554357031824",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.1035",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "10.49",
+          "package_id": "1153579222566605712",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729628968804126969",
+          "product_name": "Wyler's Light Singles to Go Powder Packets, Water Drink Mix, Variety Pack, Pink, Strawberry & Blueberry Lemonade, Sugar & Caffeine Free, On-The-Go, 40 Count",
+          "rts_time": 1731814038,
+          "sale_price": "5.77",
+          "seller_discount": "4.72",
+          "seller_sku": "B0971VV99P",
+          "shipping_provider_id": "7117859084333745966",
+          "shipping_provider_name": "UPS",
+          "sku_id": "1729628970669674745",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fb05acee18fe41a38010f2917925e121~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "1Z8A832R0310165027"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153579222566605712"
+        }
+      ],
+      "paid_time": 1731566445,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "10.49",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "4.72",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "5.77",
+        "tax": "0",
+        "total_amount": "13.76"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "3023 S Holly Pl",
+        "address_line1": "3023 S Holly Pl",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Washington"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "King"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Seattle"
+          }
+        ],
+        "first_name": "Sadiyo",
+        "full_address": "United States, Washington, King, Seattle,3023 S Holly Pl",
+        "last_name": "Hussein",
+        "name": "Sadiyo Hussein",
+        "phone_number": "(+1)2065105302",
+        "postal_code": "98108",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1732172399,
+      "rts_time": 1731814038,
+      "seller_note": "",
+      "shipping_due_time": 1732690799,
+      "shipping_provider": "UPS",
+      "shipping_provider_id": "7117859084333745966",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "1Z8A832R0310165027",
+      "tts_sla_time": 1732172399,
+      "update_time": 1734649296,
+      "user_id": "7494499671890627472",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEGTP4ECKHPSA2E@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1732172399,
+      "collection_time": 1731507106,
+      "create_time": 1731146023,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1732096426,
+      "delivery_sla_time": 1732258799,
+      "delivery_time": 1731620506,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576772464850604760",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576772464850932440",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.075",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "package_id": "1153563994351309528",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee",
+          "rts_time": 1731506984,
+          "sale_price": "2.7",
+          "seller_discount": "3.29",
+          "seller_sku": "B007ZZSOH4",
+          "shipping_provider_id": "7117859084333745966",
+          "shipping_provider_name": "UPS",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "1Z7976650332460412"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153563994351309528"
+        }
+      ],
+      "paid_time": 1731146026,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "5.99",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "3.29",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "2.7",
+        "tax": "0",
+        "total_amount": "10.69"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "1018 N Kimball St # Casa",
+        "address_line1": "1018 N Kimball St # Casa",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Nebraska"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Hall"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Grand Island"
+          }
+        ],
+        "first_name": "Jorge Alberto",
+        "full_address": "United States, Nebraska, Hall, Grand Island,1018 N Kimball St # Casa",
+        "last_name": "Suarez Urquiaga",
+        "name": "Jorge Alberto Suarez Urquiaga",
+        "phone_number": "(+1)7869613066",
+        "postal_code": "68801",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1731653999,
+      "rts_time": 1731506984,
+      "seller_note": "",
+      "shipping_due_time": 1732172399,
+      "shipping_provider": "UPS",
+      "shipping_provider_id": "7117859084333745966",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "1Z7976650332460412",
+      "tts_sla_time": 1731653999,
+      "update_time": 1736804507,
+      "user_id": "7495312816047360728",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHRPUFNJSMRX24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1732085999,
+      "collection_time": 1731382130,
+      "create_time": 1731026178,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1732062982,
+      "delivery_sla_time": 1732172399,
+      "delivery_time": 1731446407,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": true,
+      "id": "576770666221834790",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576770666222031398",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.065",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "13.35",
+          "package_id": "1153558621199372838",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729597224030736633",
+          "product_name": "Nesquik Banana Flavour 300g",
+          "rts_time": 1731381933,
+          "sale_price": "7.35",
+          "seller_discount": "6",
+          "seller_sku": "B00KO2UEAA",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729597232547205369",
+          "sku_image": "https://p16-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2ab828ccf2b54b259273ea636b561242~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9361289690039624334045"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153558621199372838"
+        }
+      ],
+      "paid_time": 1731026182,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "13.35",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "6",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "7.35",
+        "tax": "0",
+        "total_amount": "15.34"
+      },
+      "payment_method_name": "ApplePay",
+      "recipient_address": {
+        "address_detail": "616 Brookview Ct",
+        "address_line1": "616 Brookview Ct",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Ohio"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Butler"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Oxford"
+          }
+        ],
+        "first_name": "Max",
+        "full_address": "United States, Ohio, Butler, Oxford,616 Brookview Ct",
+        "last_name": "Martin",
+        "name": "Max Martin",
+        "phone_number": "(+1)5135933165",
+        "postal_code": "45056",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1731567599,
+      "rts_time": 1731381933,
+      "seller_note": "",
+      "shipping_due_time": 1732085999,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9361289690039624334045",
+      "tts_sla_time": 1731567599,
+      "update_time": 1736630407,
+      "user_id": "7494140888936516134",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHTJEFJRPPX52I@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1731567599,
+      "collection_time": 1730734058,
+      "create_time": 1730479875,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1731516679,
+      "delivery_sla_time": 1731653999,
+      "delivery_time": 1730916313,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576764274688758358",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576764274689086038",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.0775",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "13.35",
+          "package_id": "1153535558648828502",
+          "package_status": "COMPLETED",
+          "platform_discount": "0.77",
+          "product_id": "1729597224030736633",
+          "product_name": "Nesquik Banana Flavour 300g",
+          "rts_time": 1730733905,
+          "sale_price": "6.58",
+          "seller_discount": "6",
+          "seller_sku": "B00KO2UEAA",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729597232547205369",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2ab828ccf2b54b259273ea636b561242~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094477125787"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153535558648828502"
+        }
+      ],
+      "paid_time": 1730479879,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "13.35",
+        "platform_discount": "0.77",
+        "product_tax": "0",
+        "seller_discount": "6",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "6.58",
+        "tax": "0",
+        "total_amount": "14.57"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "14883 Apple Valley Rd",
+        "address_line1": "14883 Apple Valley Rd",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "California"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "San Bernardino"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Apple Valley"
+          }
+        ],
+        "first_name": "Kiara",
+        "full_address": "United States, California, San Bernardino, Apple Valley,14883 Apple Valley Rd",
+        "last_name": "Ross",
+        "name": "Kiara Ross",
+        "phone_number": "(+1)4423926340",
+        "postal_code": "92307",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1730789999,
+      "rts_time": 1730733905,
+      "seller_note": "",
+      "shipping_due_time": 1731567599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9400109206094477125787",
+      "tts_sla_time": 1730876399,
+      "update_time": 1736100314,
+      "user_id": "7495844175959460438",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEG5J4AMKVNCI2I@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1730271599,
+      "collection_time": 1729579206,
+      "create_time": 1729458196,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1730235800,
+      "delivery_sla_time": 1730357999,
+      "delivery_time": 1729880354,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576754494983934948",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576754494984197092",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.0825",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "package_id": "1153498825134674916",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee",
+          "rts_time": 1729579001,
+          "sale_price": "5.99",
+          "seller_discount": "0",
+          "seller_sku": "B007ZZSOH4",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094461251973"
+        },
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576754494984262628",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.0825",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "5.99",
+          "package_id": "1153498825134674916",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729634084523315449",
+          "product_name": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee",
+          "rts_time": 1729579001,
+          "sale_price": "5.99",
+          "seller_discount": "0",
+          "seller_sku": "B007ZZSOH4",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729634118605115641",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a0ba08d9b2346b7a77b2384a135a404~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094461251973"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153498825134674916"
+        }
+      ],
+      "paid_time": 1729458200,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "11.98",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "0",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "11.98",
+        "tax": "0",
+        "total_amount": "19.97"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "1226 Mira Vis Apt 15102",
+        "address_line1": "1226 Mira Vis Apt 15102",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Texas"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "Bexar"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "San Antonio"
+          }
+        ],
+        "first_name": "yanara",
+        "full_address": "United States, Texas, Bexar, San Antonio,1226 Mira Vis Apt 15102",
+        "last_name": "herrera perez",
+        "name": "yanara herrera perez",
+        "phone_number": "(+1)2106367133",
+        "postal_code": "78228",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1729580399,
+      "rts_time": 1729579001,
+      "seller_note": "",
+      "shipping_due_time": 1730271599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9400109206094461251973",
+      "tts_sla_time": 1729666799,
+      "update_time": 1732472355,
+      "user_id": "7495686604586388452",
+      "warehouse_id": "7403707756749080362"
+    },
+    {
+      "buyer_email": "v4bDPU2CEGDPPZNEHVPMGKFVZDX24@scs.tiktokw.us",
+      "buyer_message": "",
+      "cancel_order_sla_time": 1730271599,
+      "collection_time": 1729578325,
+      "create_time": 1729387715,
+      "delivery_option_id": "7129736060325594926",
+      "delivery_option_name": "Standard Shipping",
+      "delivery_option_required_delivery_time": 1730251719,
+      "delivery_sla_time": 1730357999,
+      "delivery_time": 1729810963,
+      "delivery_type": "HOME_DELIVERY",
+      "fulfillment_type": "FULFILLMENT_BY_SELLER",
+      "has_updated_recipient_address": false,
+      "id": "576753810213868432",
+      "is_cod": false,
+      "is_on_hold_order": true,
+      "is_replacement_order": false,
+      "is_sample_order": false,
+      "line_items": [
+        {
+          "currency": "USD",
+          "display_status": "COMPLETED",
+          "id": "576753809746006928",
+          "is_dangerous_good": false,
+          "is_gift": false,
+          "item_tax": [
+            {
+              "tax_amount": "0",
+              "tax_rate": "0.1035",
+              "tax_type": "SALES_TAX"
+            }
+          ],
+          "original_price": "10.49",
+          "package_id": "1153497003232498576",
+          "package_status": "COMPLETED",
+          "platform_discount": "0",
+          "product_id": "1729628968804126969",
+          "product_name": "Wyler's Light Singles to Go Powder Packets, Water Drink Mix, Variety Pack, Pink, Strawberry & Blueberry Lemonade, Sugar & Caffeine Free, On-The-Go, 40 Count",
+          "rts_time": 1729578164,
+          "sale_price": "5.77",
+          "seller_discount": "4.72",
+          "seller_sku": "B0971VV99P",
+          "shipping_provider_id": "7117858858072016686",
+          "shipping_provider_name": "USPS",
+          "sku_id": "1729628970669674745",
+          "sku_image": "https://p19-oec-ttp.tiktokcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fb05acee18fe41a38010f2917925e121~tplv-omjb5zjo8w-origin-jpeg.jpeg?from=1568152328",
+          "sku_name": "Default",
+          "sku_type": "NORMAL",
+          "tracking_number": "9400109206094461877968"
+        }
+      ],
+      "packages": [
+        {
+          "id": "1153497003232498576"
+        }
+      ],
+      "paid_time": 1729387719,
+      "payment": {
+        "currency": "USD",
+        "original_shipping_fee": "7.99",
+        "original_total_product_price": "10.49",
+        "platform_discount": "0",
+        "product_tax": "0",
+        "seller_discount": "4.72",
+        "shipping_fee": "7.99",
+        "shipping_fee_cofunded_discount": "0",
+        "shipping_fee_platform_discount": "0",
+        "shipping_fee_seller_discount": "0",
+        "shipping_fee_tax": "0",
+        "sub_total": "5.77",
+        "tax": "0",
+        "total_amount": "13.76"
+      },
+      "payment_method_name": "CCDC",
+      "recipient_address": {
+        "address_detail": "3023 S Holly Pl",
+        "address_line1": "3023 S Holly Pl",
+        "address_line2": "",
+        "address_line3": "",
+        "address_line4": "",
+        "district_info": [
+          {
+            "address_level": "L0",
+            "address_level_name": "Country",
+            "address_name": "United States"
+          },
+          {
+            "address_level": "L1",
+            "address_level_name": "State",
+            "address_name": "Washington"
+          },
+          {
+            "address_level": "L2",
+            "address_level_name": "County",
+            "address_name": "King"
+          },
+          {
+            "address_level": "L3",
+            "address_level_name": "City",
+            "address_name": "Seattle"
+          }
+        ],
+        "first_name": "Sadiyo",
+        "full_address": "United States, Washington, King, Seattle,3023 S Holly Pl",
+        "last_name": "Hussein",
+        "name": "Sadiyo Hussein",
+        "phone_number": "(+1)2065105302",
+        "postal_code": "98108",
+        "region_code": "US"
+      },
+      "rts_sla_time": 1729580399,
+      "rts_time": 1729578164,
+      "seller_note": "",
+      "shipping_due_time": 1730271599,
+      "shipping_provider": "USPS",
+      "shipping_provider_id": "7117858858072016686",
+      "shipping_type": "SELLER",
+      "status": "COMPLETED",
+      "tracking_number": "9400109206094461877968",
+      "tts_sla_time": 1729666799,
+      "update_time": 1732402964,
+      "user_id": "7494499671890627472",
+      "warehouse_id": "7403707756749080362"
+    }
+  ],
+  "total_count": 27
+}

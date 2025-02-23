@@ -109,30 +109,8 @@ export const getJSONProducts = async (req, res) => {
       return res.status(404).json({ message: "User not found" });
     }
 
-    const listingsOnShops = await prisma.listingOnShop.findMany();
-    let listings = [];
-    if (listingsOnShops) {
-      for (const listingOnShop of listingsOnShops) {
-        const dbListing = await prisma.listing.findUnique({
-          where: {
-            id: listingOnShop.listingId,
-          },
-        });
-        listings.push({
-          id: listingOnShop.listingId,
-          shopId: listingOnShop.shopId,
-          tiktokProductId: listingOnShop.productTiktokId,
-          listing: dbListing,
-        });
-      }
-    }
-
     if (requestUser.isAdmin == 1) {
       const products = await fetchAllJsonProducts();
-
-      for (const product of products) {
-        product.shopId = product.shop.id;
-      }
 
       res.status(200).json({
         total: products.length,

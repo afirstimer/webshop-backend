@@ -100,13 +100,15 @@ export const callTiktokApi = async (
         headers: options.headers,
       });
     } else {
-      response = await axios({
+      console.log(options);
+      response = await axios.request({
         method: options.method,
         url: options.url,
         headers: options.headers,
       });
     }
 
+    console.log(response.data);
     return response;
   } catch (error) {
     console.log(error);

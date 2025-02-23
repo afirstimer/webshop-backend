@@ -15,6 +15,7 @@ import {
   createOrders,
   createProducts,
   processSyncProducts,
+  processSyncPromos,
   reqActiveShops,
   reqSyncOrders,
 } from "../services/shop.service.js";
@@ -744,6 +745,32 @@ export const syncAllShops = async (req, res) => {
       return res.status(404).json({ message: "Default shop not found" });
     }
     await processSyncProducts(req, shop);
+
+    res.status(200).json({ message: "Shops synced successfully" });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Failed to sync shops" });
+  }
+};
+
+export const syncAllShopPromos = async (req, res) => {
+  try {
+    const reqUser = await prisma.user.findUnique({
+      where: {
+        id: req.userId,
+      },
+    });
+
+    if (!reqUser) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // get default shop
+    const shop = await getDefaultShop(req);
+    if (!shop) {
+      return res.status(404).json({ message: "Default shop not found" });
+    }
+    const result = await processSyncPromos(req, shop);
 
     res.status(200).json({ message: "Shops synced successfully" });
   } catch (error) {
