@@ -779,6 +779,27 @@ export const syncAllShopPromos = async (req, res) => {
   }
 };
 
+export const syncShopPromo = async (req, res) => {
+  try {
+    const { shopId } = req.params;
+    // get default shop
+    const shop = await prisma.shop.findUnique({
+      where: {
+        id: shopId,
+      },
+    });
+    if (!shop) {
+      return res.status(404).json({ message: "Shop not found" });
+    }
+
+    const result = await processSyncPromos(req, shop);
+    res.status(200).json({ message: "Shops synced successfully" });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Failed to sync shop promo" });
+  }
+};
+
 // refresh token
 export const refreshToken = async (req, res) => {
   const url = "https://auth.tiktok-shops.com/api/v2/token/refresh";

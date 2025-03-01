@@ -1,6 +1,7 @@
 import prisma from "../lib/prisma.js";
 import { generateSign } from "../helper/tiktok.api.js";
 import axios from "axios";
+import moment from "moment-timezone";
 import {
   fetchAllJsonPromos,
   getAllShopLocalPromos,
@@ -168,8 +169,8 @@ export const createPromo = async (req, res) => {
     const payload = {
       title: title,
       activity_type: activityType,
-      begin_time: Math.floor(new Date(beginTime).getTime() / 1000),
-      end_time: Math.floor(new Date(endTime).getTime() / 1000),
+      begin_time: moment.tz(beginTime, "America/Los_Angeles").unix(),
+      end_time: moment.tz(endTime, "America/Los_Angeles").unix(),
       product_level: productLevel,
     };
 

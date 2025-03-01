@@ -19,6 +19,7 @@ import {
   refreshToken,
   deleteShop,
   syncAllShopPromos,
+  syncShopPromo,
 } from "../controllers/shop.controller.js";
 
 const router = express.Router();
@@ -43,6 +44,7 @@ router.get("/sync-orders-all", verifyToken, syncAllOrderShops);
 router.get("/sync-orders/:id", verifyToken, syncOrders);
 router.get("/sync-products-all", verifyToken, syncAllShops);
 router.get("/sync-promos-all", verifyToken, syncAllShopPromos);
+router.get("/sync-promo/:shopId", verifyToken, syncShopPromo);
 router.get("/sync-products/:id", verifyToken, syncProducts);
 
 export default router;

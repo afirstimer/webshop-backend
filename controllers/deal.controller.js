@@ -216,7 +216,7 @@ export const createPromoDetail = async (req, res) => {
       });
     }
 
-    console.log(newPayload);
+    // console.log(newPayload);
     const response = await callTiktokApi(
       req,
       shop,
@@ -234,12 +234,17 @@ export const createPromoDetail = async (req, res) => {
       }
     );
 
-    console.log(response);
+    // console.log(response);
 
     if (response.data) {
       console.log(response.data);
-      res.status(200).json({ message: "Promo created" });
+      res.status(200).json({
+        message: response.message,
+        code: response.code,
+        data: response.data,
+      });
     } else {
+      console.log(response);
       res.status(500).json({ message: "Error creating promo" });
     }
   } catch (error) {

@@ -3,17 +3,6 @@
     {
       "activity_type": "FLASHSALE",
       "begin_time": 1728313200,
-      "create_time": 1728200288374,
-      "end_time": 1728396000,
-      "id": "7422563263222744875",
-      "product_level": "PRODUCT",
-      "status": "EXPIRED",
-      "title": "Flash Deal 7/10 15% < $30",
-      "update_time": 1728200288374
-    },
-    {
-      "activity_type": "FLASHSALE",
-      "begin_time": 1728313200,
       "create_time": 1728200138353,
       "end_time": 1728396000,
       "id": "7422562716751071022",
@@ -549,8 +538,19 @@
       "status": "EXPIRED",
       "title": "Flash Deal 24/9 20% < $24",
       "update_time": 1727181699443
+    },
+    {
+      "activity_type": "FLASHSALE",
+      "begin_time": 1727190000,
+      "create_time": 1727181631654,
+      "end_time": 1727272800,
+      "id": "7418188505464702763",
+      "product_level": "PRODUCT",
+      "status": "EXPIRED",
+      "title": "Flash Deal 24/9 30% < $18",
+      "update_time": 1727181631654
     }
   ],
   "next_page_token": "250",
-  "total_count": 295
+  "total_count": 294
 }
