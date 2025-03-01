@@ -3,6 +3,7 @@
   "products": [
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "NONE"
       },
       "create_time": 1731246982,
@@ -35,6 +36,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246981,
@@ -67,6 +69,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246938,
@@ -99,6 +102,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -131,6 +135,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -163,6 +168,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -184,17 +190,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "19.11"
+            "tax_exclusive_price": "22.49"
           },
           "seller_sku": "B004YGQK5K"
         }
       ],
       "status": "ACTIVATE",
       "title": "JOLLY RANCHER Assorted Fruit Flavored Hard Candy Bulk Bag, 5 lb",
-      "update_time": 1738576004
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -227,6 +234,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -259,6 +267,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -291,6 +300,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246937,
@@ -354,7 +364,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "13.49"
+            "tax_exclusive_price": "14.99"
           },
           "seller_sku": "B078HDSQBJ"
         },
@@ -382,7 +392,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "14.93"
+            "tax_exclusive_price": "14.99"
           },
           "seller_sku": "B0BT27NXLS"
         },
@@ -446,7 +456,7 @@
           "id": "1729902819181957369",
           "inventory": [
             {
-              "quantity": 10,
+              "quantity": 0,
               "warehouse_id": "7403707756749080362"
             }
           ],
@@ -466,7 +476,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "16.49"
+            "tax_exclusive_price": "14.99"
           },
           "seller_sku": "B0BT26WX8R"
         },
@@ -501,10 +511,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Traeger Grills Rub, 11.2 oz - Pick Your Flavor",
-      "update_time": 1739764112
+      "update_time": 1740538965
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -533,10 +544,11 @@
       ],
       "status": "ACTIVATE",
       "title": "OLD BAY Seasoning, 24 oz - One 24 Ounce Container of OLD BAY All-Purpose Seasoning with Blend of 18 Spices and Herbs for Crabs, Shrimp, Poultry, Fries, and More",
-      "update_time": 1738576002
+      "update_time": 1740538963
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -569,6 +581,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -615,6 +628,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -647,6 +661,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -675,10 +690,11 @@
       ],
       "status": "ACTIVATE",
       "title": "The Only Bean Crunchy Dry Roasted Edamame Beans (Variety Pack), Low Carb Keto Healthy Snacks, Low Calorie Snack, Fiber Protein Snacks, Diabetic Snacks, 4 oz (3 Pack)",
-      "update_time": 1739764111
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -707,10 +723,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Nutter Butter Peanut Butter Sandwich Cookies - Family Size (16 oz) - Snack and Cooky Vitamin Salt",
-      "update_time": 1739764110
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -785,6 +802,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -817,6 +835,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -849,6 +868,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -881,6 +901,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -913,6 +934,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246936,
@@ -945,6 +967,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -977,6 +1000,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1009,6 +1033,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1041,6 +1066,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1185,6 +1211,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1217,6 +1244,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "FAILED"
       },
       "create_time": 1731246935,
@@ -1248,6 +1276,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1290,10 +1319,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Black Forest Fruit Flavored Snacks, Pick Your Fruit Flavors, Holiday Treats Variety Pack Assortment, 0.8 oz 40 ct",
-      "update_time": 1739165882
+      "update_time": 1740538964
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1326,6 +1356,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1372,6 +1403,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1393,7 +1425,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "25.5"
+            "tax_exclusive_price": "19.71"
           },
           "seller_sku": "B017MSJLDE"
         },
@@ -1407,17 +1439,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "18.57"
+            "tax_exclusive_price": "25.47"
           },
           "seller_sku": "B017MTT8FO"
         }
       ],
       "status": "ACTIVATE",
       "title": "Primrose Hard Candy - Classic Christmas Candy in 13 oz Holiday Retail Package - Ideal Gourmet Food Gift - Old Fashion Candy Sweet Snack",
-      "update_time": 1739764111
+      "update_time": 1740577027
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1450,6 +1483,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1482,6 +1516,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1514,6 +1549,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1546,6 +1582,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1620,6 +1657,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1680,6 +1718,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1715,7 +1754,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "14.25"
+            "tax_exclusive_price": "14.28"
           },
           "seller_sku": "B0CJLRJ2KT"
         },
@@ -1729,7 +1768,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "7.13"
+            "tax_exclusive_price": "7.14"
           },
           "seller_sku": "B08X6RS5R1"
         },
@@ -1764,10 +1803,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Lucky Charms Gluten Free Cereal with Marshmallows, Breakfast Cereal, Made with Whole Grain, Pick Your Size",
-      "update_time": 1739764111
+      "update_time": 1740538963
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1828,6 +1868,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246935,
@@ -1849,7 +1890,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "8.93"
+            "tax_exclusive_price": "8.63"
           },
           "seller_sku": "B002Z08M6C"
         },
@@ -1863,17 +1904,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "10.49"
+            "tax_exclusive_price": "9.53"
           },
           "seller_sku": "B08J4KLY7Z"
         }
       ],
       "status": "ACTIVATE",
       "title": "Jelly Strip - Jelly Filled Straws in Assorted Flavors - For Holidays, Christmas Gift - Wax Candy",
-      "update_time": 1740148411
+      "update_time": 1740800668
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "FAILED"
       },
       "create_time": 1731246934,
@@ -1905,6 +1947,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246934,
@@ -1933,10 +1976,11 @@
       ],
       "status": "ACTIVATE",
       "title": "SkinnyPop Original Popcorn, 4.4oz Grocery Size Bags, Skinny Pop, Healthy Popcorn Snacks, Gluten Free",
-      "update_time": 1738576006
+      "update_time": 1740751547
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246934,
@@ -1969,6 +2013,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246934,
@@ -1998,7 +2043,7 @@
           "id": "1729902835569627385",
           "inventory": [
             {
-              "quantity": 0,
+              "quantity": 10,
               "warehouse_id": "7403707756749080362"
             }
           ],
@@ -2012,7 +2057,7 @@
           "id": "1729902835569692921",
           "inventory": [
             {
-              "quantity": 0,
+              "quantity": 10,
               "warehouse_id": "7403707756749080362"
             }
           ],
@@ -2095,10 +2140,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Arctic Farms Freeze Dried Ice Cream - Pick Your School Snack Flavor - Christmas Gift",
-      "update_time": 1739764110
+      "update_time": 1740538963
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246934,
@@ -2239,10 +2285,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Krunchy Melts Original Meringue Cookies - Fat Free, Gluten Free, Dairy Free (4 Oz) - Pick Your Flavor - Snack Low Sugar",
-      "update_time": 1740159888
+      "update_time": 1740760514
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246934,
@@ -2275,6 +2322,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731246934,
@@ -2307,6 +2355,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1731243169,
@@ -2409,6 +2458,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1730816219,
@@ -2441,6 +2491,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1730728958,
@@ -2473,6 +2524,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1730726749,
@@ -2589,6 +2641,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1730725376,
@@ -2621,6 +2674,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1729492435,
@@ -2702,6 +2756,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1729491419,
@@ -2768,17 +2823,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "20.39"
+            "tax_exclusive_price": "22.01"
           },
           "seller_sku": "B08DMLZQXW"
         }
       ],
       "status": "ACTIVATE",
       "title": "10 ct Box of Capri Sun Flavored Juice Drink Blend, 6 fl oz Pouches - Pick Your Favorite Mix - Beverage, Mixed",
-      "update_time": 1739764111
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1727019279,
@@ -2846,6 +2902,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1727018655,
@@ -2884,17 +2941,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "8.81"
+            "tax_exclusive_price": "8.99"
           },
           "seller_sku": "B00T512XTG"
         }
       ],
       "status": "ACTIVATE",
       "title": "Cafe La Llave Espresso (10 ounce can) Dark Roast Coffee",
-      "update_time": 1739764110
+      "update_time": 1740538963
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1727018042,
@@ -2968,6 +3026,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1727017792,
@@ -3021,6 +3080,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1727017397,
@@ -3053,6 +3113,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726322165,
@@ -3085,6 +3146,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726321862,
@@ -3117,6 +3179,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726321600,
@@ -3149,6 +3212,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726321347,
@@ -3202,6 +3266,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "FAILED"
       },
       "create_time": 1726321009,
@@ -3233,6 +3298,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726041560,
@@ -3282,6 +3348,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726040808,
@@ -3314,6 +3381,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726039990,
@@ -3346,7 +3414,7 @@
           "id": "1729635389524316409",
           "inventory": [
             {
-              "quantity": 10,
+              "quantity": 0,
               "warehouse_id": "7403707756749080362"
             }
           ],
@@ -3373,10 +3441,11 @@
       ],
       "status": "ACTIVATE",
       "title": "7UP Soda, 12 fl oz cans (Pack of 12)",
-      "update_time": 1739764111
+      "update_time": 1740538961
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726039713,
@@ -3409,6 +3478,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1726039306,
@@ -3462,6 +3532,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725970087,
@@ -3494,6 +3565,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725969736,
@@ -3547,6 +3619,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725969210,
@@ -3568,17 +3641,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "5.61"
+            "tax_exclusive_price": "5.99"
           },
           "seller_sku": "B007ZZSOH4"
         }
       ],
       "status": "ACTIVATE",
       "title": "Cafe La Llave Espresso (10 ounce) Dark Roast Coffee Flavor Beverage",
-      "update_time": 1740127050
+      "update_time": 1740742677
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725968826,
@@ -3628,6 +3702,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725968135,
@@ -3705,6 +3780,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "FAILED"
       },
       "create_time": 1725752983,
@@ -3736,6 +3812,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725752421,
@@ -3785,6 +3862,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725752162,
@@ -3830,10 +3908,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Wyler's Light Singles to Go Powder Packets, Water Drink Mix, Variety Pack, Pink, Strawberry & Blueberry Lemonade, Sugar & Caffeine Free, On-The-Go, 40 Count",
-      "update_time": 1739764110
+      "update_time": 1740538961
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725665748,
@@ -3866,7 +3945,7 @@
           "id": "1729627693619319033",
           "inventory": [
             {
-              "quantity": 10,
+              "quantity": 0,
               "warehouse_id": "7403707756749080362"
             }
           ],
@@ -3879,10 +3958,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Tropicana  Juice, 3 flavor, 10 fl oz (Pack of 24) - Pineapple Peach Mango Juice, Fruit Medley, Strawberry Orange Juice",
-      "update_time": 1739764111
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725665444,
@@ -3932,6 +4012,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725665143,
@@ -3977,10 +4058,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Mountain Dew, 2 Flavor Baja Blast Variety Pack (Baja Blast, Original Dew), 12 Fl Oz Cans (Pack of 18)",
-      "update_time": 1739764111
+      "update_time": 1740538963
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725664688,
@@ -4026,10 +4108,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Mountain Dew 3 Flavor Core Variety Pack (Dew, Code Red, Voltage), 12 Fl Oz (Pack of 18)",
-      "update_time": 1739764111
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725662806,
@@ -4062,6 +4145,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725539686,
@@ -4115,6 +4199,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "FAILED"
       },
       "create_time": 1725539482,
@@ -4147,6 +4232,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725539258,
@@ -4196,6 +4282,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725509053,
@@ -4241,10 +4328,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Mountain Dew Kickstart, Orange Citrus, 92mg Caffeine, Vitamins B & C, 80 Calories, 5 Juice, 16 Fl Oz (Pack of 12)",
-      "update_time": 1739764111
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725508712,
@@ -4294,6 +4382,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725157922,
@@ -4343,6 +4432,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725157627,
@@ -4413,7 +4503,7 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "11.57"
+            "tax_exclusive_price": "11.99"
           },
           "seller_sku": "B0CW26ND2B"
         },
@@ -4421,23 +4511,24 @@
           "id": "1729628969978663161",
           "inventory": [
             {
-              "quantity": 0,
+              "quantity": 10,
               "warehouse_id": "7403707756749080362"
             }
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "19.94"
+            "tax_exclusive_price": "16.49"
           },
           "seller_sku": "B08123J589"
         }
       ],
       "status": "ACTIVATE",
       "title": "Red Bull Energy Drink, Amber Edition Strawberry Apricot, 12 fl oz (4 Pack)",
-      "update_time": 1740073623
+      "update_time": 1740770363
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "NONE"
       },
       "create_time": 1725157359,
@@ -4491,6 +4582,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "FAILED"
       },
       "create_time": 1725157143,
@@ -4522,6 +4614,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "NONE"
       },
       "create_time": 1725156943,
@@ -4575,6 +4668,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "NONE"
       },
       "create_time": 1725070436,
@@ -4628,6 +4722,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "NONE"
       },
       "create_time": 1725070257,
@@ -4681,6 +4776,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725069984,
@@ -4726,10 +4822,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Tajín Clásico Chile Lime Seasoning 5 oz (Pack of 1)",
-      "update_time": 1739764111
+      "update_time": 1740538961
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725069616,
@@ -4768,17 +4865,18 @@
           ],
           "price": {
             "currency": "USD",
-            "tax_exclusive_price": "3.93"
+            "tax_exclusive_price": "3.77"
           },
           "seller_sku": "B0004LXAKM"
         }
       ],
       "status": "ACTIVATE",
       "title": "Crystal Light Sugar-Free Pink Lemonade Naturally Flavored Powdered Drink Mix 4 Count Pitcher Packets",
-      "update_time": 1738576004
+      "update_time": 1740538963
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1725068991,
@@ -4828,6 +4926,7 @@
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1724937065,
@@ -4877,10 +4976,11 @@
       ],
       "status": "ACTIVATE",
       "title": "Alani Nu Juicy Peach Energy Sticks | Energy Drink Powder | 200mg Caffeine | Pre Workout Performance with Antioxidants | On-The-Go Drink Mix | Biotin, B Vitamins | Zero Sugar | 10 Calories | 10 Pack",
-      "update_time": 1739764111
+      "update_time": 1740538962
     },
     {
       "audit": {
+        "pre_approved_reasons": [],
         "status": "APPROVED"
       },
       "create_time": 1724936797,
