@@ -23,7 +23,11 @@ const app = express();
 
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL, process.env.WHITELIST_URL1],
+    origin: [
+      process.env.CLIENT_URL,
+      process.env.WHITELIST_URL1,
+      process.env.LOCAL_URL,
+    ],
     credentials: true,
   })
 );
