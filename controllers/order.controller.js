@@ -200,7 +200,7 @@ export const getTiktokOrder = async (req, res) => {
 
     console.log(result.data);
     if (result.data.data) {
-      res.status(200).json({ promo: result.data.data });
+      res.status(200).json({ order: result.data.data });
     }
   } catch (error) {
     console.log(error);
