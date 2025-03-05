@@ -9,6 +9,7 @@ import {
 import { getDefaultShop } from "../helper/helper.js";
 import { reqActiveShops } from "../services/shop.service.js";
 import { getAllShops } from "./shop.controller.js";
+import { callTiktokApi } from "../services/tiktok.service.js";
 
 export const getOrderStats = async (req, res) => {
   try {
