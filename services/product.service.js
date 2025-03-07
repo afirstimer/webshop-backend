@@ -74,8 +74,11 @@ export const createTiktokProduct = async (
 
     // images
     let images = [];
+    let mainImage = null;
     // loop images in listing.images and call uploadImageToTiktok . then push to images
     for (let i = 0; i < listing.images.length; i++) {
+      // get one image to mainImage
+      mainImage = listing.images[i];
       req.imageUri = listing.images[i];
       const uploadResponse = await uploadImageToTiktok(
         req,
@@ -132,6 +135,10 @@ export const createTiktokProduct = async (
     // loop through parsedSku and add to salesAttributes
     let salesAttributes = [];
     for (const sku of parsedSku) {
+      // if no image, use main image
+      if (!sku.image) {
+        sku.image = mainImage;
+      }
       // if has image, upload
       if (sku.image) {
         req.imageUri = sku.image;
