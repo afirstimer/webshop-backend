@@ -135,10 +135,6 @@ export const createTiktokProduct = async (
     // loop through parsedSku and add to salesAttributes
     let salesAttributes = [];
     for (const sku of parsedSku) {
-      // if no image, use main image
-      if (!sku.image) {
-        sku.image = mainImage;
-      }
       // if has image, upload
       if (sku.image) {
         req.imageUri = sku.image;
