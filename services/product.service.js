@@ -241,7 +241,7 @@ export const createTiktokProduct = async (
       description: listing.description,
       // external_product_id: '172959296971220002',
       is_cod_allowed: template.isCOD ? true : false,
-      is_not_for_sale: template.isSale ? false : true,
+      is_not_for_sale: false,
       is_pre_owned: false,
       listing_platforms: ["TIKTOK_SHOP"],
       main_images: images,
