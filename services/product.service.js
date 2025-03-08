@@ -198,7 +198,7 @@ export const createTiktokProduct = async (
         inventory: [
           {
             quantity: parseInt(sku.qty ? sku.qty : startQty),
-            warehouse_id: "7386105412573562667", //This is the warehouse id
+            warehouse_id: warehouse, //This is the warehouse id
           },
         ],
         // pre_sale: {
@@ -238,7 +238,7 @@ export const createTiktokProduct = async (
       //         ]
       //     }
       // ],
-      delivery_option_ids: [warehouse],
+      // delivery_option_ids: [warehouse],
       description: listing.description,
       // external_product_id: '172959296971220002',
       is_cod_allowed: template.isCOD ? true : false,
@@ -576,7 +576,7 @@ export const getWarehouseDelivery = async (req, shop) => {
       false,
       false,
       "GET",
-      `/logistics/202309/warehouses/delivery_options`,
+      `/logistics/202309/warehouses`,
       "application/json",
       {
         shop_cipher: shop.tiktokShopCipher,
