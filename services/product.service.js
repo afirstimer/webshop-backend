@@ -576,7 +576,7 @@ export const getWarehouseDelivery = async (req, shop) => {
       false,
       false,
       "GET",
-      `/logistics/202309/warehouses`,
+      `/logistics/202309/warehouses/delivery_options`,
       "application/json",
       {
         shop_cipher: shop.tiktokShopCipher,
