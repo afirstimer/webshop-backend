@@ -51,7 +51,8 @@ export const createTiktokProduct = async (
   listing,
   template,
   shop,
-  draftMode
+  draftMode,
+  warehouse
 ) => {
   try {
     // get default shop
@@ -237,7 +238,7 @@ export const createTiktokProduct = async (
       //         ]
       //     }
       // ],
-      // delivery_option_ids: ['1729592969712203232'],
+      delivery_option_ids: [warehouse],
       description: listing.description,
       // external_product_id: '172959296971220002',
       is_cod_allowed: template.isCOD ? true : false,

@@ -294,7 +294,7 @@ export const uploadCert = async (req, shop, uriImage, res) => {
 
 export const uploadTiktokProducts = async (req, res) => {
   try {
-    const { listings, shops, template, draftMode } = req.body;
+    const { listings, shops, template, draftMode, warehouse } = req.body;
 
     // Get existing template
     const existingTemplate = await prisma.template.findFirst({
@@ -330,7 +330,8 @@ export const uploadTiktokProducts = async (req, res) => {
             listing,
             existingTemplate,
             shop,
-            draftMode
+            draftMode,
+            warehouse
           );
 
           // console.log(response);
