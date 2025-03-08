@@ -96,12 +96,20 @@ export const proceedRefreshToken = async (shop) => {
 };
 
 export const getPercentPromo = (inputPrice, priceList) => {
+  const PRICE = [
+    { price: 9, percent: 55 },
+    { price: 18, percent: 45 },
+    { price: 27, percent: 35 },
+    { price: 36, percent: 25 },
+    { price: 45, percent: 15 },
+  ];
+
   // Ensure input is a number
   const price = parseFloat(inputPrice);
 
-  for (let i = 0; i < priceList.length; i++) {
-    if (price <= priceList[i].price) {
-      return priceList[i].percent;
+  for (let i = 0; i < PRICE.length; i++) {
+    if (price <= PRICE[i].price) {
+      return PRICE[i].percent;
     }
   }
   return 11; // Default percentage for price above 45
