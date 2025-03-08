@@ -96,23 +96,34 @@ export const proceedRefreshToken = async (shop) => {
 };
 
 export const getPercentPromo = (inputPrice, priceList) => {
-  const PRICE = [
-    { price: 9, percent: 55 },
-    { price: 18, percent: 45 },
-    { price: 27, percent: 35 },
-    { price: 36, percent: 25 },
-    { price: 45, percent: 15 },
-  ];
-
   // Ensure input is a number
   const price = parseFloat(inputPrice);
 
-  for (let i = 0; i < PRICE.length; i++) {
-    if (price <= PRICE[i].price) {
-      return PRICE[i].percent;
+  // Sort priceList by price in ascending order to ensure proper processing
+  const sortedPriceList = priceList
+    .map((item) => ({
+      price: parseFloat(item.price),
+      percent: item.percent.toString(), // Ensure percent remains a string
+    }))
+    .sort((a, b) => a.price - b.price);
+
+  // If price is lower than or equal to the smallest price, return the highest percent
+  if (price <= sortedPriceList[0].price) {
+    return sortedPriceList[0].percent;
+  }
+
+  // Iterate through the sorted list to find the correct discount bracket
+  for (let i = 0; i < sortedPriceList.length - 1; i++) {
+    if (
+      price > sortedPriceList[i].price &&
+      price <= sortedPriceList[i + 1].price
+    ) {
+      return sortedPriceList[i + 1].percent;
     }
   }
-  return 11; // Default percentage for price above 45
+
+  // If price is greater than the highest price in the list, return '11' as a string
+  return "11";
 };
 
 // Function to check if object with param exists and convert int to string
