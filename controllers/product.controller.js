@@ -7,6 +7,7 @@ import {
   fetchAllJsonProducts,
   fetchOriginJsonProducts,
   reqUpdateTiktokPrice,
+  getWarehouseDelivery,
 } from "../services/product.service.js";
 import { readJSONFile } from "../helper/helper.js";
 import { callTiktokApi } from "../services/tiktok.service.js";
@@ -542,6 +543,29 @@ export const updateTiktokPrice = async (req, res) => {
     const resp = await reqUpdateTiktokPrice(req, findSkus, percentage);
 
     res.status(200).json({ result: resp, message: "Success" });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getWarehouseList = async (req, res) => {
+  try {
+    const { shopId } = req.params;
+
+    const shop = await prisma.shop.findUnique({
+      where: {
+        id: shopId,
+      },
+    });
+
+    if (!shop) {
+      return res.status(404).json({ message: "Shop not found" });
+    }
+
+    const warehouse = await getWarehouseDelivery(req, shop);
+
+    res.status(200).json({ result: warehouse, message: "Success" });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: error.message });
