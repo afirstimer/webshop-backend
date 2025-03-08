@@ -99,18 +99,12 @@ export const getPercentPromo = (inputPrice, priceList) => {
   // Ensure input is a number
   const price = parseFloat(inputPrice);
 
-  // If price is lower than the smallest price, return the highest percent
-  const minPrice = Math.min(...priceList.map((item) => item.price));
-  if (price < minPrice) {
-    return priceList[0].percent; // First item has the highest discount
+  for (let i = 0; i < priceList.length; i++) {
+    if (price <= priceList[i].price) {
+      return priceList[i].percent;
+    }
   }
-
-  // Find the highest price that is <= inputPrice
-  const matched = priceList
-    .filter((item) => price >= item.price) // Get valid price options
-    .sort((a, b) => b.price - a.price)[0]; // Get the highest price match
-
-  return matched ? matched.percent : null;
+  return 11; // Default percentage for price above 45
 };
 
 // Function to check if object with param exists and convert int to string
