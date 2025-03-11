@@ -16,9 +16,9 @@ export const getTiktokOrders = async (req, shop, payload) => {
     };
 
     // if empty payload.nextPageToken, throw error
-    if (!payload.nextPageToken) {
-      throw new Error("Missing required parameters: nextPageToken");
-    }
+    // if (!payload.nextPageToken) {
+    //   throw new Error("Missing required parameters: nextPageToken");
+    // }
 
     if (payload.nextPageToken) {
       extraParams.page_token = payload.nextPageToken;
