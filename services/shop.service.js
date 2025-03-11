@@ -255,6 +255,7 @@ export const reqSyncOrders = async (req, shop) => {
           isHasPageToken = true;
           createOrders(data, shop.id + "/" + page + ".json");
         } else {
+          createOrders(data, shop.id + "/" + page + ".json");
           isHasPageToken = false;
         }
       }

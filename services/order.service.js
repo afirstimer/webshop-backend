@@ -34,7 +34,6 @@ export const getTiktokOrders = async (req, shop, payload) => {
       extraParams
     );
 
-    console.log(response.data);
     if (response.data.data) {
       return response.data.data;
     }
