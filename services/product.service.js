@@ -197,7 +197,7 @@ export const createTiktokProduct = async (
     // parse listing.productDimension "1.38 x 1.5 x 1 inches", string to array and remove inches
     const dimensionsArray = listing.productDimension
       .split(" x ")
-      .map((dim) => dim.replace(" inches", "").trim());
+      .map((dim) => parseFloat(dim.replace(" inches", "").trim()).toFixed(2));
 
     const payload = {
       // brand_id
