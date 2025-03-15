@@ -152,7 +152,7 @@ export const syncPromosToLocal = async (req, shop) => {
           isHasPageToken = true;
           createPromoFileLocal(data, shop.id + "/" + page + ".json");
         } else {
-          createPromoFileLocal(data, shop.id + "/" + page + ".json");
+          // createPromoFileLocal(data, shop.id + "/" + page + ".json");
           isHasPageToken = false;
         }
       }

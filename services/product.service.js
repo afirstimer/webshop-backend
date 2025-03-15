@@ -497,10 +497,6 @@ export const fetchAllJsonProducts = async () => {
       // loop products
       // filter name, price, create_time, update_time, [shop/template], [status], [audit.status], [listing_quality_tier]
       for (const product of data) {
-        // if no product.id, skip
-        if (!product.id) {
-          continue;
-        }
         const filteredProduct = {
           id: product.id,
           title: product.title,
