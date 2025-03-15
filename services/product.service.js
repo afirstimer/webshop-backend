@@ -194,6 +194,11 @@ export const createTiktokProduct = async (
       });
     }
 
+    // parse listing.productDimension "1.38 x 1.5 x 1 inches", string to array and remove inches
+    const dimensionsArray = listing.productDimension
+      .split(" x ")
+      .map((dim) => dim.replace(" inches", ""));
+
     const payload = {
       // brand_id
       category_id: template.categoryId,
@@ -207,10 +212,16 @@ export const createTiktokProduct = async (
       main_images: images,
       minimum_order_quantity: 1,
       package_dimensions: {
-        height: template.packageHeight.toString(),
-        length: template.packageLength.toString(),
+        height: dimensionsArray[2]
+          ? dimensionsArray[2].toString()
+          : template.packageHeight.toString(),
+        length: dimensionsArray[0]
+          ? dimensionsArray[0].toString()
+          : template.packageLength.toString(),
         unit: "CENTIMETER",
-        width: template.packageWidth.toString(),
+        width: dimensionsArray[1]
+          ? dimensionsArray[1].toString()
+          : template.packageWidth.toString(),
       },
       package_weight: {
         unit: "KILOGRAM",
