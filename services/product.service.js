@@ -213,7 +213,7 @@ export const createTiktokProduct = async (
         width: template.packageWidth.toString(),
       },
       package_weight: {
-        unit: "GRAM",
+        unit: "KILOGRAM",
         value: template.packageWeight,
       },
       product_attributes: attributes,
