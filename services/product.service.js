@@ -234,6 +234,8 @@ export const createTiktokProduct = async (
       title: listing.name,
     };
 
+    console.log(payload);
+
     // Build query params
     const extraParams = {
       shop_cipher: defaultShop.tiktokShopCipher,
