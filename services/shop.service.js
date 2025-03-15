@@ -178,6 +178,7 @@ export const processSyncProducts = async (req, shop) => {
           isHasPageToken = true;
           createProducts(data, shop.id + "/" + page + ".json");
         } else {
+          createProducts(data, shop.id + "/" + page + ".json");
           isHasPageToken = false;
         }
       }
@@ -226,6 +227,7 @@ export const processSyncPromos = async (req, shop) => {
           isHasPageToken = true;
           createPromos(data, shop.id + "/" + page + ".json");
         } else {
+          createPromos(data, shop.id + "/" + page + ".json");
           isHasPageToken = false;
         }
       }

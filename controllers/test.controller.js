@@ -8,12 +8,8 @@ import { proceedRefreshToken } from "../helper/helper.js";
 
 export const testController = async (req, res) => {
   try {
-    const shops = await prisma.shop.findMany({
-      where: {
-        isActive: 1,
-      },
-    });
-    res.status(200).json(shops);
+    const templates = await prisma.template.findMany({});
+    res.status(200).json(templates);
   } catch (error) {
     console.log(error);
   }

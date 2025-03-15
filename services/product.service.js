@@ -60,11 +60,11 @@ export const createTiktokProduct = async (
 
     // certificate
     // TODO: hiện tại tạm thời tắt nó đi
-    const certificate = await prisma.certificate.findFirst({
-      where: {
-        listingId: listing.id,
-      },
-    });
+    // const certificate = await prisma.certificate.findFirst({
+    //   where: {
+    //     listingId: listing.id,
+    //   },
+    // });
 
     //TODO: Lấy shop access token theo default shop
     const setting = await prisma.setting.findFirst();
@@ -78,8 +78,6 @@ export const createTiktokProduct = async (
     let mainImage = null;
     // loop images in listing.images and call uploadImageToTiktok . then push to images
     for (let i = 0; i < listing.images.length; i++) {
-      // get one image to mainImage
-      mainImage = listing.images[i];
       req.imageUri = listing.images[i];
       const uploadResponse = await uploadImageToTiktok(
         req,
@@ -97,6 +95,11 @@ export const createTiktokProduct = async (
             useCase: uploadResponse.data.use_case,
           },
         });
+
+        // if mainImage is null, set image.uri to mainImage
+        if (!mainImage) {
+          mainImage = image.uri;
+        }
 
         images.push({
           uri: image.uri,
@@ -116,17 +119,9 @@ export const createTiktokProduct = async (
       ],
     }));
 
-    // warehouse
-    // const warehouseRes = await getWarehouseDelivery(req, shop);
-    // let warehouse = null;
-    // if (warehouseRes) {
-    //     const warehouses = warehouseRes.data.warehouses.find(w => w.type == 'SALES_WAREHOUSE');
-    //     warehouse = warehouses[0];
-    // }
-
     // Calculate price (start price & quantity)
-    let price = listing.price.replace("$", "");
-    let startPrice = price * (1 + shop.priceDiff / 100);
+    // let price = listing.price.replace("$", "");
+    // let startPrice = price * (1 + shop.priceDiff / 100);
     let startQty = shop.shopItems;
 
     // skus
@@ -137,28 +132,31 @@ export const createTiktokProduct = async (
     let salesAttributes = [];
     for (const sku of parsedSku) {
       // if has image, upload
-      if (sku.image) {
-        req.imageUri = sku.image;
-        // console.log(sku.image);
-        const uploadResponse = await uploadImageToTiktok(
-          req,
-          shop,
-          sku.image,
-          "ATTRIBUTE_IMAGE"
-        );
-        // console.log(uploadResponse);
-        if (uploadResponse.message == "Success") {
-          // create Tiktok Image
-          let image = await prisma.tiktokImage.create({
-            data: {
-              uri: uploadResponse.data.uri,
-              url: uploadResponse.data.url,
-              useCase: uploadResponse.data.use_case,
-            },
-          });
-          sku.image = image.uri;
-        }
-      }
+      // if (sku.image) {
+      //   req.imageUri = sku.image;
+      //   // console.log(sku.image);
+      //   const uploadResponse = await uploadImageToTiktok(
+      //     req,
+      //     shop,
+      //     sku.image,
+      //     "ATTRIBUTE_IMAGE"
+      //   );
+      //   // console.log(uploadResponse);
+      //   if (uploadResponse.message == "Success") {
+      //     // create Tiktok Image
+      //     let image = await prisma.tiktokImage.create({
+      //       data: {
+      //         uri: uploadResponse.data.uri,
+      //         url: uploadResponse.data.url,
+      //         useCase: uploadResponse.data.use_case,
+      //       },
+      //     });
+      //     sku.image = image.uri;
+      //   }
+      // }
+
+      // replace sku image with main image
+      sku.image = mainImage;
 
       salesAttributes.push({
         id: sku.parentId,
@@ -172,25 +170,10 @@ export const createTiktokProduct = async (
 
       // Calculate sku's price + qty
       let listingPrice = listing.price.replace("$", "");
-      let skuPrice = sku.price
-        ? listingPrice * (1 + sku.price / 100)
-        : startPrice;
+      let skuPrice = listingPrice;
       let skuQty = sku.qty ? sku.qty : startQty;
 
       skus.push({
-        // combined_skus: [
-        //     {
-        //         product_id: '1729582718312380123',
-        //         sku_count: 1,
-        //         sku_id: '2729382476852921560'
-        //     }
-        // ],
-        // external_sku_id: '1729592969712207012',
-        // external_urls: [
-        //     'https://example.com/path1',
-        //     'https://example.com/path2'
-        // ],
-        // extra_identifier_codes: ['00012345678905', '9780596520687'],
         identifier_code: {
           code: template.identifierValue,
           type: template.identifierCode,
@@ -201,81 +184,43 @@ export const createTiktokProduct = async (
             warehouse_id: warehouse, //This is the warehouse id
           },
         ],
-        // pre_sale: {
-        //     fulfillment_type: {
-        //         handling_duration_days: 7
-        //     },
-        //     type: 'PRE_ORDER'
-        // },
         price: {
           amount: skuPrice.toString(),
           currency: "USD",
         },
         sales_attributes: salesAttributes,
-        seller_sku: listing.sku,
+        seller_sku: sku.code == "{{code}}" ? listing.sku : sku.code,
         sku_unit_count: skuQty,
       });
     }
 
     const payload = {
-      // brand_id: '7082427311584347905',
+      // brand_id
       category_id: template.categoryId,
       category_version: "v2",
-      // certifications: [
-      //     {
-      //         files: [
-      //             {
-      //                 format: 'PDF',
-      //                 id: 'v09ea0g40000cj91373c77u3mid3g1s0',
-      //                 name: 'brand_cert.PDF'
-      //             }
-      //         ],
-      //         id: '7182427311584347905',
-      //         images: [
-      //             {
-      //                 uri: 'tos-maliva-i-o3syd03w52-us/c668cdf70b7f483c94dbe'
-      //             }
-      //         ]
-      //     }
-      // ],
-      // delivery_option_ids: [warehouse],
+      // certifications
       description: listing.description,
-      // external_product_id: '172959296971220002',
       is_cod_allowed: template.isCOD ? true : false,
       is_not_for_sale: false,
       is_pre_owned: false,
       listing_platforms: ["TIKTOK_SHOP"],
       main_images: images,
-      // manufacturer_ids: ['172959296971220002'],
       minimum_order_quantity: 1,
       package_dimensions: {
-        height: "10",
-        length: "10",
+        height: template.packageHeight.toString(),
+        length: template.packageLength.toString(),
         unit: "CENTIMETER",
-        width: "10",
+        width: template.packageWidth.toString(),
       },
       package_weight: {
-        unit: "KILOGRAM",
+        unit: "GRAM",
         value: template.packageWeight,
       },
-      // primary_combined_product_id: '1729582718312380123',
       product_attributes: attributes,
-      // responsible_person_ids: ['172959296971220003'],
       save_mode: draftMode ? "AS_DRAFT" : "LISTING",
       shipping_insurance_requirement: "REQUIRED",
-      // size_chart: {
-      //     image: {
-      //         uri: 'tos-maliva-i-o3syd03w52-us/c668cdf70b7f483c94dbe'
-      //     },
-      //     template: {
-      //         id: '7267563252536723205'
-      //     }
-      // },
       skus: skus,
       title: listing.name,
-      // video: {
-      //     id: 'v09e40f40000cfu0ovhc77ub7fl97k4w'
-      // }
     };
 
     // Build query params
