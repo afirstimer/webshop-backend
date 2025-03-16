@@ -3,6 +3,7 @@ import path from "path";
 import { createFolder, writeJSONFile } from "../helper/helper.js";
 import { getTiktokProducts, getTiktokOrders } from "./order.service.js";
 import { getTiktokPromos } from "./promo.service.js";
+import axios from "axios";
 
 const ORDER_FOLDER = "./dummy/tiktok/orders/shop/";
 const PRODUCT_FOLDER = "./dummy/tiktok/products/shop/";
@@ -315,6 +316,6 @@ export const refreshShopToken = async (shop) => {
     }
   } catch (e) {
     console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
-    throw error;
+    throw e;
   }
 };
