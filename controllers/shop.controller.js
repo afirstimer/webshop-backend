@@ -16,6 +16,7 @@ import {
   createProducts,
   processSyncProducts,
   processSyncPromos,
+  refreshShopToken,
   reqActiveShops,
   reqSyncOrders,
 } from "../services/shop.service.js";
@@ -715,8 +716,16 @@ export const syncProducts = async (req, res) => {
     if (!shop) {
       return res.status(500).json({ error: "Failed to get shop" });
     }
+    // refresh token first
+    await refreshShopToken(shop);
+    // get again shop
+    const updatedShop = await prisma.shop.findUnique({
+      where: {
+        id: shopId,
+      },
+    });
 
-    const result = await processSyncProducts(req, shop);
+    const result = await processSyncProducts(req, updatedShop);
 
     if (result) {
       res.status(200).json({ message: "Products synced successfully" });

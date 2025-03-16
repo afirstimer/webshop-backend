@@ -167,7 +167,10 @@ export const createPromo = async (req, res) => {
 
     res.status(200).json(payload);
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
+
     res.status(500).json({ message: error.message });
   }
 };
@@ -248,7 +251,10 @@ export const createPromoDetail = async (req, res) => {
       res.status(500).json({ message: "Error creating promo" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
+
     res.status(500).json({ message: error.message });
   }
 };
@@ -289,7 +295,10 @@ export const deletePromo = async (req, res) => {
       res.status(200).json({ message: "Promo deleted" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
+
     res.status(500).json({ message: error.message });
   }
 };

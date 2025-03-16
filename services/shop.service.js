@@ -270,3 +270,52 @@ export const reqSyncOrders = async (req, shop) => {
     return false;
   }
 };
+
+export const refreshShopToken = async (shop) => {
+  const url = "https://auth.tiktok-shops.com/api/v2/token/refresh";
+
+  console.log("Refreshing token...");
+  const shop = await prisma.shop.findUnique({ where: { id: shop.id } });
+
+  const params = {
+    app_key: process.env.TIKTOK_SHOP_APP_KEY,
+    app_secret: process.env.TIKTOK_SHOP_APP_SECRET,
+    refresh_token: shop.shopRefreshToken,
+    grant_type: "refresh_token",
+  };
+
+  try {
+    const response = await axios.get(url, { params });
+    const { code, message, data } = response.data;
+
+    // console.log('API Response:', response.data);
+
+    if (code === 0 && message === "success") {
+      const accessToken = data.access_token;
+      const refreshToken = data.refresh_token;
+
+      // console.log('Access Token:', accessToken);
+      // console.log('Refresh Token:', refreshToken);
+
+      shop.shopAccessToken = accessToken;
+      shop.shopRefreshToken = refreshToken;
+      await prisma.shop.update({
+        where: {
+          id: shop.id,
+        },
+        data: {
+          shopAccessToken: accessToken,
+          shopRefreshToken: refreshToken,
+        },
+      });
+
+      res.status(200).json({ accessToken, refreshToken });
+    } else {
+      console.error("API Error:", response.data);
+      throw new Error("Failed to refresh token");
+    }
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+    throw error;
+  }
+};

@@ -27,7 +27,7 @@ export const register = async (req, res) => {
 
     res.status(201).json({ message: "User created successfully" });
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to create user!" });
   }
 };
@@ -72,10 +72,10 @@ export const login = async (req, res) => {
       const defaultShop = await prisma.shop.findFirst({
         where: {
           id: user.defaultShop,
-        }
+        },
       });
 
-      // If found defaultShop, refresh token and udpate 
+      // If found defaultShop, refresh token and udpate
       if (defaultShop) {
         // refresh token first
         await proceedRefreshToken(defaultShop);
@@ -85,14 +85,14 @@ export const login = async (req, res) => {
     res
       .cookie("token", token, {
         httpOnly: true,
-        secure:true,
+        secure: true,
         sameSite: "none",
         maxAge: age,
       })
       .status(200)
       .json(userInfo);
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to login!" });
   }
 };
@@ -103,7 +103,6 @@ export const logout = (req, res) => {
 
 export const validateToken = async (req, res) => {
   try {
-
     const token = req.cookies.token;
     // console.log(token);
 
@@ -133,21 +132,23 @@ export const validateToken = async (req, res) => {
 
     res.status(200).json(user);
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
 
 const refreshToken = async (shop) => {
-  const url = 'https://auth.tiktok-shops.com/api/v2/token/refresh';
+  const url = "https://auth.tiktok-shops.com/api/v2/token/refresh";
 
   // console.log('Refreshing token...');
   // Get first setting
   const params = {
     app_key: process.env.TIKTOK_SHOP_APP_KEY,
     app_secret: process.env.TIKTOK_SHOP_APP_SECRET,
-    refresh_token: shop.accessToken,  //REQUIRED
-    grant_type: 'refresh_token'
+    refresh_token: shop.accessToken, //REQUIRED
+    grant_type: "refresh_token",
   };
 
   try {
@@ -156,7 +157,7 @@ const refreshToken = async (shop) => {
 
     // console.log('API Response:', response.data);
 
-    if (code === 0 && message === 'success') {
+    if (code === 0 && message === "success") {
       const accessToken = data.access_token;
       const refreshToken = data.refresh_token;
 
@@ -167,19 +168,19 @@ const refreshToken = async (shop) => {
         where: {
           id: shop.id,
         },
-        data: {          
+        data: {
           shopAccessToken: accessToken,
-          shopRefreshToken: refreshToken
+          shopRefreshToken: refreshToken,
         },
       });
 
       return { accessToken, refreshToken };
     } else {
-      console.error('API Error:', response.data);
-      throw new Error('Failed to refresh token');
+      console.error("API Error:", response.data);
+      throw new Error("Failed to refresh token");
     }
   } catch (error) {
-    console.error('Error refreshing token:', error.message);
-    return false
+    console.error("Error refreshing token:", error.message);
+    return false;
   }
-}
+};
