@@ -182,12 +182,9 @@ export const getTiktokProduct = async (req, res) => {
       extraParams
     );
 
-    // console.log(response.data.data);
-
     let product = {};
     if (response.data.data) {
       const data = response.data.data;
-      // console.log(data);
       let price = null;
       if (data.skus && data.skus.length > 0 && data.skus[0].price) {
         price = data.skus[0].price.sale_price;

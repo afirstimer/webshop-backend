@@ -309,7 +309,7 @@ export const refreshShopToken = async (shop) => {
         },
       });
 
-      res.status(200).json({ accessToken, refreshToken });
+      return { accessToken, refreshToken };
     } else {
       console.error("API Error:", response.data);
       throw new Error("Failed to refresh token");

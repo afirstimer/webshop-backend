@@ -125,7 +125,10 @@ export const getOrders = async (req, res) => {
     const orders = await prisma.order.findMany();
     res.status(200).json(orders);
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
+
     res.status(500).json({ error: "Failed to get orders" });
   }
 };
@@ -158,9 +161,10 @@ export const getAllShopOrders = async (req, res) => {
       const orders = await getLocalTiktokOrders(shop);
       res.status(200).json(orders);
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ error: "Failed to get orders" });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ e: "Failed to get orders" });
   }
 };
 
@@ -177,8 +181,6 @@ export const getTiktokOrder = async (req, res) => {
     if (!shop) {
       return res.status(404).json({ message: "Shop not found" });
     }
-
-    console.log(shop);
 
     // find order in tiktok
     const extraParams = {
@@ -198,12 +200,12 @@ export const getTiktokOrder = async (req, res) => {
       extraParams
     );
 
-    console.log(result.data);
     if (result.data.data) {
       res.status(200).json({ order: result.data.data });
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (editProduct) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
