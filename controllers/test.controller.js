@@ -11,7 +11,7 @@ export const testController = async (req, res) => {
     const shops = await prisma.shop.findMany({});
 
     res.status(200).json(shops);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };

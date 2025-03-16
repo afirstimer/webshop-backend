@@ -56,7 +56,6 @@ export const crawlAmazonProduct = async (req, res) => {
       const response = await sendTelegramNotification(
         `Sản phẩm cần theo dõi ${title}`
       );
-      // console.log(response);
     }
 
     if (!listing) {
@@ -67,9 +66,10 @@ export const crawlAmazonProduct = async (req, res) => {
     res.status(201).json({
       message: "Crawled Amazon product successfully!",
     });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -135,9 +135,10 @@ export const getListings = async (req, res) => {
       limit: pageSize,
       listings,
     });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -150,8 +151,8 @@ export const updateListing = async (req, res) => {
       data: req.body,
     });
     res.status(200).json(listing);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -164,9 +165,10 @@ export const getListing = async (req, res) => {
       },
     });
     res.status(200).json(listing);
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -182,9 +184,10 @@ export const deleteListing = async (req, res) => {
     });
 
     res.status(200).json({ message: "Listing deleted" });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -214,9 +217,10 @@ export const getListingsOnShop = async (req, res) => {
     }
 
     res.status(200).json(newListings);
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 

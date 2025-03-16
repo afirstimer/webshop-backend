@@ -45,7 +45,9 @@ export const setDefaultShopForUser = async (user, shopId) => {
 
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return true;
   }
 };
@@ -141,7 +143,9 @@ export const createOrders = async (data, fileName = null) => {
 
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -156,7 +160,9 @@ export const createProducts = async (data, fileName = null) => {
 
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -187,7 +193,9 @@ export const processSyncProducts = async (req, shop) => {
     }
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -202,7 +210,9 @@ export const createPromos = async (data, fileName = null) => {
 
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -236,7 +246,9 @@ export const processSyncPromos = async (req, shop) => {
     }
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -267,7 +279,9 @@ export const reqSyncOrders = async (req, shop) => {
 
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -288,14 +302,9 @@ export const refreshShopToken = async (shop) => {
     const response = await axios.get(url, { params });
     const { code, message, data } = response.data;
 
-    // console.log('API Response:', response.data);
-
     if (code === 0 && message === "success") {
       const accessToken = data.access_token;
       const refreshToken = data.refresh_token;
-
-      // console.log('Access Token:', accessToken);
-      // console.log('Refresh Token:', refreshToken);
 
       shop.shopAccessToken = accessToken;
       shop.shopRefreshToken = refreshToken;

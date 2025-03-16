@@ -61,7 +61,9 @@ export const reqCreateActivity = async (
       return false;
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -109,7 +111,9 @@ export const reqUpdateActivity = async (req, res) => {
       return res.status(500).json({ message: "Failed to update activity" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
@@ -151,7 +155,9 @@ export const reqDeleteActivity = async (req, res) => {
       return res.status(500).json({ message: "Failed to delete activity" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
@@ -200,7 +206,9 @@ export const reqSearchActivities = async (req, res) => {
       return res.status(500).json({ message: "Failed to search activities" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
@@ -306,7 +314,9 @@ export const reqUpdateActivityProduct = async (
       return false;
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
@@ -355,7 +365,9 @@ export const reqRemoveActivityProduct = async (req, res) => {
         .json({ message: "Failed to remove activity product" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
@@ -397,7 +409,9 @@ export const reqGetCoupon = async (req, res) => {
       return res.status(500).json({ message: "Failed to get coupon" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };
@@ -448,7 +462,9 @@ export const reqSearchCoupons = async (req, res) => {
       return res.status(500).json({ message: "Failed to search coupons" });
     }
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: error.message });
   }
 };

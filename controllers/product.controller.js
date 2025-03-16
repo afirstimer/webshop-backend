@@ -92,9 +92,10 @@ export const getProducts = async (req, res) => {
       limit: pageSize,
       products,
     });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -136,16 +137,17 @@ export const getJSONProducts = async (req, res) => {
       }
       res.status(200).json({ products: data });
     }
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: error.message });
   }
 };
 
 export const getProduct = async (req, res) => {
   try {
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -212,9 +214,10 @@ export const getTiktokProduct = async (req, res) => {
     } else {
       res.status(404).json({ message: "Product not found" });
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -283,8 +286,9 @@ export const uploadCert = async (req, shop, uriImage, res) => {
       });
       res.status(200).json(updatedCertificate);
     }
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to create certificate" });
   }
 };
@@ -306,13 +310,6 @@ export const uploadTiktokProducts = async (req, res) => {
         id: req.userId,
       },
     });
-    // console.log(user);
-
-    // console.log(existingTemplate);
-    // console.log(listings);
-    // console.log(shops);
-    // console.log(template);
-    // console.log(draftMode);
 
     // Loop listings, and submit to tiktok
     // Biến theo dõi trạng thái upload
@@ -331,7 +328,6 @@ export const uploadTiktokProducts = async (req, res) => {
             warehouse
           );
 
-          // console.log(response);
           // status
           let exportStatus = "PENDING";
           let tiktokProductId = null;
@@ -351,20 +347,6 @@ export const uploadTiktokProducts = async (req, res) => {
               status: exportStatus,
             },
           });
-          // console.log(listingOnShop);
-
-          // Tạo product
-          // không tạo product vì sync từ tiktok về
-          // const product = await prisma.product.create({
-          //     data: {
-          //         name: listing.name,
-          //         description: listing.description,
-          //         price: listing.price,
-          //         listingId: listing.id,
-          //         shopId: shop.id
-          //     }
-          // });
-          // console.log(product);
 
           // Tạo log
           const logg = await prisma.log.create({
@@ -376,7 +358,6 @@ export const uploadTiktokProducts = async (req, res) => {
               payload: JSON.stringify(response),
             },
           });
-          // console.log(logg);
 
           return response;
         } catch (err) {
@@ -410,9 +391,10 @@ export const uploadTiktokProducts = async (req, res) => {
     } else {
       res.status(500).json({ message: "Failed to create products" });
     }
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-    // console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -470,9 +452,10 @@ export const deleteProduct = async (req, res) => {
       "application/json",
       extraParams
     );
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -502,21 +485,19 @@ export const updateTiktokProduct = async (req, res) => {
       shop
     );
 
-    // console.log(response);
     if (response) {
       res.status(200).json({ message: "Success" });
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
 export const updateTiktokPrice = async (req, res) => {
   try {
     const { products, percentage } = req.body;
-
-    // console.log(products, percentage);
 
     // Fetch json products
     const jsonProducts = await fetchOriginJsonProducts();
@@ -535,15 +516,13 @@ export const updateTiktokPrice = async (req, res) => {
       });
     });
 
-    // console.log(findSkus);
-
     // Update prices
     const resp = await reqUpdateTiktokPrice(req, findSkus, percentage);
 
     res.status(200).json({ result: resp, message: "Success" });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -564,8 +543,8 @@ export const getWarehouseList = async (req, res) => {
     const warehouse = await getWarehouseDelivery(req, shop);
 
     res.status(200).json({ result: warehouse, message: "Success" });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+    res.status(500).json({ message: e.message });
   }
 };

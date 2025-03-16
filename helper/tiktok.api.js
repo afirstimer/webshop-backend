@@ -15,7 +15,13 @@ export const interpolateVar = (value, variables) => {
   return value.replace(/\{\{(.*?)\}\}/g, (_, name) => variables[name] || "");
 };
 
-export const calculateSign = (request, secret, timestamp, header, payload = false) => {  
+export const calculateSign = (
+  request,
+  secret,
+  timestamp,
+  header,
+  payload = false
+) => {
   request.query.timestamp = timestamp;
 
   const queryParams = request.query || {};
@@ -25,35 +31,35 @@ export const calculateSign = (request, secret, timestamp, header, payload = fals
     let value = queryParams[key];
     param[key] = value;
   }
-  // console.log(param);
 
   delete param.sign;
-  delete param.access_token;  
+  delete param.access_token;
 
   const sortedParams = objKeySort(param);
   let signString = secret + request.query.path;
 
-  // console.log(signString);
-  // console.log(sortedParams);
   for (const key in sortedParams) {
-    if (key == 'path' || key == 'secret' || key == 'category_id') continue;
+    if (key == "path" || key == "secret" || key == "category_id") continue;
     signString += key + sortedParams[key];
   }
-
-  // console.log(signString);
 
   if (header != "multipart/form-data" && payload) {
     signString += JSON.stringify(payload);
   }
 
   signString += secret;
-  // console.log(signString);
 
   const hmac = crypto.createHmac("sha256", secret);
   hmac.update(signString);
   return hmac.digest("hex");
 };
 
-export const generateSign = (request, secret, timestamp, header, payload = false) => {
+export const generateSign = (
+  request,
+  secret,
+  timestamp,
+  header,
+  payload = false
+) => {
   return calculateSign(request, secret, timestamp, header, payload);
 };

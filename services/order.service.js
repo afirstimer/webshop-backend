@@ -51,7 +51,7 @@ export const getLocalTiktokOrders = async (shop) => {
     while (hasJsonFile) {
       // get local json file
       const jsonFilePath = ORDER_FOLDER + shop.id + "/" + page + ".json";
-      // console.log(jsonFilePath);
+
       if (!fs.existsSync(jsonFilePath)) {
         hasJsonFile = false;
         break;
@@ -61,13 +61,10 @@ export const getLocalTiktokOrders = async (shop) => {
         hasJsonFile = false;
         break;
       }
-      // console.log(jsonFileData);
 
       orders = orders.concat(jsonFileData.orders);
       page++;
     }
-
-    // console.log(orders);
 
     // remove undefined from orders
     orders = orders.filter((order) => order !== undefined);
@@ -79,10 +76,11 @@ export const getLocalTiktokOrders = async (shop) => {
       }
     });
 
-    // console.log(orders);
     return orders;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -98,7 +96,7 @@ export const getTiktokProducts = async (req, shop, payload) => {
     if (payload.nextPageToken) {
       extraParams.page_token = payload.nextPageToken;
     }
-    // console.log(extraParams);
+
     const response = await callTiktokApi(
       req,
       shop,
@@ -110,13 +108,14 @@ export const getTiktokProducts = async (req, shop, payload) => {
       extraParams
     );
 
-    // console.log(response.data);
     if (response.data.data) {
       return response.data.data;
     }
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };

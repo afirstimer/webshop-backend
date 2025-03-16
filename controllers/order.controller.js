@@ -15,8 +15,6 @@ export const getOrderStats = async (req, res) => {
   try {
     const { year } = req.query;
 
-    // console.log(year);
-
     // default is current year if no year
     let yearQuery = year;
     if (!year) {
@@ -62,7 +60,6 @@ export const getOrderStats = async (req, res) => {
 
       orders = localOrders;
     }
-    // console.log(orders);
 
     // Chuyển timestamp -> { year, month }
     const formatDate = (timestamp) => {
@@ -86,15 +83,10 @@ export const getOrderStats = async (req, res) => {
       }));
     };
 
-    // console.log(year);
-    // console.log(orders);
-
     // Lọc đơn hàng theo `year`
     const filteredOrders = orders.filter(
       (order) => formatDate(order.create_time).year === yearQuery
     );
-
-    // console.log(filteredOrders);
 
     // Nhóm đơn hàng theo tháng
     let summary = {};

@@ -32,7 +32,9 @@ export const connectViaSocks5 = async (shop) => {
 
     return response;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };

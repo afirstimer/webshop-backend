@@ -12,8 +12,6 @@ export const register = async (req, res) => {
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // console.log(hashedPassword);
-
     // CREATE A NEW USER AND SAVE TO DB
     const newUser = await prisma.user.create({
       data: {
@@ -22,8 +20,6 @@ export const register = async (req, res) => {
         password: hashedPassword,
       },
     });
-
-    // console.log(newUser);
 
     res.status(201).json({ message: "User created successfully" });
   } catch (err) {
@@ -104,7 +100,6 @@ export const logout = (req, res) => {
 export const validateToken = async (req, res) => {
   try {
     const token = req.cookies.token;
-    // console.log(token);
 
     if (!token) {
       // delete cookie
@@ -115,7 +110,6 @@ export const validateToken = async (req, res) => {
     jwt.verify(token, process.env.JWT_SECRET_KEY, async (err, payload) => {
       if (err) return res.status(403).json({ message: "Token is not Valid!" });
       req.userId = payload.id;
-      // console.log(payload);
     });
 
     if (!req.userId) {
@@ -155,14 +149,9 @@ const refreshToken = async (shop) => {
     const response = await axios.get(url, { params });
     const { code, message, data } = response.data;
 
-    // console.log('API Response:', response.data);
-
     if (code === 0 && message === "success") {
       const accessToken = data.access_token;
       const refreshToken = data.refresh_token;
-
-      // console.log('Access Token:', accessToken);
-      // console.log('Refresh Token:', refreshToken);
 
       await prisma.shop.update({
         where: {

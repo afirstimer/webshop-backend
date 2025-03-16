@@ -69,8 +69,9 @@ export const getUsers = async (req, res) => {
       limit: pageSize,
       users,
     });
-  } catch (err) {
-    console.log(err);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to get users!" });
   }
 };
@@ -83,14 +84,13 @@ export const getMembers = async (req, res) => {
       },
     });
     res.status(200).json(users);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
 export const getUsersByTeamID = async (req, res) => {
   const { teamId } = req.params;
-  // console.log(teamId);
   try {
     const team = await prisma.team.findUnique({
       where: { id: teamId },
@@ -100,8 +100,6 @@ export const getUsersByTeamID = async (req, res) => {
     }
     const userIds = team.members;
 
-    // console.log(userIds);
-
     const users = [];
     for (const userId of userIds) {
       const user = await prisma.user.findUnique({
@@ -110,10 +108,10 @@ export const getUsersByTeamID = async (req, res) => {
       users.push(user);
     }
 
-    console.log(users);
     res.status(200).json(users);
-  } catch (err) {
-    console.log(err);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to get users!" });
   }
 };
@@ -125,16 +123,15 @@ export const getUser = async (req, res) => {
       where: { id },
     });
     res.status(200).json(user);
-  } catch (err) {
-    console.log(err);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to get user!" });
   }
 };
 
 export const createUser = async (req, res) => {
   const { password, avatar, shops, ...inputs } = req.body;
-
-  // console.log(req.body);
 
   try {
     // Hash the password
@@ -171,14 +168,12 @@ export const createUser = async (req, res) => {
       },
     });
 
-    // db operation
-    // console.log(newUser);
-
     res.status(201).json({
       message: "User created successfully",
     });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({
       message: "Failed to create user!",
     });
@@ -189,9 +184,6 @@ export const updateUser = async (req, res) => {
   const id = req.params.id;
   const tokenUserId = req.userId;
   const { password, avatar, shops, shopId, ...inputs } = req.body;
-
-  console.log(shopId);
-  console.log(tokenUserId);
 
   const loggedinUser = await prisma.user.findUnique({
     where: { id: tokenUserId },
@@ -232,8 +224,6 @@ export const updateUser = async (req, res) => {
       }
     }
 
-    console.log(existingShopIds);
-
     const updatedUser = await prisma.user.update({
       where: { id },
       data: {
@@ -259,8 +249,9 @@ export const updateUser = async (req, res) => {
     const { password: userPassword, ...rest } = updatedUser;
 
     res.status(200).json(rest);
-  } catch (err) {
-    console.log(err);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to update user!" });
   }
 };
@@ -278,7 +269,7 @@ export const deleteUser = async (req, res) => {
     });
     res.status(200).json({ message: "User deleted" });
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to delete users!" });
   }
 };
@@ -304,7 +295,9 @@ export const deleteMultiUsers = async (req, res) => {
 
     res.status(200).json({ message: "Users deleted" });
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -317,7 +310,6 @@ export const addUsersToGroup = async (req, res) => {
     }
 
     const usersParsed = JSON.parse(userIds);
-    // console.log(usersParsed);
 
     // loop usersParsed and find user by id and update teamId
     for (const userId of usersParsed) {
@@ -331,7 +323,9 @@ export const addUsersToGroup = async (req, res) => {
 
     res.status(200).json({ message: "Users added to group" });
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -366,7 +360,7 @@ export const savePost = async (req, res) => {
       res.status(200).json({ message: "Post saved" });
     }
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to delete users!" });
   }
 };
@@ -387,7 +381,7 @@ export const profilePosts = async (req, res) => {
     const savedPosts = saved.map((item) => item.post);
     res.status(200).json({ userPosts, savedPosts });
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to get profile posts!" });
   }
 };
@@ -409,7 +403,7 @@ export const getNotificationNumber = async (req, res) => {
     });
     res.status(200).json(number);
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to get profile posts!" });
   }
 };
@@ -436,7 +430,9 @@ export const upgradeToAdmin = async (req, res) => {
 
     res.status(200).json({ message: "User upgraded to admin" });
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: "Failed to upgrade to admin!" });
   }
 };
@@ -467,7 +463,9 @@ export const checkHasDefaultShop = async (req, res) => {
 
     res.status(200).json({ message: "Default shop found", defaultShop });
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     res.status(500).json({ message: "Failed to check default shop!" });
   }
 };
@@ -509,7 +507,7 @@ export const removeDefaultShop = async (req, res) => {
 
     res.status(200).json({ message: "Xóa shop khỏi user" });
   } catch (err) {
-    console.log(err);
+    console.log(`Error: ${err.message}\nStack: ${err.stack.split("\n")[1]}`);
     res.status(500).json({ message: "Failed to delete users!" });
   }
 };

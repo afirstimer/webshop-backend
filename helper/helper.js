@@ -12,10 +12,12 @@ export const getProductValueByKey = (productInfo, key) => {
 export const createFolder = async (folderPath) => {
   try {
     await fs.mkdir(folderPath, { recursive: true });
-    // console.log("Folder created successfully", folderPath);
+
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -32,7 +34,6 @@ export const readJSONFile = async (filePath) => {
 
 export const writeJSONFile = async (filePath, data) => {
   try {
-    // console.log(filePath);
     await fs.writeFile(filePath, JSON.stringify(data, null, 2));
   } catch (error) {
     console.error("Error writing JSON file:", error.message);
@@ -51,7 +52,9 @@ export const getDefaultShop = async (req) => {
     });
     if (shop) return shop;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return null;
   }
 };

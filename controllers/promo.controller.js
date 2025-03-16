@@ -52,9 +52,10 @@ export const getPromos = async (req, res) => {
       }
       res.status(200).json({ promos: data });
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -96,9 +97,10 @@ export const getJSONPromos = async (req, res) => {
       }
       res.status(200).json({ products: data });
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -117,8 +119,6 @@ export const getPromo = async (req, res) => {
       return res.status(404).json({ message: "Shop not found" });
     }
 
-    console.log(shop);
-
     // find promo in tiktok
     const extraParams = {
       shop_cipher: shop.tiktokShopCipher,
@@ -136,12 +136,10 @@ export const getPromo = async (req, res) => {
       extraParams
     );
 
-    console.log(result.data);
     if (result.data.data) {
       res.status(200).json({ promo: result.data.data });
     }
   } catch (error) {
-    console.log(error);
     res.status(500).json({ message: error.message });
   }
 };
@@ -188,8 +186,8 @@ export const createPromo = async (req, res) => {
     if (response.data.data) {
       res.status(200).json({ message: "Promo created successfully" });
     }
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 

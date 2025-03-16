@@ -24,8 +24,6 @@ export const getPromo = async (req, res) => {
       },
     });
 
-    console.log(shop);
-
     if (!shop) {
       return res.status(404).json({ message: "Shop not found" });
     }
@@ -34,8 +32,6 @@ export const getPromo = async (req, res) => {
       shop_cipher: shop.tiktokShopCipher,
       shop_id: shop.tiktokShopId,
     };
-
-    console.log(extraParams);
 
     const response = await callTiktokApi(
       req,
@@ -47,14 +43,14 @@ export const getPromo = async (req, res) => {
       "application/json",
       extraParams
     );
-    console.log(response);
 
     if (response.data.data) {
       res.status(200).json(response.data.data);
     }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: error.message });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: e.message });
   }
 };
 
@@ -113,7 +109,7 @@ export const createPromo = async (req, res) => {
       );
 
       let productSkus = [];
-      console.log(productResponse);
+
       if (productResponse.data.data) {
         // loop productResponse.data.data.skus and push id to productSkus
         for (let j = 0; j < productResponse.data.data.skus.length; j++) {
@@ -219,7 +215,6 @@ export const createPromoDetail = async (req, res) => {
       });
     }
 
-    // console.log(newPayload);
     const response = await callTiktokApi(
       req,
       shop,
@@ -237,17 +232,13 @@ export const createPromoDetail = async (req, res) => {
       }
     );
 
-    // console.log(response);
-
     if (response.data) {
-      console.log(response.data);
       res.status(200).json({
         message: response.message,
         code: response.code,
         data: response.data,
       });
     } else {
-      console.log(response);
       res.status(500).json({ message: "Error creating promo" });
     }
   } catch (error) {
@@ -288,8 +279,6 @@ export const deletePromo = async (req, res) => {
         app_key: process.env.TIKTOK_SHOP_APP_KEY,
       }
     );
-
-    console.log(response.data);
 
     if (response.data) {
       res.status(200).json({ message: "Promo deleted" });

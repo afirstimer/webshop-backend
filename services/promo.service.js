@@ -42,7 +42,9 @@ export const fetchAllJsonPromos = async () => {
     // console.log(promos);
     return promos;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return [];
   }
 };
@@ -71,7 +73,9 @@ export const getLocalPromos = async (shop) => {
 
     return promos;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -83,7 +87,7 @@ export const getLocalTiktokPromos = async (shop) => {
     while (hasJsonFile) {
       // get local json file
       const jsonFilePath = PROMO_FOLDER + shop.id + "/" + page + ".json";
-      // console.log(jsonFilePath);
+
       if (!fs.existsSync(jsonFilePath)) {
         hasJsonFile = false;
         break;
@@ -93,7 +97,6 @@ export const getLocalTiktokPromos = async (shop) => {
         hasJsonFile = false;
         break;
       }
-      // console.log(jsonFileData);
 
       promos = promos.concat(jsonFileData.activities);
       page++;
@@ -101,7 +104,9 @@ export const getLocalTiktokPromos = async (shop) => {
 
     return promos;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -126,7 +131,9 @@ export const getAllShopLocalPromos = async () => {
 
     return promos;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return [];
   }
 };
@@ -160,7 +167,9 @@ export const syncPromosToLocal = async (req, shop) => {
     }
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -190,7 +199,9 @@ export const getTiktokPromos = async (req, shop, payload) => {
     }
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -258,7 +269,9 @@ export const createPromoFileLocal = async (data, fileName = null) => {
 
     return true;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };

@@ -15,10 +15,10 @@ export const uploadImageToTiktok = async (req, shop, imageUri, useCase) => {
 
   try {
     const localFilePath = await downloadImage(imageUri);
-    // console.log(localFilePath);
+
     const fileStream = fs.createReadStream(localFilePath);
     const formData = new FormData();
-    // console.log(path.basename(localFilePath));
+
     formData.append("data", fileStream, path.basename(localFilePath));
     formData.append("use_case", useCase);
 
@@ -32,7 +32,6 @@ export const uploadImageToTiktok = async (req, shop, imageUri, useCase) => {
       "multipart/form-data"
     );
 
-    // console.log(response);
     if (response.data) {
       if (fs.existsSync(localFilePath)) {
         fs.unlinkSync(localFilePath);
@@ -41,7 +40,9 @@ export const uploadImageToTiktok = async (req, shop, imageUri, useCase) => {
     }
     return false;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return false;
   }
 };
@@ -85,7 +86,7 @@ export const createTiktokProduct = async (
         listing.images[i],
         "MAIN_IMAGE"
       );
-      // console.log(uploadResponse);
+
       if (uploadResponse.message == "Success") {
         // create Tiktok Image
         let image = await prisma.tiktokImage.create({
@@ -265,7 +266,9 @@ export const createTiktokProduct = async (
     }
     return false;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -367,7 +370,9 @@ export const requestUpdateTiktokProduct = async (
     }
     return false;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -427,7 +432,9 @@ export const reqUpdateTiktokPrice = async (req, data, percent) => {
 
     return results;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return {};
   }
 };
@@ -459,7 +466,9 @@ export const getLocalTiktokProducts = async (shop) => {
     // console.log(products);
     return products;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -516,7 +525,9 @@ export const fetchAllJsonProducts = async () => {
     // console.log(products);
     return products;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return [];
   }
 };
@@ -547,7 +558,9 @@ export const getWarehouseDelivery = async (req, shop) => {
     }
     return resp.data;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
   }
 };
 
@@ -572,7 +585,9 @@ export const getProductDetail = async (req, shop, productId) => {
     }
     return productResponse.data;
   } catch (error) {
-    console.log(error);
+    console.log(
+      `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
+    );
     return [];
   }
 };

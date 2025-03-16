@@ -8,15 +8,9 @@ import { readJSONFile } from "../helper/helper.js";
 export const getTemplates = async (req, res) => {
   try {
     const templates = await prisma.template.findMany({});
-
-    // const categories = await readJSONFile("./dummy/tiktok/categories.json");
-    // templates.forEach(template => {
-    //     const category = categories.find(c => c.id === template.categoryId);
-    //     template.categoryId = category?.name;
-    // });
     res.status(200).json(templates);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -34,8 +28,8 @@ export const getTemplate = async (req, res) => {
     template.categoryName = category?.name;
 
     res.status(200).json(template);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -68,8 +62,9 @@ export const createTemplate = async (req, res) => {
       },
     });
     res.status(201).json(newTemplate);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Please recheck your inputs" });
   }
 };
@@ -105,8 +100,8 @@ export const updateTemplate = async (req, res) => {
     });
 
     res.status(200).json(updatedTemplate);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -130,7 +125,7 @@ export const deleteTemplate = async (req, res) => {
     });
 
     res.status(200).json({ message: "Template deleted successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };

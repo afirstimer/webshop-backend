@@ -115,8 +115,9 @@ export const getShops = async (req, res) => {
       limit: pageSize,
       shops,
     });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to get shops!" });
   }
 };
@@ -129,8 +130,9 @@ export const getAllShops = async (req, res) => {
       },
     });
     res.status(200).json(shops);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to get shops!" });
   }
 };
@@ -153,29 +155,6 @@ export const createShop = async (req, res) => {
 
     const authorizeResponse = await reqAuthorizeShop(req, newShop);
 
-    // Get access token
-    // const authResponse = await callTiktokAuthApi(tiktokAuthCode);
-    // if (authResponse) {
-    // console.log('API Response:', authResponse);
-    // const accessToken = authResponse.data.access_token;
-    // const refreshToken = authResponse.data.refresh_token;
-    // const shopName = authResponse.data.seller_name;
-    // // update shop
-    // const updatedShop = await prisma.shop.update({
-    //     where: {
-    //         id: newShop.id,
-    //     },
-    //     data: {
-    //         accessToken,
-    //         shopRefreshToken: refreshToken,
-    //         name: shopName,
-    //     },
-    // });
-
-    // Authorize shop
-    // const authorizeResponse = await reqAuthorizeShop(req, updatedShop);
-    // }
-
     if (!authorizeResponse) {
       return res.status(500).json({ message: "Failed to authorize shop" });
     }
@@ -187,8 +166,9 @@ export const createShop = async (req, res) => {
     res
       .status(201)
       .json({ message: "Shop created successfully", shop: newShop });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to create shop!" });
   }
 };
@@ -211,8 +191,8 @@ export const getShop = async (req, res) => {
       },
     });
     res.status(200).json(shop);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -228,7 +208,6 @@ export const getShopOrders = async (request, res) => {
     const access_token = setting.shopAccessToken;
 
     if (!app_key || !secret || !access_token) {
-      // console.log(app_key, secret, access_token);
       console.error(
         "Missing required parameters: app_key, secret, or access_token"
       );
@@ -261,8 +240,6 @@ export const getShopOrders = async (request, res) => {
     const header = request.headers["content-type"];
     const sign = generateSign(request, secret, timestamp, header);
 
-    // console.log(sign);
-
     // Define your request details
     const options = {
       method: "POST",
@@ -283,8 +260,6 @@ export const getShopOrders = async (request, res) => {
       },
     };
 
-    // console.log(options);
-
     // Update the query parameters with calculated values
     options.query.sign = sign;
     options.query.timestamp = timestamp;
@@ -299,7 +274,6 @@ export const getShopOrders = async (request, res) => {
       url: options.url,
       headers: options.headers,
     });
-    // console.log(response);
 
     if (response.data.message == "Success") {
       await writeJSONFile(ORDER_FILE, response.data.data);
@@ -330,7 +304,6 @@ export const getActiveShops = async (request, res) => {
     const access_token = setting.shopAccessToken;
 
     if (!app_key || !secret || !access_token) {
-      // console.log(app_key, secret, access_token);
       console.error(
         "Missing required parameters: app_key, secret, or access_token"
       );
@@ -423,8 +396,8 @@ export const getShopsByUser = async (req, res) => {
     });
 
     res.status(200).json(shops);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -466,26 +439,19 @@ export const updateShop = async (req, res) => {
     });
 
     res.status(200).json(updatedShop);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
 // authorize shop
 export const requestAuthorizedShops = async (request, res) => {
   try {
-    console.log(request.query);
     const app_key = request.query.app_key;
     const secret = request.query.secret;
-    // const setting = await prisma.setting.findFirst();
-    // if (!setting) {
-    //     console.error("Setting not found");
-    //     return res.status(404).json({ message: "Setting not found" });
-    // }
     const access_token = request.query.access_token;
 
     if (!app_key || !secret || !access_token) {
-      // console.log(app_key, secret, access_token);
       console.error(
         "Missing required parameters: app_key, secret, or access_token"
       );
@@ -545,7 +511,6 @@ export const requestAuthorizedShops = async (request, res) => {
     });
 
     // create shop
-    // console.log(response.data);
     if (response.data.code === 0) {
       // get user
       const user = await prisma.user.findUnique({
@@ -624,14 +589,12 @@ export const getMembersOnShop = async (req, res) => {
     if (!shop) {
       return res.status(404).json({ message: "Shop not found" });
     }
-    // console.log(shop);
 
     const users = await prisma.user.findMany({
       where: {
         isActive: 1,
       },
     });
-    // console.log(users);
 
     let shopUsers = [];
     users.forEach((user) => {
@@ -639,11 +602,10 @@ export const getMembersOnShop = async (req, res) => {
         shopUsers.push(user);
       }
     });
-    // console.log(shopUsers);
 
     res.status(200).json(shopUsers);
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -667,8 +629,9 @@ export const syncAllOrderShops = async (req, res) => {
     await reqSyncOrders(req, shop);
 
     res.status(200).json({ message: "Shops synced successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to sync shops" });
   }
 };
@@ -694,8 +657,8 @@ export const syncOrders = async (req, res) => {
     await reqSyncOrders(req, shop);
 
     res.status(200).json({ message: "Orders synced successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
   }
 };
 
@@ -730,8 +693,9 @@ export const syncProducts = async (req, res) => {
     if (result) {
       res.status(200).json({ message: "Products synced successfully" });
     }
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to sync products" });
   }
 };
@@ -756,8 +720,9 @@ export const syncAllShops = async (req, res) => {
     await processSyncProducts(req, shop);
 
     res.status(200).json({ message: "Shops synced successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to sync shops" });
   }
 };
@@ -782,8 +747,9 @@ export const syncAllShopPromos = async (req, res) => {
     const result = await processSyncPromos(req, shop);
 
     res.status(200).json({ message: "Shops synced successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to sync shops" });
   }
 };
@@ -803,8 +769,9 @@ export const syncShopPromo = async (req, res) => {
 
     const result = await processSyncPromos(req, shop);
     res.status(200).json({ message: "Shops synced successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to sync shop promo" });
   }
 };
@@ -828,14 +795,9 @@ export const refreshToken = async (req, res) => {
     const response = await axios.get(url, { params });
     const { code, message, data } = response.data;
 
-    // console.log('API Response:', response.data);
-
     if (code === 0 && message === "success") {
       const accessToken = data.access_token;
       const refreshToken = data.refresh_token;
-
-      // console.log('Access Token:', accessToken);
-      // console.log('Refresh Token:', refreshToken);
 
       setting.shopAccessToken = accessToken;
       setting.shopRefreshToken = refreshToken;
@@ -872,8 +834,9 @@ export const deleteShop = async (req, res) => {
     });
 
     res.status(200).json({ message: "Shop deleted successfully" });
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
     res.status(500).json({ message: "Failed to delete shop" });
   }
 };
