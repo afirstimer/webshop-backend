@@ -275,7 +275,6 @@ export const refreshShopToken = async (shop) => {
   const url = "https://auth.tiktok-shops.com/api/v2/token/refresh";
 
   console.log("Refreshing token...");
-  const shop = await prisma.shop.findUnique({ where: { id: shop.id } });
 
   const params = {
     app_key: process.env.TIKTOK_SHOP_APP_KEY,
