@@ -654,7 +654,16 @@ export const syncOrders = async (req, res) => {
       return res.status(500).json({ error: "Failed to get shop" });
     }
 
-    await reqSyncOrders(req, shop);
+    // refresh token first
+    await refreshShopToken(shop);
+    // get again shop
+    const updatedShop = await prisma.shop.findUnique({
+      where: {
+        id: shopId,
+      },
+    });
+
+    await reqSyncOrders(req, updatedShop);
 
     res.status(200).json({ message: "Orders synced successfully" });
   } catch (e) {
@@ -767,7 +776,14 @@ export const syncShopPromo = async (req, res) => {
       return res.status(404).json({ message: "Shop not found" });
     }
 
-    const result = await processSyncPromos(req, shop);
+    await refreshShopToken(shop);
+    const updatedShop = await prisma.shop.findUnique({
+      where: {
+        id: shopId,
+      },
+    });
+
+    const result = await processSyncPromos(req, updatedShop);
     res.status(200).json({ message: "Shops synced successfully" });
   } catch (e) {
     console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
