@@ -202,17 +202,6 @@ export const getListingsOnShop = async (req, res) => {
           id: listing.shopId,
         },
       });
-      // find log
-      const log = await prisma.log.findFirst({
-        where: {
-          listingId: listing.id,
-          shopId: shop.id,
-        },
-        orderBy: {
-          createdAt: "desc",
-        },
-      });
-      listing.log = log;
       listing.shop = shop;
       newListings.push(listing);
     }

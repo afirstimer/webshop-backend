@@ -345,6 +345,8 @@ export const uploadTiktokProducts = async (req, res) => {
               listingId: listing.id,
               shopId: shop.id,
               status: exportStatus,
+              message: response.message,
+              code: response.code,
             },
           });
 

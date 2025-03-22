@@ -123,6 +123,8 @@ model ListingOnShop {
   listing         Listing       @relation(fields: [listingId], references: [id])
   status          ProductStatus @default(PENDING)
   createdAt       DateTime      @default(now())
+  message         String?
+  code            String?
 }
 
 model Template {
