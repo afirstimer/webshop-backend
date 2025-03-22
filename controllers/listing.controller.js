@@ -197,21 +197,22 @@ export const getListingsOnShop = async (req, res) => {
     // loop listings and get new array, find shop with shopId
     let newListings = [];
     for (const listing of listings) {
-      // find shopId in newListings
-      // const shopId = listing.shopId;
-      // const existingListing = newListings.find(listing => listing.shopId === shopId);
-      // if (existingListing) {
-      //     // Check if the existing listing has the same shopId
-      //     if (existingListing.shopId === shopId) {
-      //         continue;
-      //     }
-      // }
-
       const shop = await prisma.shop.findUnique({
         where: {
           id: listing.shopId,
         },
       });
+      // find log
+      const log = await prisma.log.findFirst({
+        where: {
+          listingId: listing.id,
+          shopId: shop.id,
+        },
+        orderBy: {
+          createdAt: "desc",
+        },
+      });
+      listing.log = log;
       listing.shop = shop;
       newListings.push(listing);
     }
