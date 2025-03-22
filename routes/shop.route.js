@@ -20,6 +20,9 @@ import {
   deleteShop,
   syncAllShopPromos,
   syncShopPromo,
+  syncInitialProducts,
+  syncInitialOrders,
+  syncInitialPromos,
 } from "../controllers/shop.controller.js";
 
 const router = express.Router();
@@ -42,9 +45,14 @@ router.delete("/:id", verifyToken, deleteShop);
 /** SYNC */
 router.get("/sync-orders-all", verifyToken, syncAllOrderShops);
 router.get("/sync-orders/:id", verifyToken, syncOrders);
+router.get("/sync-initial-orders", verifyToken, syncInitialOrders);
+
 router.get("/sync-products-all", verifyToken, syncAllShops);
+router.get("/sync-products/:id", verifyToken, syncProducts);
+router.get("/sync-initial-products", verifyToken, syncInitialProducts);
+
 router.get("/sync-promos-all", verifyToken, syncAllShopPromos);
 router.get("/sync-promo/:shopId", verifyToken, syncShopPromo);
-router.get("/sync-products/:id", verifyToken, syncProducts);
+router.get("/sync-initial-promos", verifyToken, syncInitialPromos);
 
 export default router;

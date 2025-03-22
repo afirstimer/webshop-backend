@@ -671,6 +671,31 @@ export const syncOrders = async (req, res) => {
   }
 };
 
+export const syncInitialOrders = async (req, res) => {
+  try {
+    // default shop
+    const defaultShop = await getDefaultShop(req);
+    if (!defaultShop) {
+      return res.status(500).json({ error: "Failed to get default shop" });
+    }
+
+    // refresh token first
+    await refreshShopToken(defaultShop);
+    // get again shop
+    const updatedShop = await prisma.shop.findUnique({
+      where: {
+        id: defaultShop.id,
+      },
+    });
+
+    await reqSyncOrders(req, updatedShop);
+
+    res.status(200).json({ message: "Orders synced successfully" });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+  }
+};
+
 export const syncProducts = async (req, res) => {
   try {
     const shopId = req.params.id;
@@ -694,6 +719,35 @@ export const syncProducts = async (req, res) => {
     const updatedShop = await prisma.shop.findUnique({
       where: {
         id: shopId,
+      },
+    });
+
+    const result = await processSyncProducts(req, updatedShop);
+
+    if (result) {
+      res.status(200).json({ message: "Products synced successfully" });
+    }
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: "Failed to sync products" });
+  }
+};
+
+export const syncInitialProducts = async (req, res) => {
+  try {
+    // get default shop
+    const shop = await getDefaultShop(req);
+    if (!shop) {
+      return res.status(404).json({ message: "Default shop not found" });
+    }
+
+    // refresh token first
+    await refreshShopToken(shop);
+    // get again shop
+    const updatedShop = await prisma.shop.findUnique({
+      where: {
+        id: shop.id,
       },
     });
 
@@ -766,7 +820,7 @@ export const syncAllShopPromos = async (req, res) => {
 export const syncShopPromo = async (req, res) => {
   try {
     const { shopId } = req.params;
-    // get default shop
+    // get shop
     const shop = await prisma.shop.findUnique({
       where: {
         id: shopId,
@@ -780,6 +834,30 @@ export const syncShopPromo = async (req, res) => {
     const updatedShop = await prisma.shop.findUnique({
       where: {
         id: shopId,
+      },
+    });
+
+    const result = await processSyncPromos(req, updatedShop);
+    res.status(200).json({ message: "Shops synced successfully" });
+  } catch (e) {
+    console.log(`Error: ${e.message}\nStack: ${e.stack.split("\n")[1]}`);
+
+    res.status(500).json({ message: "Failed to sync shop promo" });
+  }
+};
+
+export const syncInitialPromos = async (req, res) => {
+  try {
+    // get defautl shop
+    const shop = await getDefaultShop(req);
+    if (!shop) {
+      return res.status(404).json({ message: "Default shop not found" });
+    }
+
+    await refreshShopToken(shop);
+    const updatedShop = await prisma.shop.findUnique({
+      where: {
+        id: shop.id,
       },
     });
 
