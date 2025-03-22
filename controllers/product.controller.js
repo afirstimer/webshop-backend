@@ -345,18 +345,15 @@ export const uploadTiktokProducts = async (req, res) => {
               listingId: listing.id,
               shopId: shop.id,
               status: exportStatus,
-              message: response.message,
-              code: response.code,
             },
           });
 
           // Tạo log
-          const logg = await prisma.log.create({
+          const log = await prisma.log.create({
             data: {
               shopId: shop.id,
               listingId: listing.id,
-              code: response.code ? response.code.toString() : null,
-              status: exportStatus,
+              status: response.code,
               payload: JSON.stringify(response),
             },
           });

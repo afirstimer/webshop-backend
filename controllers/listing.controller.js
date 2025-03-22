@@ -202,6 +202,19 @@ export const getListingsOnShop = async (req, res) => {
           id: listing.shopId,
         },
       });
+      // find log
+      const log = await prisma.log.findFirst({
+        where: {
+          listingId: listing.id,
+          shopId: shop.id,
+        },
+        orderBy: {
+          createdAt: "desc",
+        },
+      });
+      listing.code = log ? log.status : "";
+      // parse json log.payload to object and get message
+      listing.message = log ? JSON.parse(log.payload).message : "";
       listing.shop = shop;
       newListings.push(listing);
     }

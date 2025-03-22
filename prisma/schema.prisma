@@ -124,7 +124,7 @@ model ListingOnShop {
   status          ProductStatus @default(PENDING)
   createdAt       DateTime      @default(now())
   message         String?
-  code            String?
+  code            String?  
 }
 
 model Template {
