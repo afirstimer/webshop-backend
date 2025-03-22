@@ -132,36 +132,17 @@ export const createTiktokProduct = async (
     // loop through parsedSku and add to salesAttributes
     let salesAttributes = [];
     for (const sku of parsedSku) {
-      // if has image, upload
-      // if (sku.image) {
-      //   req.imageUri = sku.image;
-      //   // console.log(sku.image);
-      //   const uploadResponse = await uploadImageToTiktok(
-      //     req,
-      //     shop,
-      //     sku.image,
-      //     "ATTRIBUTE_IMAGE"
-      //   );
-      //   // console.log(uploadResponse);
-      //   if (uploadResponse.message == "Success") {
-      //     // create Tiktok Image
-      //     let image = await prisma.tiktokImage.create({
-      //       data: {
-      //         uri: uploadResponse.data.uri,
-      //         url: uploadResponse.data.url,
-      //         useCase: uploadResponse.data.use_case,
-      //       },
-      //     });
-      //     sku.image = image.uri;
-      //   }
-      // }
+      // only insert one, the first sku
+      if (skus.length == 1) {
+        break;
+      }
 
       // replace sku image with main image
       sku.image = mainImage;
 
       salesAttributes.push({
         id: sku.parentId,
-        name: sku.name + "-" + (Math.random() + 1).toString(36).substring(7),
+        name: sku.name,
         sku_img: {
           uri: sku.image,
         },
