@@ -161,7 +161,7 @@ export const createTiktokProduct = async (
 
       salesAttributes.push({
         id: sku.parentId,
-        name: sku.name,
+        name: sku.name + "-" + (Math.random() + 1).toString(36).substring(7),
         sku_img: {
           uri: sku.image,
         },
