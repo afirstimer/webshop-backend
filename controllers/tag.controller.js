@@ -15,6 +15,7 @@ export const getTags = async (req, res) => {
 
 export const getArticlesByTag = async (req, res) => {
   try {
+    console.log("Is prisma loaded?", typeof prisma);
     const tag = req.params.slug;
     // Get articles by tag include tag's slug in array
     const articles = await prisma.article.findMany({
