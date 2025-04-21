@@ -19,6 +19,11 @@ import dealRoute from "./routes/deal.route.js";
 import promoRoute from "./routes/promo.route.js";
 import testRoute from "./routes/test.route.js";
 
+//pewpewresearch news
+import newsRoute from "./routes/article.route.js";
+import newsCategoryRoute from "./routes/article.category.route.js";
+import tagRoute from "./routes/tag.route.js";
+
 const app = express();
 
 app.use(
@@ -26,6 +31,7 @@ app.use(
     origin: [
       process.env.CLIENT_URL,
       process.env.WHITELIST_URL1,
+      process.env.WHITELIST_URL2,
       process.env.LOCAL_URL,
     ],
     credentials: true,
@@ -50,6 +56,11 @@ app.use("/api/warehouses", warehouseRoute);
 app.use("/api/filters", filterRoute);
 app.use("/api/deals", dealRoute);
 app.use("/api/promos", promoRoute);
+
+// pewpewresearch news
+app.use("/api/news", newsRoute);
+app.use("/api/articles/categories", newsCategoryRoute);
+app.use("/api/tags", tagRoute);
 
 app.use("/api/test", testRoute);
 

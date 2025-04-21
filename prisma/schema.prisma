@@ -324,6 +324,63 @@ model Warehouse {
   type      String?
 }
 
+model Article {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  slug String @unique
+  excerpt String?
+  content String
+  publishedAt DateTime?
+  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now())
+  author Author? @relation(fields: [authorId], references: [id])
+  authorId String? @db.ObjectId
+  categories String[]
+  tags String[]
+  media String[]
+  polls String[]
+  type String?
+}
+
+model Category {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  slug String @unique  
+  createdAt DateTime @default(now())
+}
+
+model Author {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  bio String?
+  articles Article[]
+  createdAt DateTime @default(now())
+}
+
+model Tag {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  slug String @unique
+  createdAt DateTime @default(now())
+}
+
+model Media {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  url String
+  type String
+  altText String?
+  caption String?
+  uploadedAt DateTime @default(now())
+}
+
+model Poll {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  description String?
+  publishedAt DateTime?
+  createdAt DateTime @default(now())
+}
+
 enum ProxyType {
   HTTP
   HTTPS
