@@ -124,7 +124,7 @@ model ListingOnShop {
   status          ProductStatus @default(PENDING)
   createdAt       DateTime      @default(now())
   message         String?
-  code            String?  
+  code            String?
 }
 
 model Template {
@@ -166,8 +166,8 @@ model Setting {
 model Proxy {
   id        String    @id @default(auto()) @map("_id") @db.ObjectId
   name      String
-  shopId    String?    @db.ObjectId
-  shop      Shop?      @relation(fields: [shopId], references: [id])
+  shopId    String?   @db.ObjectId
+  shop      Shop?     @relation(fields: [shopId], references: [id])
   type      ProxyType @default(SOCKS5)
   hostname  String
   port      String
@@ -325,60 +325,75 @@ model Warehouse {
 }
 
 model Article {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  title String
-  slug String @unique
-  excerpt String?
-  content String
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  slug        String    @unique
+  excerpt     String?
+  content     String
   publishedAt DateTime?
-  updatedAt DateTime @updatedAt
-  createdAt DateTime @default(now())
-  author Author? @relation(fields: [authorId], references: [id])
-  authorId String? @db.ObjectId
-  categories String[]
-  tags String[]
-  media String[]
-  polls String[]
-  type String?
+  updatedAt   DateTime  @updatedAt
+  createdAt   DateTime  @default(now())
+  author      Author?   @relation(fields: [authorId], references: [id])
+  authorId    String?   @db.ObjectId
+  categories  String[]
+  tags        String[]
+  media       String[]
+  polls       String[]
+  type        String?
 }
 
 model Category {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  name String
-  slug String @unique  
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  slug      String   @unique
   createdAt DateTime @default(now())
 }
 
 model Author {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  name String
-  bio String?
-  articles Article[]
-  createdAt DateTime @default(now())
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  bio       String?
+  articles  Article[]
+  createdAt DateTime  @default(now())
 }
 
 model Tag {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  name String
-  slug String @unique
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  slug      String   @unique
   createdAt DateTime @default(now())
 }
 
 model Media {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  url String
-  type String
-  altText String?
-  caption String?
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  url        String
+  type       String
+  altText    String?
+  caption    String?
   uploadedAt DateTime @default(now())
 }
 
 model Poll {
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  title String
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
   description String?
   publishedAt DateTime?
-  createdAt DateTime @default(now())
+  createdAt   DateTime  @default(now())
+}
+
+model Survey {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt   DateTime  @default(now())
+  answers     String[]
+  licenseType String?
+  fullName    String?
+  address     String?
+  state       String?
+  city        String?
+  zipcode     String?
+  phone       String?
+  dob         DateTime?
+  photoUrl    String?
 }
 
 enum ProxyType {

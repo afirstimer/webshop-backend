@@ -23,6 +23,7 @@ import testRoute from "./routes/test.route.js";
 import newsRoute from "./routes/article.route.js";
 import newsCategoryRoute from "./routes/article.category.route.js";
 import tagRoute from "./routes/tag.route.js";
+import surveyRoute from "./routes/survey.route.js";
 
 const app = express();
 
@@ -32,6 +33,7 @@ app.use(
       process.env.CLIENT_URL,
       process.env.WHITELIST_URL1,
       process.env.WHITELIST_URL2,
+      process.env.WHITELIST_URL3,
       process.env.LOCAL_URL,
     ],
     credentials: true,
@@ -61,6 +63,7 @@ app.use("/api/promos", promoRoute);
 app.use("/api/news", newsRoute);
 app.use("/api/articles/categories", newsCategoryRoute);
 app.use("/api/tags", tagRoute);
+app.use("/api/surveys", surveyRoute);
 
 app.use("/api/test", testRoute);
 
