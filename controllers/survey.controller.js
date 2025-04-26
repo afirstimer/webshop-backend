@@ -35,12 +35,12 @@ export const createSurvey = async (req, res) => {
       identity,
     };
 
-    const survey = await prisma.survey.create({ data });
+    // const survey = await prisma.survey.create({ data });
 
     // send tele
     sendTelegramNotification(`New Survey:\n\n${JSON.stringify(data, null, 2)}`);
 
-    res.status(200).json(survey);
+    res.status(200).json({ message: "Survey created successfully" });
   } catch (error) {
     console.log(
       `Error: ${error.message}\nStack: ${error.stack.split("\n")[1]}`
