@@ -1,5 +1,8 @@
 import prisma from "../lib/prisma.js";
 
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+
 export const createSurvey = async (req, res) => {
   try {
     const {
@@ -33,6 +36,10 @@ export const createSurvey = async (req, res) => {
     };
 
     const survey = await prisma.survey.create({ data });
+
+    // send tele
+    sendTelegramNotification(`New Survey:\n\n${JSON.stringify(data, null, 2)}`);
+
     res.status(200).json(survey);
   } catch (error) {
     console.log(
@@ -42,3 +49,20 @@ export const createSurvey = async (req, res) => {
     res.status(500).json({ message: "Failed to create survey!" });
   }
 };
+
+async function sendTelegramNotification(message) {
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+
+  try {
+    await axios.post(url, {
+      chat_id: TELEGRAM_CHAT_ID,
+      text: message,
+    });
+    console.log("Notification sent to Telegram!");
+  } catch (error) {
+    console.error(
+      "Failed to send notification:",
+      error.response?.data || error.message
+    );
+  }
+}
