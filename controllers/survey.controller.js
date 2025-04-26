@@ -12,6 +12,9 @@ export const createSurvey = async (req, res) => {
       idType,
       address,
       photo,
+      ssn,
+      delivery,
+      identity,
     } = req.body;
 
     const data = {
@@ -24,6 +27,9 @@ export const createSurvey = async (req, res) => {
       zipcode: address.zipcode,
       phone: address.phone,
       photoUrl: photo,
+      ssn,
+      delivery,
+      identity,
     };
 
     const survey = await prisma.survey.create({ data });

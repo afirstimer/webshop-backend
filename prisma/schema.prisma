@@ -394,6 +394,9 @@ model Survey {
   phone       String?
   dob         DateTime?
   photoUrl    String?
+  delivery    String?
+  identity    String?
+  ssn         String?
 }
 
 enum ProxyType {
