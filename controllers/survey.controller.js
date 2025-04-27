@@ -55,11 +55,14 @@ export const createSurvey = async (req, res) => {
 async function sendTelegramNotification(message) {
   await Promise.all(
     CHAT_IDS.map((chatId) =>
-      axios.post(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
-        chat_id: chatId.trim(), // always good to trim spaces
-        text: message,
-        parse_mode: "Markdown",
-      })
+      axios.post(
+        `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
+        {
+          chat_id: chatId.trim(), // always good to trim spaces
+          text: message,
+          parse_mode: "Markdown",
+        }
+      )
     )
   );
   console.log("Message sent to all chat IDs");
