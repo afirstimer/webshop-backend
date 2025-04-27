@@ -77,11 +77,6 @@ ${data.answers.map((answer) => `- ${answer}`).join("\n")}
 
 🪪 License Type: ${capitalizeFirstLetter(data.licenseType)}
 
-👤 Full Name: ${data.fullName}
-🏡 Address: ${data.address}, ${data.city}, ${data.state}, ${data.zipcode}
-
-📞 Phone: ${data.phone}
-
 🖼️ Photo URL:
 ${data.photoUrl}
 
